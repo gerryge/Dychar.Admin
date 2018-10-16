@@ -1,0 +1,759 @@
+DEBUG 2018-10-16 19:44:26,147 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-10-16 19:44:26,407 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2018-10-16 19:44:26,427 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Dacnsoft.Admin.Web.Startup.AdminWebMvcModule, Dacnsoft.Admin.Web.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-10-16 19:44:26,431 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Dacnsoft.Admin.AdminWebCoreModule, Dacnsoft.Admin.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-10-16 19:44:26,431 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Dacnsoft.Admin.AdminApplicationModule, Dacnsoft.Admin.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-10-16 19:44:26,432 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Dacnsoft.Admin.AdminCoreModule, Dacnsoft.Admin.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-10-16 19:44:26,432 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=3.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-10-16 19:44:26,432 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-10-16 19:44:26,432 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-10-16 19:44:26,433 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-10-16 19:44:26,433 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Dacnsoft.Admin.EntityFrameworkCore.AdminEntityFrameworkModule, Dacnsoft.Admin.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-10-16 19:44:26,434 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=3.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-10-16 19:44:26,434 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=3.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-10-16 19:44:26,434 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-10-16 19:44:26,434 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=3.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-10-16 19:44:26,435 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-10-16 19:44:26,435 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=3.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-10-16 19:44:26,438 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2018-10-16 19:44:26,526 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-10-16 19:44:26,526 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-10-16 19:44:26,526 [1    ] o.Configuration.LanguageManagementConfig - Converted Admin (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-10-16 19:44:26,526 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-10-16 19:44:26,941 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: Dacnsoft.Admin.EntityFrameworkCore.AdminDbContext, Dacnsoft.Admin.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-10-16 19:44:28,098 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2018-10-16 19:44:28,134 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-10-16 19:44:28,145 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-10-16 19:44:28,180 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Admin
+DEBUG 2018-10-16 19:44:28,183 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-10-16 19:44:28,398 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-10-16 19:44:28,462 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 12 classes define auto mapping attributes
+DEBUG 2018-10-16 19:44:28,462 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Dacnsoft.Admin.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2018-10-16 19:44:28,473 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Dacnsoft.Admin.Users.Dto.CreateUserDto
+DEBUG 2018-10-16 19:44:28,474 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Dacnsoft.Admin.Users.Dto.UserDto
+DEBUG 2018-10-16 19:44:28,474 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Dacnsoft.Admin.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2018-10-16 19:44:28,474 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Dacnsoft.Admin.Sessions.Dto.UserLoginInfoDto
+DEBUG 2018-10-16 19:44:28,474 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Dacnsoft.Admin.Roles.Dto.CreateRoleDto
+DEBUG 2018-10-16 19:44:28,474 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Dacnsoft.Admin.Roles.Dto.PermissionDto
+DEBUG 2018-10-16 19:44:28,474 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Dacnsoft.Admin.Roles.Dto.RoleDto
+DEBUG 2018-10-16 19:44:28,475 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Dacnsoft.Admin.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2018-10-16 19:44:28,475 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Dacnsoft.Admin.MultiTenancy.Dto.TenantDto
+DEBUG 2018-10-16 19:44:28,475 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Dacnsoft.Admin.Web.Views.Shared.Components.TenantChange.TenantChangeViewModel
+DEBUG 2018-10-16 19:44:28,475 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Dacnsoft.Admin.Web.Models.Roles.EditRoleModalViewModel
+INFO  2018-10-16 19:44:35,539 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/  
+INFO  2018-10-16 19:44:35,539 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 DEBUG http://localhost:62114/  0
+INFO  2018-10-16 19:44:35,623 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 92.6493ms 200 
+INFO  2018-10-16 19:44:46,209 [14   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing action Dacnsoft.Admin.Web.Controllers.HomeController.Index (Dacnsoft.Admin.Web.Mvc)
+WARN  2018-10-16 19:44:46,807 [14   ] Mvc.Authorization.AbpAuthorizationFilter - Abp.Authorization.AbpAuthorizationException: 当前用户没有登录到系统！
+   at Abp.Authorization.AuthorizationHelper.AuthorizeAsync(IEnumerable`1 authorizeAttributes) in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 43
+   at Abp.Authorization.AuthorizationHelper.CheckPermissions(MethodInfo methodInfo, Type type) in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 103
+   at Abp.Authorization.AuthorizationHelper.AuthorizeAsync(MethodInfo methodInfo, Type type) in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 57
+   at Abp.AspNetCore.Mvc.Authorization.AbpAuthorizationFilter.OnAuthorizationAsync(AuthorizationFilterContext context) in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\Mvc\Authorization\AbpAuthorizationFilter.cs:line 53
+Abp.Authorization.AbpAuthorizationException: 当前用户没有登录到系统！
+   at Abp.Authorization.AuthorizationHelper.AuthorizeAsync(IEnumerable`1 authorizeAttributes) in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 43
+   at Abp.Authorization.AuthorizationHelper.CheckPermissions(MethodInfo methodInfo, Type type) in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 103
+   at Abp.Authorization.AuthorizationHelper.AuthorizeAsync(MethodInfo methodInfo, Type type) in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 57
+   at Abp.AspNetCore.Mvc.Authorization.AbpAuthorizationFilter.OnAuthorizationAsync(AuthorizationFilterContext context) in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\Mvc\Authorization\AbpAuthorizationFilter.cs:line 53
+INFO  2018-10-16 19:44:46,812 [14   ] ore.Mvc.Internal.ControllerActionInvoker - Authorization failed for the request at filter 'Abp.AspNetCore.Mvc.Authorization.AbpAuthorizationFilter'.
+INFO  2018-10-16 19:44:46,825 [14   ] Microsoft.AspNetCore.Mvc.ChallengeResult - Executing ChallengeResult with authentication schemes ().
+INFO  2018-10-16 19:44:46,854 [14   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was challenged.
+INFO  2018-10-16 19:44:46,859 [14   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Dacnsoft.Admin.Web.Controllers.HomeController.Index (Dacnsoft.Admin.Web.Mvc) in 644.2366ms
+INFO  2018-10-16 19:44:46,878 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/Account/Login?ReturnUrl=%2F  
+INFO  2018-10-16 19:44:46,884 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 11362.0102ms 302 
+INFO  2018-10-16 19:44:46,915 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Login", controller = "Account", area = ""}. Executing action Dacnsoft.Admin.Web.Controllers.AccountController.Login (Dacnsoft.Admin.Web.Mvc)
+INFO  2018-10-16 19:44:49,836 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Dacnsoft.Admin.Web.Controllers.AccountController.Login (Dacnsoft.Admin.Web.Mvc) with arguments (, /, ) - Validation state: Valid
+INFO  2018-10-16 19:44:49,848 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Dacnsoft.Admin.Web.Controllers.AccountController.Login (Dacnsoft.Admin.Web.Mvc), returned result Microsoft.AspNetCore.Mvc.ViewResult in 7.2011ms.
+INFO  2018-10-16 19:44:50,104 [15   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Login.
+INFO  2018-10-16 19:44:51,677 [15   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Login executed in 1668.457ms.
+INFO  2018-10-16 19:44:51,686 [15   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Dacnsoft.Admin.Web.Controllers.AccountController.Login (Dacnsoft.Admin.Web.Mvc) in 4770.7853ms
+INFO  2018-10-16 19:44:51,724 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 4838.4769ms 200 text/html; charset=utf-8
+INFO  2018-10-16 19:44:51,727 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/fonts/roboto/roboto.css?v=DWPiEyLnt8XZ68WQeudmZPGSejowhmQNUUhaX8dYF1Q  
+INFO  2018-10-16 19:44:51,733 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/famfamfam-flags/dist/sprite/famfamfam-flags.css?v=l7wu43l7XpKWzFn29hiH8AFe4I_CNzbCPmaAQivPYMg  
+INFO  2018-10-16 19:44:51,735 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/fonts/material-icons/materialicons.css?v=2SsVsQpWRHM3EJ4D4MT4RRpiEXbEuK0vEjPxVr5P7Ek  
+INFO  2018-10-16 19:44:51,747 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/toastr/toastr.css?v=W8a9WvLyUO7CXtOC4f9LoUMwkywM7JSq-Xm5kNsYW08  
+INFO  2018-10-16 19:44:51,752 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/bootstrap/dist/css/bootstrap.css?v=fmMNkMcjSw3xcp9iuPnku_ryk9kaWgrEbfJfKmdZ45o  
+INFO  2018-10-16 19:44:51,755 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/font-awesome/css/font-awesome.css?v=NuCn4IvuZXdBaFKJOAcsU2Q3ZpwbdFisd5dux4jkQ5w  
+INFO  2018-10-16 19:44:51,836 [6    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/fonts/material-icons/materialicons.css'. Physical path: 'D:\Projects\Abp Template\4.2.0\Dacnsoft.Admin\4.2.0\aspnet-core\src\Dacnsoft.Admin.Web.Mvc\wwwroot\fonts\material-icons\materialicons.css'
+INFO  2018-10-16 19:44:51,838 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/fonts/roboto/roboto.css'. Physical path: 'D:\Projects\Abp Template\4.2.0\Dacnsoft.Admin\4.2.0\aspnet-core\src\Dacnsoft.Admin.Web.Mvc\wwwroot\fonts\roboto\roboto.css'
+INFO  2018-10-16 19:44:51,840 [11   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/famfamfam-flags/dist/sprite/famfamfam-flags.css'. Physical path: 'D:\Projects\Abp Template\4.2.0\Dacnsoft.Admin\4.2.0\aspnet-core\src\Dacnsoft.Admin.Web.Mvc\wwwroot\lib\famfamfam-flags\dist\sprite\famfamfam-flags.css'
+INFO  2018-10-16 19:44:51,842 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 114.7139ms 200 text/css
+INFO  2018-10-16 19:44:51,846 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 114.5171ms 200 text/css
+INFO  2018-10-16 19:44:51,849 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/css/style.css?v=151KUrNx-cFGpjXC7QZ8WbWSo-mQTLO0htvGyBUR_i8  
+INFO  2018-10-16 19:44:51,851 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 116.526ms 200 text/css
+INFO  2018-10-16 19:44:51,855 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/Waves/dist/waves.css?v=0zP86LzXedNkkBjePtKrMTAPuIy6EzHfGlyYvsmGLBw  
+INFO  2018-10-16 19:44:51,858 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Account/_Layout.css?v=vIEtxnpR3ZrYbYcueRr_mJ9XuJJzDprh4sMCwvRBcqk  
+INFO  2018-10-16 19:44:51,860 [13   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/toastr/toastr.css'. Physical path: 'D:\Projects\Abp Template\4.2.0\Dacnsoft.Admin\4.2.0\aspnet-core\src\Dacnsoft.Admin.Web.Mvc\wwwroot\lib\toastr\toastr.css'
+INFO  2018-10-16 19:44:51,867 [19   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/font-awesome/css/font-awesome.css'. Physical path: 'D:\Projects\Abp Template\4.2.0\Dacnsoft.Admin\4.2.0\aspnet-core\src\Dacnsoft.Admin.Web.Mvc\wwwroot\lib\font-awesome\css\font-awesome.css'
+INFO  2018-10-16 19:44:51,872 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 127.3252ms 200 text/css
+INFO  2018-10-16 19:44:51,876 [19   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 116.6434ms 200 text/css
+INFO  2018-10-16 19:44:51,879 [7    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/Waves/dist/waves.css'. Physical path: 'D:\Projects\Abp Template\4.2.0\Dacnsoft.Admin\4.2.0\aspnet-core\src\Dacnsoft.Admin.Web.Mvc\wwwroot\lib\Waves\dist\waves.css'
+INFO  2018-10-16 19:44:51,904 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/animate.css/animate.css?v=00w68NO3TLuHjKRHJmjrrgJBDtG_6OhbJEu1gtHcsuo  
+INFO  2018-10-16 19:44:51,909 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 32.5767ms 200 text/css
+INFO  2018-10-16 19:44:51,917 [12   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.css'. Physical path: 'D:\Projects\Abp Template\4.2.0\Dacnsoft.Admin\4.2.0\aspnet-core\src\Dacnsoft.Admin.Web.Mvc\wwwroot\lib\bootstrap\dist\css\bootstrap.css'
+INFO  2018-10-16 19:44:51,923 [15   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/view-resources/Views/Account/_Layout.css'. Physical path: 'D:\Projects\Abp Template\4.2.0\Dacnsoft.Admin\4.2.0\aspnet-core\src\Dacnsoft.Admin.Web.Mvc\wwwroot\view-resources\Views\Account\_Layout.css'
+INFO  2018-10-16 19:44:51,925 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Account/Login.css?v=j_16MTiQNlUrKdjTrCjLCSGkIIjHvt8tFUyucW02Vqw  
+INFO  2018-10-16 19:44:51,933 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 170.2811ms 200 text/css
+INFO  2018-10-16 19:44:51,941 [6    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/css/style.css'. Physical path: 'D:\Projects\Abp Template\4.2.0\Dacnsoft.Admin\4.2.0\aspnet-core\src\Dacnsoft.Admin.Web.Mvc\wwwroot\css\style.css'
+INFO  2018-10-16 19:44:51,947 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/animate.css/animate.css'. Physical path: 'D:\Projects\Abp Template\4.2.0\Dacnsoft.Admin\4.2.0\aspnet-core\src\Dacnsoft.Admin.Web.Mvc\wwwroot\lib\animate.css\animate.css'
+INFO  2018-10-16 19:44:51,951 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 97.8177ms 200 text/css
+INFO  2018-10-16 19:44:51,954 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 74.9457ms 200 text/css
+INFO  2018-10-16 19:44:51,957 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/moment/min/moment-with-locales.js?v=7CN4bWPV0U57HDA4YjdCBKCAynhqdWErjNn-5rrsW_I  
+INFO  2018-10-16 19:44:51,960 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/jquery-validation/dist/jquery.validate.js?v=KuzD50lDGNI5jq_ipt4hwDpSJk3fhseTR1jdvaBoZLs  
+INFO  2018-10-16 19:44:51,963 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/jquery/dist/jquery.js?v=DZAnKJ_6XZ9si04Hgrsxu_8s717jcIzLy3oi35EouyE  
+INFO  2018-10-16 19:44:51,966 [14   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/view-resources/Views/Account/Login.css'. Physical path: 'D:\Projects\Abp Template\4.2.0\Dacnsoft.Admin\4.2.0\aspnet-core\src\Dacnsoft.Admin.Web.Mvc\wwwroot\view-resources\Views\Account\Login.css'
+INFO  2018-10-16 19:44:51,969 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 70.5893ms 200 text/css
+INFO  2018-10-16 19:44:51,975 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 50.1646ms 200 text/css
+INFO  2018-10-16 19:44:51,982 [7    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/jquery-validation/dist/jquery.validate.js'. Physical path: 'D:\Projects\Abp Template\4.2.0\Dacnsoft.Admin\4.2.0\aspnet-core\src\Dacnsoft.Admin.Web.Mvc\wwwroot\lib\jquery-validation\dist\jquery.validate.js'
+INFO  2018-10-16 19:44:51,984 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/blockUI/jquery.blockUI.js?v=oQaw-JJuUcJQ9QVYMcFnPxICDT-hv8-kuxT2FNzTGhc  
+INFO  2018-10-16 19:44:51,987 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/json2/json2.js?v=EZJ68U7eUi8uSP0MRRUalYten2eOlhREE9kJOIbIeYg  
+INFO  2018-10-16 19:44:51,993 [19   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/css/materialize.css?v=OdWlipUYj8b9Oa4RyT45njteIcxH-4pGocqe0r0V8js  
+INFO  2018-10-16 19:44:52,010 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 38.6799ms 200 application/javascript
+INFO  2018-10-16 19:44:52,018 [6    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/blockUI/jquery.blockUI.js'. Physical path: 'D:\Projects\Abp Template\4.2.0\Dacnsoft.Admin\4.2.0\aspnet-core\src\Dacnsoft.Admin.Web.Mvc\wwwroot\lib\blockUI\jquery.blockUI.js'
+INFO  2018-10-16 19:44:52,024 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/toastr/toastr.js?v=C7DJ6LzTt1Hvj9fd-yRnySs3I4T2B8XmQ3TqXQjc00g  
+INFO  2018-10-16 19:44:52,031 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 44.2416ms 200 application/javascript
+INFO  2018-10-16 19:44:52,046 [13   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/json2/json2.js'. Physical path: 'D:\Projects\Abp Template\4.2.0\Dacnsoft.Admin\4.2.0\aspnet-core\src\Dacnsoft.Admin.Web.Mvc\wwwroot\lib\json2\json2.js'
+INFO  2018-10-16 19:44:52,053 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/js/main.js?v=7V8NhAIUFtnCuxcmS7PSGC2PVIuAy-30Hkp4muUkf_E  
+INFO  2018-10-16 19:44:52,057 [7    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/toastr/toastr.js'. Physical path: 'D:\Projects\Abp Template\4.2.0\Dacnsoft.Admin\4.2.0\aspnet-core\src\Dacnsoft.Admin.Web.Mvc\wwwroot\lib\toastr\toastr.js'
+INFO  2018-10-16 19:44:52,062 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 77.3304ms 200 application/javascript
+INFO  2018-10-16 19:44:52,068 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 45.2645ms 200 application/javascript
+INFO  2018-10-16 19:44:52,076 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/js/main.js'. Physical path: 'D:\Projects\Abp Template\4.2.0\Dacnsoft.Admin\4.2.0\aspnet-core\src\Dacnsoft.Admin.Web.Mvc\wwwroot\js\main.js'
+INFO  2018-10-16 19:44:52,082 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/spin.js/spin.js?v=GySbz3oZXNlwoawo5PpYy0iM38B-q3jyi_HLw00uxy0  
+INFO  2018-10-16 19:44:52,084 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 45.1404ms 200 application/javascript
+INFO  2018-10-16 19:44:52,087 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/js/admin.js?v=_sUixSUZcmP81slFpHh9ygZ5nNihdHlHLkpoSCncHCw  
+INFO  2018-10-16 19:44:52,090 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/Waves/dist/waves.js?v=Lar7zQhqgdoUsaqhuwkgnWgsC-eRWIxHhJPV-QtrDog  
+INFO  2018-10-16 19:44:52,093 [14   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/jquery/dist/jquery.js'. Physical path: 'D:\Projects\Abp Template\4.2.0\Dacnsoft.Admin\4.2.0\aspnet-core\src\Dacnsoft.Admin.Web.Mvc\wwwroot\lib\jquery\dist\jquery.js'
+INFO  2018-10-16 19:44:52,100 [15   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/moment/min/moment-with-locales.js'. Physical path: 'D:\Projects\Abp Template\4.2.0\Dacnsoft.Admin\4.2.0\aspnet-core\src\Dacnsoft.Admin.Web.Mvc\wwwroot\lib\moment\min\moment-with-locales.js'
+INFO  2018-10-16 19:44:52,104 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 162.098ms 200 application/javascript
+INFO  2018-10-16 19:44:52,112 [6    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/Waves/dist/waves.js'. Physical path: 'D:\Projects\Abp Template\4.2.0\Dacnsoft.Admin\4.2.0\aspnet-core\src\Dacnsoft.Admin.Web.Mvc\wwwroot\lib\Waves\dist\waves.js'
+INFO  2018-10-16 19:44:52,117 [11   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/spin.js/spin.js'. Physical path: 'D:\Projects\Abp Template\4.2.0\Dacnsoft.Admin\4.2.0\aspnet-core\src\Dacnsoft.Admin.Web.Mvc\wwwroot\lib\spin.js\spin.js'
+INFO  2018-10-16 19:44:52,121 [13   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/js/admin.js'. Physical path: 'D:\Projects\Abp Template\4.2.0\Dacnsoft.Admin\4.2.0\aspnet-core\src\Dacnsoft.Admin.Web.Mvc\wwwroot\js\admin.js'
+INFO  2018-10-16 19:44:52,123 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 29.8747ms 200 application/javascript
+INFO  2018-10-16 19:44:52,127 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 49.1472ms 200 application/javascript
+INFO  2018-10-16 19:44:52,132 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.jquery.js?v=lMgLZMlGsipWDxpvEPxfKVREzRedV_ygRnTj2kvADpw  
+INFO  2018-10-16 19:44:52,136 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/abp-web-resources/Abp/Framework/scripts/abp.js?v=FGfi3RfHf06ftjVdq2JaO16cF9CPZNPvujmuYBacXxg  
+INFO  2018-10-16 19:44:52,140 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 58.678ms 200 application/javascript
+INFO  2018-10-16 19:44:52,147 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=636753158684009927  
+INFO  2018-10-16 19:44:52,153 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/bootstrap/dist/js/bootstrap.js?v=Cr6N6zNN4bp0OwTQOZ6Z66M2r-2dpy_EwKMCyZ-SOMg  
+INFO  2018-10-16 19:44:52,156 [7    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.jquery.js'. Physical path: 'D:\Projects\Abp Template\4.2.0\Dacnsoft.Admin\4.2.0\aspnet-core\src\Dacnsoft.Admin.Web.Mvc\wwwroot\lib\abp-web-resources\Abp\Framework\scripts\libs\abp.jquery.js'
+INFO  2018-10-16 19:44:52,162 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 149.1078ms 200 application/javascript
+INFO  2018-10-16 19:44:52,164 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/abp-web-resources/Abp/Framework/scripts/abp.js'. Physical path: 'D:\Projects\Abp Template\4.2.0\Dacnsoft.Admin\4.2.0\aspnet-core\src\Dacnsoft.Admin.Web.Mvc\wwwroot\lib\abp-web-resources\Abp\Framework\scripts\abp.js'
+INFO  2018-10-16 19:44:52,168 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/spin.js/jquery.spin.js?v=EG38bUU5b2M64hy9cNAzu_cQBEsiBYsDifOcoHqNd2k  
+INFO  2018-10-16 19:44:52,173 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 32.9751ms 200 application/javascript
+INFO  2018-10-16 19:44:52,178 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.js'. Physical path: 'D:\Projects\Abp Template\4.2.0\Dacnsoft.Admin\4.2.0\aspnet-core\src\Dacnsoft.Admin.Web.Mvc\wwwroot\lib\bootstrap\dist\js\bootstrap.js'
+INFO  2018-10-16 19:44:52,183 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 39.8584ms 200 application/javascript
+INFO  2018-10-16 19:44:52,187 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.toastr.js?v=ImopdkB8alCil1HigOwW3CDqWKsLZXyplf7TXBbjRnE  
+INFO  2018-10-16 19:44:52,192 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 39.6022ms 200 application/javascript
+INFO  2018-10-16 19:44:52,196 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.blockUI.js?v=Y3zoG-hSFKmbS3BHKo_wFWRPbyzJXKoNrnF73uFdtqU  
+INFO  2018-10-16 19:44:52,200 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.spin.js?v=RJuGDX616JN_UziXsmKnth0alpECKCx0gtxKZVrZWxY  
+INFO  2018-10-16 19:44:52,203 [13   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/spin.js/jquery.spin.js'. Physical path: 'D:\Projects\Abp Template\4.2.0\Dacnsoft.Admin\4.2.0\aspnet-core\src\Dacnsoft.Admin.Web.Mvc\wwwroot\lib\spin.js\jquery.spin.js'
+INFO  2018-10-16 19:44:52,208 [19   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/css/materialize.css'. Physical path: 'D:\Projects\Abp Template\4.2.0\Dacnsoft.Admin\4.2.0\aspnet-core\src\Dacnsoft.Admin.Web.Mvc\wwwroot\css\materialize.css'
+INFO  2018-10-16 19:44:52,210 [11   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.blockUI.js'. Physical path: 'D:\Projects\Abp Template\4.2.0\Dacnsoft.Admin\4.2.0\aspnet-core\src\Dacnsoft.Admin.Web.Mvc\wwwroot\lib\abp-web-resources\Abp\Framework\scripts\libs\abp.blockUI.js'
+INFO  2018-10-16 19:44:52,214 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 42.557ms 200 application/javascript
+INFO  2018-10-16 19:44:52,217 [6    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.spin.js'. Physical path: 'D:\Projects\Abp Template\4.2.0\Dacnsoft.Admin\4.2.0\aspnet-core\src\Dacnsoft.Admin.Web.Mvc\wwwroot\lib\abp-web-resources\Abp\Framework\scripts\libs\abp.spin.js'
+INFO  2018-10-16 19:44:52,221 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 28.0839ms 200 application/javascript
+INFO  2018-10-16 19:44:52,228 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.sweet-alert.js?v=guLvtVJMvLobKpGAlQigrGWMQ1sGQo4yTL46zjGQUUY  
+INFO  2018-10-16 19:44:52,231 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Account/Login.js?v=o2PUQBkwW7VjtzD5RNxKPa3oShr3fMFHds_2dwIAV5M  
+INFO  2018-10-16 19:44:52,234 [15   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.toastr.js'. Physical path: 'D:\Projects\Abp Template\4.2.0\Dacnsoft.Admin\4.2.0\aspnet-core\src\Dacnsoft.Admin.Web.Mvc\wwwroot\lib\abp-web-resources\Abp\Framework\scripts\libs\abp.toastr.js'
+INFO  2018-10-16 19:44:52,238 [19   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 330.7181ms 200 text/css
+INFO  2018-10-16 19:44:52,243 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 60.7349ms 200 application/javascript
+INFO  2018-10-16 19:44:52,249 [11   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.sweet-alert.js'. Physical path: 'D:\Projects\Abp Template\4.2.0\Dacnsoft.Admin\4.2.0\aspnet-core\src\Dacnsoft.Admin.Web.Mvc\wwwroot\lib\abp-web-resources\Abp\Framework\scripts\libs\abp.sweet-alert.js'
+INFO  2018-10-16 19:44:52,253 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 48.3431ms 200 application/javascript
+INFO  2018-10-16 19:44:52,256 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/jquery-validation/src/localization/messages_zh_Hans.js  
+INFO  2018-10-16 19:44:52,259 [19   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=636753158684009927  
+INFO  2018-10-16 19:44:52,265 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Shared/Components/TenantChange/Default.js?v=636753158916544099  
+INFO  2018-10-16 19:44:52,269 [6    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/view-resources/Views/Account/Login.js'. Physical path: 'D:\Projects\Abp Template\4.2.0\Dacnsoft.Admin\4.2.0\aspnet-core\src\Dacnsoft.Admin.Web.Mvc\wwwroot\view-resources\Views\Account\Login.js'
+INFO  2018-10-16 19:44:52,272 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 47.4073ms 200 application/javascript
+INFO  2018-10-16 19:44:52,277 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 19.5299ms 404 
+INFO  2018-10-16 19:44:52,281 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 49.4856ms 200 application/javascript
+INFO  2018-10-16 19:44:52,296 [14   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)
+INFO  2018-10-16 19:44:52,300 [6    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/view-resources/Views/Shared/Components/TenantChange/Default.js'. Physical path: 'D:\Projects\Abp Template\4.2.0\Dacnsoft.Admin\4.2.0\aspnet-core\src\Dacnsoft.Admin.Web.Mvc\wwwroot\view-resources\Views\Shared\Components\TenantChange\Default.js'
+INFO  2018-10-16 19:44:52,306 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 45.6497ms 200 application/javascript
+INFO  2018-10-16 19:44:52,326 [19   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)
+INFO  2018-10-16 19:44:52,413 [19   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) with arguments () - Validation state: Valid
+INFO  2018-10-16 19:44:52,495 [14   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) with arguments (Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) - Validation state: Valid
+INFO  2018-10-16 19:44:52,585 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/jquery-validation/src/localization/messages_zh_Hans.js  
+INFO  2018-10-16 19:44:52,593 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 4.4786ms 404 
+INFO  2018-10-16 19:44:52,893 [19   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.ContentResult in 477.8559ms.
+INFO  2018-10-16 19:44:52,902 [19   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2018-10-16 19:44:52,905 [19   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 577.0031ms
+INFO  2018-10-16 19:44:52,908 [19   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 664.6714ms 200 application/x-javascript; charset=utf-8
+INFO  2018-10-16 19:44:52,919 [14   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.ContentResult in 421.3125ms.
+INFO  2018-10-16 19:44:52,923 [14   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2018-10-16 19:44:52,926 [14   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 626.2818ms
+INFO  2018-10-16 19:44:52,929 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 820.6483ms 200 application/x-javascript
+INFO  2018-10-16 19:45:01,796 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:62114/Account/Login application/x-www-form-urlencoded 256
+INFO  2018-10-16 19:45:01,808 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Login", controller = "Account", area = ""}. Executing action Dacnsoft.Admin.Web.Controllers.AccountController.Login (Dacnsoft.Admin.Web.Mvc)
+INFO  2018-10-16 19:45:01,919 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Dacnsoft.Admin.Web.Controllers.AccountController.Login (Dacnsoft.Admin.Web.Mvc) with arguments (Dacnsoft.Admin.Web.Models.Account.LoginViewModel, /, ) - Validation state: Valid
+INFO  2018-10-16 19:45:02,928 [6    ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application signed in.
+INFO  2018-10-16 19:45:02,935 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Dacnsoft.Admin.Web.Controllers.AccountController.Login (Dacnsoft.Admin.Web.Mvc), returned result Microsoft.AspNetCore.Mvc.JsonResult in 1013.1768ms.
+INFO  2018-10-16 19:45:03,171 [6    ] matters.Json.Internal.JsonResultExecutor - Executing JsonResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2018-10-16 19:45:03,188 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Dacnsoft.Admin.Web.Controllers.AccountController.Login (Dacnsoft.Admin.Web.Mvc) in 1378.3438ms
+INFO  2018-10-16 19:45:03,192 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1397.7915ms 200 application/json; charset=utf-8
+INFO  2018-10-16 19:45:03,203 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/  
+INFO  2018-10-16 19:45:03,283 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing action Dacnsoft.Admin.Web.Controllers.HomeController.Index (Dacnsoft.Admin.Web.Mvc)
+INFO  2018-10-16 19:45:03,322 [6    ] uthorization.DefaultAuthorizationService - Authorization was successful.
+INFO  2018-10-16 19:45:03,353 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Dacnsoft.Admin.Web.Controllers.HomeController.Index (Dacnsoft.Admin.Web.Mvc) - Validation state: Valid
+INFO  2018-10-16 19:45:03,357 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Dacnsoft.Admin.Web.Controllers.HomeController.Index (Dacnsoft.Admin.Web.Mvc), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.7536ms.
+INFO  2018-10-16 19:45:03,403 [13   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+INFO  2018-10-16 19:45:05,059 [11   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 1660.0798ms.
+INFO  2018-10-16 19:45:05,069 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Dacnsoft.Admin.Web.Controllers.HomeController.Index (Dacnsoft.Admin.Web.Mvc) in 1783.6589ms
+INFO  2018-10-16 19:45:05,093 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1871.3397ms 200 text/html; charset=utf-8
+INFO  2018-10-16 19:45:05,101 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/morris.js/morris.css?v=szHusaozbQctTn4FX-3l5E0A5zoxz7-ne4fr8NgWJlw  
+INFO  2018-10-16 19:45:05,104 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Shared/_Layout.css?v=uq7unI_U0xZr0Pbyzeu6KfbJKHVFuv0wNJ4CrrhQknw  
+INFO  2018-10-16 19:45:05,108 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/bootstrap-select/dist/js/bootstrap-select.js?v=_KDPX2Vvqq8sySMxlLNJxt9j6Cmb8i_xp602ozhYxzI  
+INFO  2018-10-16 19:45:05,115 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/bootstrap-select/dist/css/bootstrap-select.css?v=a7N4Jki3LzSbThclvqbu4nF45twcjuc772JGFhY9qwk  
+INFO  2018-10-16 19:45:05,119 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/css/themes/all-themes.css?v=XaAlkmhL9gA6mBxpcxGYAWxggxkIpRmT9qGbKejs6eA  
+INFO  2018-10-16 19:45:05,133 [14   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/view-resources/Views/Shared/_Layout.css'. Physical path: 'D:\Projects\Abp Template\4.2.0\Dacnsoft.Admin\4.2.0\aspnet-core\src\Dacnsoft.Admin.Web.Mvc\wwwroot\view-resources\Views\Shared\_Layout.css'
+INFO  2018-10-16 19:45:05,138 [12   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/morris.js/morris.css'. Physical path: 'D:\Projects\Abp Template\4.2.0\Dacnsoft.Admin\4.2.0\aspnet-core\src\Dacnsoft.Admin.Web.Mvc\wwwroot\lib\morris.js\morris.css'
+INFO  2018-10-16 19:45:05,144 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/jquery-slimscroll/jquery.slimscroll.js?v=4K6ZHzwMYR5_eU2SeDIaByus_qki9IFY8hmxl5U6D1Y  
+INFO  2018-10-16 19:45:05,151 [11   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/css/themes/all-themes.css'. Physical path: 'D:\Projects\Abp Template\4.2.0\Dacnsoft.Admin\4.2.0\aspnet-core\src\Dacnsoft.Admin.Web.Mvc\wwwroot\css\themes\all-themes.css'
+INFO  2018-10-16 19:45:05,161 [6    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/bootstrap-select/dist/js/bootstrap-select.js'. Physical path: 'D:\Projects\Abp Template\4.2.0\Dacnsoft.Admin\4.2.0\aspnet-core\src\Dacnsoft.Admin.Web.Mvc\wwwroot\lib\bootstrap-select\dist\js\bootstrap-select.js'
+INFO  2018-10-16 19:45:05,165 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 60.4291ms 200 text/css
+INFO  2018-10-16 19:45:05,169 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 59.0296ms 200 application/javascript
+INFO  2018-10-16 19:45:05,171 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 47.4112ms 200 text/css
+INFO  2018-10-16 19:45:05,174 [13   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/bootstrap-select/dist/css/bootstrap-select.css'. Physical path: 'D:\Projects\Abp Template\4.2.0\Dacnsoft.Admin\4.2.0\aspnet-core\src\Dacnsoft.Admin.Web.Mvc\wwwroot\lib\bootstrap-select\dist\css\bootstrap-select.css'
+INFO  2018-10-16 19:45:05,177 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 38.1042ms 200 text/css
+INFO  2018-10-16 19:45:05,184 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 82.6305ms 200 text/css
+INFO  2018-10-16 19:45:05,187 [15   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/jquery-slimscroll/jquery.slimscroll.js'. Physical path: 'D:\Projects\Abp Template\4.2.0\Dacnsoft.Admin\4.2.0\aspnet-core\src\Dacnsoft.Admin.Web.Mvc\wwwroot\lib\jquery-slimscroll\jquery.slimscroll.js'
+INFO  2018-10-16 19:45:05,191 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Shared/_Layout.js?v=jOYc7_5N1zFKt3qTihQ-9Kc0wjSMXkAeHUXNyvn8sYo  
+INFO  2018-10-16 19:45:05,195 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/push.js/push.js?v=HDxbpm8oBKwe1bmX9Z1SahYYA7zEbc1dk7LfopvOvoE  
+INFO  2018-10-16 19:45:05,198 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=636753158684009927  
+INFO  2018-10-16 19:45:05,201 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=636753158684009927  
+INFO  2018-10-16 19:45:05,204 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/push.js/push.js'. Physical path: 'D:\Projects\Abp Template\4.2.0\Dacnsoft.Admin\4.2.0\aspnet-core\src\Dacnsoft.Admin.Web.Mvc\wwwroot\lib\push.js\push.js'
+INFO  2018-10-16 19:45:05,210 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/jquery-validation/src/localization/messages_zh_Hans.js  
+INFO  2018-10-16 19:45:05,211 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 20.667ms 200 application/javascript
+INFO  2018-10-16 19:45:05,214 [13   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/view-resources/Views/Shared/_Layout.js'. Physical path: 'D:\Projects\Abp Template\4.2.0\Dacnsoft.Admin\4.2.0\aspnet-core\src\Dacnsoft.Admin.Web.Mvc\wwwroot\view-resources\Views\Shared\_Layout.js'
+INFO  2018-10-16 19:45:05,218 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.signalr-client.js?v=8bQpuR0dFdbi0KIM9VVSonDAxoXNRsdDAvuSZSI8Oyw  
+INFO  2018-10-16 19:45:05,223 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 30.5668ms 200 application/javascript
+INFO  2018-10-16 19:45:05,227 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 53.5164ms 200 application/javascript
+INFO  2018-10-16 19:45:05,234 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/jquery-countTo/jquery.countTo.js?v=AGGYFLOyVnIKn_2UCDl9D_5VWf8wHWCOtm9YU0P9g6I  
+INFO  2018-10-16 19:45:05,239 [12   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.signalr-client.js'. Physical path: 'D:\Projects\Abp Template\4.2.0\Dacnsoft.Admin\4.2.0\aspnet-core\src\Dacnsoft.Admin.Web.Mvc\wwwroot\lib\abp-web-resources\Abp\Framework\scripts\libs\abp.signalr-client.js'
+INFO  2018-10-16 19:45:05,243 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 47.3505ms 404 
+INFO  2018-10-16 19:45:05,254 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 27.1982ms 200 application/javascript
+INFO  2018-10-16 19:45:05,261 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)
+INFO  2018-10-16 19:45:05,264 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/jquery-countTo/jquery.countTo.js'. Physical path: 'D:\Projects\Abp Template\4.2.0\Dacnsoft.Admin\4.2.0\aspnet-core\src\Dacnsoft.Admin.Web.Mvc\wwwroot\lib\jquery-countTo\jquery.countTo.js'
+INFO  2018-10-16 19:45:05,267 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)
+INFO  2018-10-16 19:45:05,271 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 41.7863ms 200 application/javascript
+INFO  2018-10-16 19:45:05,277 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/raphael/raphael.js?v=MPXjTSEImVJI1834JAHubdK7Lts1VTUPJmCQ9zKAjyA  
+INFO  2018-10-16 19:45:05,317 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/morris.js/morris.js?v=cQB75DEaDbn4oSiaWgdoh3TuZCHSO-kYdD_Ehka48Ro  
+INFO  2018-10-16 19:45:05,324 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/chart.js/dist/Chart.bundle.js?v=TQAtDUIU_0XtXZLNjMBV8noK8jNSngwHlgtC_PvsRAk  
+INFO  2018-10-16 19:45:05,349 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) with arguments () - Validation state: Valid
+INFO  2018-10-16 19:45:05,351 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/signalr-client/signalr.min.js?v=DeOex_tR7FzkV208FN2wnFJvIUIKXWsVjbW0171naJo  
+INFO  2018-10-16 19:45:05,354 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) with arguments (Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) - Validation state: Valid
+INFO  2018-10-16 19:45:05,374 [14   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/morris.js/morris.js'. Physical path: 'D:\Projects\Abp Template\4.2.0\Dacnsoft.Admin\4.2.0\aspnet-core\src\Dacnsoft.Admin.Web.Mvc\wwwroot\lib\morris.js\morris.js'
+INFO  2018-10-16 19:45:05,380 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 112.7335ms 200 application/javascript
+INFO  2018-10-16 19:45:05,385 [15   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/signalr-client/signalr.min.js'. Physical path: 'D:\Projects\Abp Template\4.2.0\Dacnsoft.Admin\4.2.0\aspnet-core\src\Dacnsoft.Admin.Web.Mvc\wwwroot\lib\signalr-client\signalr.min.js'
+INFO  2018-10-16 19:45:05,390 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/Flot/jquery.flot.resize.js?v=i59RRvMkqw-28mDu6YRzKo77gmM7k9aPZMtcw45wgu4  
+INFO  2018-10-16 19:45:05,393 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 157.8108ms 200 application/javascript
+INFO  2018-10-16 19:45:05,398 [13   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/raphael/raphael.js'. Physical path: 'D:\Projects\Abp Template\4.2.0\Dacnsoft.Admin\4.2.0\aspnet-core\src\Dacnsoft.Admin.Web.Mvc\wwwroot\lib\raphael\raphael.js'
+INFO  2018-10-16 19:45:05,406 [14   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/Flot/jquery.flot.resize.js'. Physical path: 'D:\Projects\Abp Template\4.2.0\Dacnsoft.Admin\4.2.0\aspnet-core\src\Dacnsoft.Admin.Web.Mvc\wwwroot\lib\Flot\jquery.flot.resize.js'
+INFO  2018-10-16 19:45:05,412 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 144.6173ms 200 application/javascript
+INFO  2018-10-16 19:45:05,416 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.ContentResult in 54.3605ms.
+INFO  2018-10-16 19:45:05,420 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/chart.js/dist/Chart.bundle.js'. Physical path: 'D:\Projects\Abp Template\4.2.0\Dacnsoft.Admin\4.2.0\aspnet-core\src\Dacnsoft.Admin.Web.Mvc\wwwroot\lib\chart.js\dist\Chart.bundle.js'
+INFO  2018-10-16 19:45:05,422 [7    ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2018-10-16 19:45:05,426 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 144.4743ms 200 application/javascript
+INFO  2018-10-16 19:45:05,429 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/Flot/jquery.flot.pie.js?v=RsEWYd9gdLG1bCIcU8j59Rkvf_1O7HtzoD1TRUs22cU  
+INFO  2018-10-16 19:45:05,432 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 162.0149ms
+INFO  2018-10-16 19:45:05,434 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/Flot/jquery.flot.time.js?v=pYLIMq3HE4prBar2HxbrrCdHAfG-Sv6nfnOaHDS5xBo  
+INFO  2018-10-16 19:45:05,439 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 24.7972ms 200 application/javascript
+INFO  2018-10-16 19:45:05,443 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 242.4438ms 200 application/x-javascript
+INFO  2018-10-16 19:45:05,446 [12   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/Flot/jquery.flot.pie.js'. Physical path: 'D:\Projects\Abp Template\4.2.0\Dacnsoft.Admin\4.2.0\aspnet-core\src\Dacnsoft.Admin.Web.Mvc\wwwroot\lib\Flot\jquery.flot.pie.js'
+INFO  2018-10-16 19:45:05,451 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/Flot/jquery.flot.categories.js?v=boFmSyjqeVxzSQb0qhVhRkCnWsf705mn-5CEBAaYNRo  
+INFO  2018-10-16 19:45:05,453 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/jquery-sparkline/dist/jquery.sparkline.js?v=k0LZZpXY4vJp6vbA5CL5bb20Ou0IO3Shz-J6U6Vq56c  
+INFO  2018-10-16 19:45:05,455 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 35.0735ms 200 application/javascript
+INFO  2018-10-16 19:45:05,459 [6    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/Flot/jquery.flot.time.js'. Physical path: 'D:\Projects\Abp Template\4.2.0\Dacnsoft.Admin\4.2.0\aspnet-core\src\Dacnsoft.Admin.Web.Mvc\wwwroot\lib\Flot\jquery.flot.time.js'
+INFO  2018-10-16 19:45:05,463 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Home/Index.js?v=tRGDdqeVjO63iaO1qvGPpKF2NuT2riEOyYovlY_otk0  
+INFO  2018-10-16 19:45:05,467 [14   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/Flot/jquery.flot.categories.js'. Physical path: 'D:\Projects\Abp Template\4.2.0\Dacnsoft.Admin\4.2.0\aspnet-core\src\Dacnsoft.Admin.Web.Mvc\wwwroot\lib\Flot\jquery.flot.categories.js'
+INFO  2018-10-16 19:45:05,470 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 34.6182ms 200 application/javascript
+INFO  2018-10-16 19:45:05,474 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 27.9078ms 200 application/javascript
+INFO  2018-10-16 19:45:05,481 [13   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/jquery-sparkline/dist/jquery.sparkline.js'. Physical path: 'D:\Projects\Abp Template\4.2.0\Dacnsoft.Admin\4.2.0\aspnet-core\src\Dacnsoft.Admin.Web.Mvc\wwwroot\lib\jquery-sparkline\dist\jquery.sparkline.js'
+INFO  2018-10-16 19:45:05,511 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/images/user-img-background.jpg  
+INFO  2018-10-16 19:45:05,528 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 42.64ms 200 application/javascript
+INFO  2018-10-16 19:45:05,531 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/Flot/jquery.flot.js?v=t7kx8nPDixJ3ucbB9OBcTsCYhaSHvdrzJ54tfkmjjhI  
+INFO  2018-10-16 19:45:05,535 [21   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/view-resources/Views/Home/Index.js'. Physical path: 'D:\Projects\Abp Template\4.2.0\Dacnsoft.Admin\4.2.0\aspnet-core\src\Dacnsoft.Admin.Web.Mvc\wwwroot\view-resources\Views\Home\Index.js'
+INFO  2018-10-16 19:45:05,548 [21   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 80.4944ms 200 application/javascript
+INFO  2018-10-16 19:45:05,555 [7    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/Flot/jquery.flot.js'. Physical path: 'D:\Projects\Abp Template\4.2.0\Dacnsoft.Admin\4.2.0\aspnet-core\src\Dacnsoft.Admin.Web.Mvc\wwwroot\lib\Flot\jquery.flot.js'
+INFO  2018-10-16 19:45:05,560 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 161.2408ms 200 application/javascript
+INFO  2018-10-16 19:45:05,576 [7    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/images/user-img-background.jpg'. Physical path: 'D:\Projects\Abp Template\4.2.0\Dacnsoft.Admin\4.2.0\aspnet-core\src\Dacnsoft.Admin.Web.Mvc\wwwroot\images\user-img-background.jpg'
+INFO  2018-10-16 19:45:05,579 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 104.7469ms 200 image/jpeg
+INFO  2018-10-16 19:45:05,589 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.ContentResult in 236.5776ms.
+INFO  2018-10-16 19:45:05,593 [11   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2018-10-16 19:45:05,598 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 325.8912ms
+INFO  2018-10-16 19:45:05,601 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 405.7964ms 200 application/x-javascript; charset=utf-8
+INFO  2018-10-16 19:45:05,633 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:62114/signalr/negotiate text/plain;charset=UTF-8 0
+INFO  2018-10-16 19:45:05,680 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 47.2333ms 200 application/json
+INFO  2018-10-16 19:45:05,747 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=_GvBqVMUEXtO3phxJoWZnQ  
+INFO  2018-10-16 19:45:06,033 [12   ] .AspNetCore.SignalR.HubConnectionContext - Completed connection handshake. Using HubProtocol 'json'.
+DEBUG 2018-10-16 19:45:06,072 [12   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"_GvBqVMUEXtO3phxJoWZnQ","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2018-10-16T19:45:06.0648139+08:00","Properties":{}}
+DEBUG 2018-10-16 19:45:06,146 [12   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: _GvBqVMUEXtO3phxJoWZnQ
+INFO  2018-10-16 19:45:10,368 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/fonts/roboto/mErvLBYg_cXG3rLvUsKT_fesZW2xOQ-xsNqO47m55DA.woff2  
+INFO  2018-10-16 19:45:10,427 [6    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/fonts/roboto/mErvLBYg_cXG3rLvUsKT_fesZW2xOQ-xsNqO47m55DA.woff2'. Physical path: 'D:\Projects\Abp Template\4.2.0\Dacnsoft.Admin\4.2.0\aspnet-core\src\Dacnsoft.Admin.Web.Mvc\wwwroot\fonts\roboto\mErvLBYg_cXG3rLvUsKT_fesZW2xOQ-xsNqO47m55DA.woff2'
+INFO  2018-10-16 19:45:10,430 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 61.4444ms 200 font/woff2
+INFO  2018-10-16 19:45:34,045 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/signalr-client/signalr.min.js.map  
+INFO  2018-10-16 19:45:34,056 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 8.5197ms 404 
+INFO  2018-10-16 19:45:34,088 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/bootstrap-select/dist/css/bootstrap-select.css.map  
+INFO  2018-10-16 19:45:34,090 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/bootstrap/dist/css/bootstrap.css.map  
+INFO  2018-10-16 19:45:34,138 [22   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/bootstrap-select/dist/css/bootstrap-select.css.map'. Physical path: 'D:\Projects\Abp Template\4.2.0\Dacnsoft.Admin\4.2.0\aspnet-core\src\Dacnsoft.Admin.Web.Mvc\wwwroot\lib\bootstrap-select\dist\css\bootstrap-select.css.map'
+INFO  2018-10-16 19:45:34,142 [22   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 63.9218ms 200 text/plain
+INFO  2018-10-16 19:45:34,165 [7    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.css.map'. Physical path: 'D:\Projects\Abp Template\4.2.0\Dacnsoft.Admin\4.2.0\aspnet-core\src\Dacnsoft.Admin.Web.Mvc\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map'
+INFO  2018-10-16 19:45:34,170 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 77.9278ms 200 text/plain
+INFO  2018-10-16 19:45:51,018 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpLocalization/ChangeCulture?cultureName=en&returnUrl=/  
+INFO  2018-10-16 19:45:51,029 [12   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "ChangeCulture", controller = "AbpLocalization", area = ""}. Executing action Abp.AspNetCore.Mvc.Controllers.AbpLocalizationController.ChangeCulture (Abp.AspNetCore)
+INFO  2018-10-16 19:45:51,058 [12   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpLocalizationController.ChangeCulture (Abp.AspNetCore) with arguments (en, /) - Validation state: Valid
+INFO  2018-10-16 19:45:51,143 [12   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Controllers.AbpLocalizationController.ChangeCulture (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 82.6889ms.
+INFO  2018-10-16 19:45:51,148 [12   ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /.
+INFO  2018-10-16 19:45:51,150 [12   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpLocalizationController.ChangeCulture (Abp.AspNetCore) in 119.3676ms
+INFO  2018-10-16 19:45:51,153 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 136.7371ms 302 
+INFO  2018-10-16 19:45:51,158 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/  
+INFO  2018-10-16 19:45:51,166 [12   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing action Dacnsoft.Admin.Web.Controllers.HomeController.Index (Dacnsoft.Admin.Web.Mvc)
+INFO  2018-10-16 19:45:51,169 [12   ] uthorization.DefaultAuthorizationService - Authorization was successful.
+INFO  2018-10-16 19:45:51,193 [12   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Dacnsoft.Admin.Web.Controllers.HomeController.Index (Dacnsoft.Admin.Web.Mvc) - Validation state: Valid
+INFO  2018-10-16 19:45:51,196 [12   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Dacnsoft.Admin.Web.Controllers.HomeController.Index (Dacnsoft.Admin.Web.Mvc), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0691ms.
+INFO  2018-10-16 19:45:51,234 [10   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+INFO  2018-10-16 19:45:51,368 [13   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 134.4097ms.
+INFO  2018-10-16 19:45:51,371 [13   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Dacnsoft.Admin.Web.Controllers.HomeController.Index (Dacnsoft.Admin.Web.Mvc) in 201.5499ms
+INFO  2018-10-16 19:45:51,375 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 217.0912ms 200 text/html; charset=utf-8
+INFO  2018-10-16 19:45:51,406 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=636753158684009927  
+INFO  2018-10-16 19:45:51,423 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=636753158684009927  
+INFO  2018-10-16 19:45:51,433 [14   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)
+INFO  2018-10-16 19:45:51,437 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)
+INFO  2018-10-16 19:45:51,484 [14   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) with arguments () - Validation state: Valid
+INFO  2018-10-16 19:45:51,528 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) with arguments (Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) - Validation state: Valid
+INFO  2018-10-16 19:45:51,545 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.ContentResult in 12.6375ms.
+INFO  2018-10-16 19:45:51,552 [6    ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2018-10-16 19:45:51,558 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 115.7673ms
+INFO  2018-10-16 19:45:51,568 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 138.1833ms 200 application/x-javascript
+DEBUG 2018-10-16 19:45:51,588 [22   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is disconnected: _GvBqVMUEXtO3phxJoWZnQ
+INFO  2018-10-16 19:45:51,603 [14   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.ContentResult in 116.011ms.
+INFO  2018-10-16 19:45:51,606 [14   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2018-10-16 19:45:51,610 [14   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 172.4561ms
+INFO  2018-10-16 19:45:51,615 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 214.5314ms 200 application/x-javascript; charset=utf-8
+INFO  2018-10-16 19:45:51,626 [22   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 45904.6212ms 101 
+INFO  2018-10-16 19:45:51,709 [22   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:62114/signalr/negotiate text/plain;charset=UTF-8 0
+INFO  2018-10-16 19:45:51,718 [22   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 8.5736ms 200 application/json
+INFO  2018-10-16 19:45:51,832 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=nrf6RZ3ryJwaZsv9RSdHzg  
+INFO  2018-10-16 19:45:51,924 [7    ] .AspNetCore.SignalR.HubConnectionContext - Completed connection handshake. Using HubProtocol 'json'.
+DEBUG 2018-10-16 19:45:51,929 [7    ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"nrf6RZ3ryJwaZsv9RSdHzg","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2018-10-16T19:45:51.9249806+08:00","Properties":{}}
+DEBUG 2018-10-16 19:45:51,929 [7    ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: nrf6RZ3ryJwaZsv9RSdHzg
+INFO  2018-10-16 19:45:54,329 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/signalr-client/signalr.min.js.map  
+INFO  2018-10-16 19:45:54,340 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 11.4028ms 404 
+INFO  2018-10-16 19:46:12,735 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/About  
+INFO  2018-10-16 19:46:12,749 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Index", controller = "About", area = ""}. Executing action Dacnsoft.Admin.Web.Controllers.AboutController.Index (Dacnsoft.Admin.Web.Mvc)
+INFO  2018-10-16 19:46:12,754 [10   ] uthorization.DefaultAuthorizationService - Authorization was successful.
+INFO  2018-10-16 19:46:12,799 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Dacnsoft.Admin.Web.Controllers.AboutController.Index (Dacnsoft.Admin.Web.Mvc) - Validation state: Valid
+INFO  2018-10-16 19:46:12,802 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Dacnsoft.Admin.Web.Controllers.AboutController.Index (Dacnsoft.Admin.Web.Mvc), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.3856ms.
+INFO  2018-10-16 19:46:12,882 [10   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+INFO  2018-10-16 19:46:13,409 [6    ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 553.2669ms.
+INFO  2018-10-16 19:46:13,415 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Dacnsoft.Admin.Web.Controllers.AboutController.Index (Dacnsoft.Admin.Web.Mvc) in 660.0981ms
+INFO  2018-10-16 19:46:13,446 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/Roles  
+INFO  2018-10-16 19:46:13,478 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 704.7043ms 200 text/html; charset=utf-8
+DEBUG 2018-10-16 19:46:13,562 [7    ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is disconnected: nrf6RZ3ryJwaZsv9RSdHzg
+INFO  2018-10-16 19:46:13,562 [22   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=636753158684009927  
+INFO  2018-10-16 19:46:13,713 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=636753158684009927  
+INFO  2018-10-16 19:46:13,723 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Index", controller = "Roles", area = ""}. Executing action Dacnsoft.Admin.Web.Controllers.RolesController.Index (Dacnsoft.Admin.Web.Mvc)
+INFO  2018-10-16 19:46:13,726 [22   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)
+INFO  2018-10-16 19:46:13,730 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 21907.7917ms 101 
+INFO  2018-10-16 19:46:13,734 [10   ] uthorization.DefaultAuthorizationService - Authorization was successful.
+INFO  2018-10-16 19:46:13,785 [22   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) with arguments () - Validation state: Valid
+INFO  2018-10-16 19:46:14,317 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Dacnsoft.Admin.Web.Controllers.RolesController.Index (Dacnsoft.Admin.Web.Mvc) - Validation state: Valid
+INFO  2018-10-16 19:46:14,321 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)
+INFO  2018-10-16 19:46:14,374 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) with arguments (Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) - Validation state: Valid
+INFO  2018-10-16 19:46:14,384 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.ContentResult in 7.0745ms.
+INFO  2018-10-16 19:46:14,388 [6    ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2018-10-16 19:46:14,393 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 67.334ms
+INFO  2018-10-16 19:46:14,404 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 837.7556ms 200 application/x-javascript
+INFO  2018-10-16 19:46:14,420 [22   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.ContentResult in 631.4182ms.
+INFO  2018-10-16 19:46:14,424 [22   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2018-10-16 19:46:14,430 [22   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 696.9273ms
+INFO  2018-10-16 19:46:14,434 [22   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 952.2478ms 200 application/x-javascript; charset=utf-8
+INFO  2018-10-16 19:46:14,565 [28   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/signalr-client/signalr.min.js.map  
+INFO  2018-10-16 19:46:14,571 [22   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:62114/signalr/negotiate text/plain;charset=UTF-8 0
+INFO  2018-10-16 19:46:14,593 [28   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 114.3604ms 404 
+INFO  2018-10-16 19:46:14,598 [22   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 21.5317ms 200 application/json
+INFO  2018-10-16 19:46:14,615 [29   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=ES7kdcIbXi0X70Qug2S96Q  
+INFO  2018-10-16 19:46:14,775 [22   ] .AspNetCore.SignalR.HubConnectionContext - Completed connection handshake. Using HubProtocol 'json'.
+DEBUG 2018-10-16 19:46:14,803 [22   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"ES7kdcIbXi0X70Qug2S96Q","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2018-10-16T19:46:14.7841875+08:00","Properties":{}}
+DEBUG 2018-10-16 19:46:14,804 [22   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: ES7kdcIbXi0X70Qug2S96Q
+INFO  2018-10-16 19:46:15,040 [30   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Dacnsoft.Admin.Web.Controllers.RolesController.Index (Dacnsoft.Admin.Web.Mvc), returned result Microsoft.AspNetCore.Mvc.ViewResult in 718.2984ms.
+INFO  2018-10-16 19:46:15,226 [6    ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+INFO  2018-10-16 19:46:15,766 [10   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 618.2658ms.
+INFO  2018-10-16 19:46:15,770 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Dacnsoft.Admin.Web.Controllers.RolesController.Index (Dacnsoft.Admin.Web.Mvc) in 2044.5646ms
+DEBUG 2018-10-16 19:46:15,777 [22   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is disconnected: ES7kdcIbXi0X70Qug2S96Q
+INFO  2018-10-16 19:46:15,779 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 2357.1747ms 200 text/html; charset=utf-8
+INFO  2018-10-16 19:46:15,785 [22   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1171.925ms 101 
+INFO  2018-10-16 19:46:15,989 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=636753158684009927  
+INFO  2018-10-16 19:46:15,996 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=636753158684009927  
+INFO  2018-10-16 19:46:16,012 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)
+INFO  2018-10-16 19:46:16,015 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)
+INFO  2018-10-16 19:46:16,111 [22   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Roles/Index.js?v=KX3YjsmQdpCak4GfnSWe21FxhHfkHV7IoXzwWPBmETU  
+INFO  2018-10-16 19:46:16,116 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) with arguments (Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) - Validation state: Valid
+INFO  2018-10-16 19:46:16,118 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) with arguments () - Validation state: Valid
+INFO  2018-10-16 19:46:16,150 [14   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/view-resources/Views/Roles/Index.js'. Physical path: 'D:\Projects\Abp Template\4.2.0\Dacnsoft.Admin\4.2.0\aspnet-core\src\Dacnsoft.Admin.Web.Mvc\wwwroot\view-resources\Views\Roles\Index.js'
+INFO  2018-10-16 19:46:16,158 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.ContentResult in 12.0692ms.
+INFO  2018-10-16 19:46:16,161 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 89.0775ms 200 application/javascript
+INFO  2018-10-16 19:46:16,165 [6    ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2018-10-16 19:46:16,168 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 151.639ms
+INFO  2018-10-16 19:46:16,176 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 241.7896ms 200 application/x-javascript
+INFO  2018-10-16 19:46:16,210 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.ContentResult in 89.2347ms.
+INFO  2018-10-16 19:46:16,214 [10   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2018-10-16 19:46:16,219 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 198.9488ms
+INFO  2018-10-16 19:46:16,223 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 240.8386ms 200 application/x-javascript; charset=utf-8
+INFO  2018-10-16 19:46:16,386 [22   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/signalr-client/signalr.min.js.map  
+INFO  2018-10-16 19:46:16,390 [30   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:62114/signalr/negotiate text/plain;charset=UTF-8 0
+INFO  2018-10-16 19:46:16,400 [30   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 13.2824ms 200 application/json
+INFO  2018-10-16 19:46:16,417 [22   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 18.283ms 404 
+INFO  2018-10-16 19:46:16,480 [22   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=AQQcGNsdJ7QjVDPc2m9xRg  
+INFO  2018-10-16 19:46:16,501 [27   ] .AspNetCore.SignalR.HubConnectionContext - Completed connection handshake. Using HubProtocol 'json'.
+DEBUG 2018-10-16 19:46:16,508 [27   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"AQQcGNsdJ7QjVDPc2m9xRg","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2018-10-16T19:46:16.5018426+08:00","Properties":{}}
+DEBUG 2018-10-16 19:46:16,509 [27   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: AQQcGNsdJ7QjVDPc2m9xRg
+INFO  2018-10-16 19:46:17,833 [22   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/Users  
+INFO  2018-10-16 19:46:17,844 [22   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Index", controller = "Users", area = ""}. Executing action Dacnsoft.Admin.Web.Controllers.UsersController.Index (Dacnsoft.Admin.Web.Mvc)
+INFO  2018-10-16 19:46:17,847 [22   ] uthorization.DefaultAuthorizationService - Authorization was successful.
+INFO  2018-10-16 19:46:18,100 [22   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Dacnsoft.Admin.Web.Controllers.UsersController.Index (Dacnsoft.Admin.Web.Mvc) - Validation state: Valid
+INFO  2018-10-16 19:46:18,652 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Dacnsoft.Admin.Web.Controllers.UsersController.Index (Dacnsoft.Admin.Web.Mvc), returned result Microsoft.AspNetCore.Mvc.ViewResult in 550.6168ms.
+INFO  2018-10-16 19:46:18,754 [22   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+INFO  2018-10-16 19:46:18,971 [27   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/Users  
+INFO  2018-10-16 19:46:18,978 [27   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Index", controller = "Users", area = ""}. Executing action Dacnsoft.Admin.Web.Controllers.UsersController.Index (Dacnsoft.Admin.Web.Mvc)
+INFO  2018-10-16 19:46:18,980 [27   ] uthorization.DefaultAuthorizationService - Authorization was successful.
+INFO  2018-10-16 19:46:19,008 [27   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Dacnsoft.Admin.Web.Controllers.UsersController.Index (Dacnsoft.Admin.Web.Mvc) - Validation state: Valid
+INFO  2018-10-16 19:46:19,305 [27   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Dacnsoft.Admin.Web.Controllers.UsersController.Index (Dacnsoft.Admin.Web.Mvc), returned result Microsoft.AspNetCore.Mvc.ViewResult in 293.1937ms.
+INFO  2018-10-16 19:46:19,360 [28   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+INFO  2018-10-16 19:46:19,533 [30   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 169.0647ms.
+INFO  2018-10-16 19:46:19,538 [10   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 823.1639ms.
+INFO  2018-10-16 19:46:19,553 [30   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Dacnsoft.Admin.Web.Controllers.UsersController.Index (Dacnsoft.Admin.Web.Mvc) in 556.9234ms
+INFO  2018-10-16 19:46:19,630 [30   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 587.0387ms 200 text/html; charset=utf-8
+INFO  2018-10-16 19:46:19,666 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Dacnsoft.Admin.Web.Controllers.UsersController.Index (Dacnsoft.Admin.Web.Mvc) in 1728.3226ms
+DEBUG 2018-10-16 19:46:19,681 [7    ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is disconnected: AQQcGNsdJ7QjVDPc2m9xRg
+INFO  2018-10-16 19:46:19,701 [30   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=636753158684009927  
+INFO  2018-10-16 19:46:19,746 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1854.6081ms 200 text/html; charset=utf-8
+INFO  2018-10-16 19:46:19,751 [32   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 3269.016ms 101 
+INFO  2018-10-16 19:46:19,799 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=636753158684009927  
+INFO  2018-10-16 19:46:19,847 [30   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)
+INFO  2018-10-16 19:46:19,851 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Users/Index.js?v=G9aZXjXQvL_-YK-aquNqgAZVX0isScMi0cRs_WYM9WY  
+INFO  2018-10-16 19:46:20,115 [30   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) with arguments (Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) - Validation state: Valid
+INFO  2018-10-16 19:46:20,129 [29   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/view-resources/Views/Users/Index.js'. Physical path: 'D:\Projects\Abp Template\4.2.0\Dacnsoft.Admin\4.2.0\aspnet-core\src\Dacnsoft.Admin.Web.Mvc\wwwroot\view-resources\Views\Users\Index.js'
+INFO  2018-10-16 19:46:20,166 [29   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 285.5322ms 200 application/javascript
+INFO  2018-10-16 19:46:20,221 [30   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.ContentResult in 87.9916ms.
+INFO  2018-10-16 19:46:20,225 [30   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2018-10-16 19:46:20,229 [30   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 376.593ms
+INFO  2018-10-16 19:46:20,237 [30   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 600.3971ms 200 application/x-javascript
+INFO  2018-10-16 19:46:20,242 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)
+INFO  2018-10-16 19:46:20,278 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) with arguments () - Validation state: Valid
+WARN  2018-10-16 19:46:20,284 [27   ] Microsoft.AspNetCore.Server.Kestrel      - Connection processing ended abnormally.
+Microsoft.AspNetCore.Connections.ConnectionAbortedException: The connection was aborted
+   at System.IO.Pipelines.PipeCompletion.ThrowLatchedException()
+   at System.IO.Pipelines.Pipe.GetReadResult(ReadResult& result)
+   at System.IO.Pipelines.Pipe.GetReadAsyncResult()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequestsAsync[TContext](IHttpApplication`1 application)
+INFO  2018-10-16 19:46:20,309 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.ContentResult in 27.3468ms.
+INFO  2018-10-16 19:46:20,312 [10   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2018-10-16 19:46:20,316 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 70.5527ms
+INFO  2018-10-16 19:46:20,320 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 557.6547ms 200 application/x-javascript; charset=utf-8
+INFO  2018-10-16 19:46:20,346 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/signalr-client/signalr.min.js.map  
+INFO  2018-10-16 19:46:20,353 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:62114/signalr/negotiate text/plain;charset=UTF-8 0
+INFO  2018-10-16 19:46:20,367 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 17.4706ms 404 
+INFO  2018-10-16 19:46:20,381 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 24.2616ms 200 application/json
+INFO  2018-10-16 19:46:20,439 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=3WK6hap3lFxzBFmttvaYhQ  
+INFO  2018-10-16 19:46:20,455 [30   ] .AspNetCore.SignalR.HubConnectionContext - Completed connection handshake. Using HubProtocol 'json'.
+DEBUG 2018-10-16 19:46:20,461 [30   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"3WK6hap3lFxzBFmttvaYhQ","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2018-10-16T19:46:20.456723+08:00","Properties":{}}
+DEBUG 2018-10-16 19:46:20,462 [30   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: 3WK6hap3lFxzBFmttvaYhQ
+INFO  2018-10-16 19:46:26,032 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:62114/api/services/app/Configuration/ChangeUiTheme application/json 18
+INFO  2018-10-16 19:46:26,045 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "ChangeUiTheme", controller = "Configuration"}. Executing action Dacnsoft.Admin.Configuration.ConfigurationAppService.ChangeUiTheme (Dacnsoft.Admin.Application)
+INFO  2018-10-16 19:46:26,172 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Dacnsoft.Admin.Configuration.ConfigurationAppService.ChangeUiTheme (Dacnsoft.Admin.Application) with arguments (Dacnsoft.Admin.Configuration.Dto.ChangeUiThemeInput) - Validation state: Valid
+INFO  2018-10-16 19:46:26,278 [38   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Dacnsoft.Admin.Configuration.ConfigurationAppService.ChangeUiTheme (Dacnsoft.Admin.Application), returned result Microsoft.AspNetCore.Mvc.EmptyResult in 103.5146ms.
+INFO  2018-10-16 19:46:26,334 [7    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2018-10-16 19:46:26,344 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Dacnsoft.Admin.Configuration.ConfigurationAppService.ChangeUiTheme (Dacnsoft.Admin.Application) in 296.275ms
+INFO  2018-10-16 19:46:26,348 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 316.1158ms 200 application/json; charset=utf-8
+INFO  2018-10-16 19:46:26,910 [22   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:62114/api/services/app/Configuration/ChangeUiTheme application/json 16
+INFO  2018-10-16 19:46:26,919 [22   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "ChangeUiTheme", controller = "Configuration"}. Executing action Dacnsoft.Admin.Configuration.ConfigurationAppService.ChangeUiTheme (Dacnsoft.Admin.Application)
+INFO  2018-10-16 19:46:26,943 [22   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Dacnsoft.Admin.Configuration.ConfigurationAppService.ChangeUiTheme (Dacnsoft.Admin.Application) with arguments (Dacnsoft.Admin.Configuration.Dto.ChangeUiThemeInput) - Validation state: Valid
+INFO  2018-10-16 19:46:27,062 [22   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Dacnsoft.Admin.Configuration.ConfigurationAppService.ChangeUiTheme (Dacnsoft.Admin.Application), returned result Microsoft.AspNetCore.Mvc.EmptyResult in 116.4576ms.
+INFO  2018-10-16 19:46:27,112 [6    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2018-10-16 19:46:27,114 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Dacnsoft.Admin.Configuration.ConfigurationAppService.ChangeUiTheme (Dacnsoft.Admin.Application) in 193.3902ms
+INFO  2018-10-16 19:46:27,118 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 208.0958ms 200 application/json; charset=utf-8
+INFO  2018-10-16 19:46:27,334 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:62114/api/services/app/Configuration/ChangeUiTheme application/json 16
+INFO  2018-10-16 19:46:27,341 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "ChangeUiTheme", controller = "Configuration"}. Executing action Dacnsoft.Admin.Configuration.ConfigurationAppService.ChangeUiTheme (Dacnsoft.Admin.Application)
+INFO  2018-10-16 19:46:27,365 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Dacnsoft.Admin.Configuration.ConfigurationAppService.ChangeUiTheme (Dacnsoft.Admin.Application) with arguments (Dacnsoft.Admin.Configuration.Dto.ChangeUiThemeInput) - Validation state: Valid
+INFO  2018-10-16 19:46:27,472 [36   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Dacnsoft.Admin.Configuration.ConfigurationAppService.ChangeUiTheme (Dacnsoft.Admin.Application), returned result Microsoft.AspNetCore.Mvc.EmptyResult in 104.805ms.
+INFO  2018-10-16 19:46:27,522 [7    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2018-10-16 19:46:27,524 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Dacnsoft.Admin.Configuration.ConfigurationAppService.ChangeUiTheme (Dacnsoft.Admin.Application) in 181.126ms
+INFO  2018-10-16 19:46:27,528 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 201.1886ms 200 application/json; charset=utf-8
+INFO  2018-10-16 19:46:27,751 [41   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:62114/api/services/app/Configuration/ChangeUiTheme application/json 16
+INFO  2018-10-16 19:46:27,760 [41   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "ChangeUiTheme", controller = "Configuration"}. Executing action Dacnsoft.Admin.Configuration.ConfigurationAppService.ChangeUiTheme (Dacnsoft.Admin.Application)
+INFO  2018-10-16 19:46:27,786 [41   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Dacnsoft.Admin.Configuration.ConfigurationAppService.ChangeUiTheme (Dacnsoft.Admin.Application) with arguments (Dacnsoft.Admin.Configuration.Dto.ChangeUiThemeInput) - Validation state: Valid
+INFO  2018-10-16 19:46:27,892 [39   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Dacnsoft.Admin.Configuration.ConfigurationAppService.ChangeUiTheme (Dacnsoft.Admin.Application), returned result Microsoft.AspNetCore.Mvc.EmptyResult in 104.3397ms.
+INFO  2018-10-16 19:46:27,942 [35   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2018-10-16 19:46:27,945 [35   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Dacnsoft.Admin.Configuration.ConfigurationAppService.ChangeUiTheme (Dacnsoft.Admin.Application) in 182.2905ms
+INFO  2018-10-16 19:46:27,948 [35   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 197.0034ms 200 application/json; charset=utf-8
+INFO  2018-10-16 19:46:28,467 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:62114/api/services/app/Configuration/ChangeUiTheme application/json 17
+INFO  2018-10-16 19:46:28,479 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "ChangeUiTheme", controller = "Configuration"}. Executing action Dacnsoft.Admin.Configuration.ConfigurationAppService.ChangeUiTheme (Dacnsoft.Admin.Application)
+INFO  2018-10-16 19:46:28,506 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Dacnsoft.Admin.Configuration.ConfigurationAppService.ChangeUiTheme (Dacnsoft.Admin.Application) with arguments (Dacnsoft.Admin.Configuration.Dto.ChangeUiThemeInput) - Validation state: Valid
+INFO  2018-10-16 19:46:28,611 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Dacnsoft.Admin.Configuration.ConfigurationAppService.ChangeUiTheme (Dacnsoft.Admin.Application), returned result Microsoft.AspNetCore.Mvc.EmptyResult in 102.6063ms.
+INFO  2018-10-16 19:46:28,665 [14   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2018-10-16 19:46:28,668 [14   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Dacnsoft.Admin.Configuration.ConfigurationAppService.ChangeUiTheme (Dacnsoft.Admin.Application) in 186.6933ms
+INFO  2018-10-16 19:46:28,671 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 206.1713ms 200 application/json; charset=utf-8
+INFO  2018-10-16 19:46:28,938 [37   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:62114/api/services/app/Configuration/ChangeUiTheme application/json 17
+INFO  2018-10-16 19:46:28,944 [37   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "ChangeUiTheme", controller = "Configuration"}. Executing action Dacnsoft.Admin.Configuration.ConfigurationAppService.ChangeUiTheme (Dacnsoft.Admin.Application)
+INFO  2018-10-16 19:46:28,968 [37   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Dacnsoft.Admin.Configuration.ConfigurationAppService.ChangeUiTheme (Dacnsoft.Admin.Application) with arguments (Dacnsoft.Admin.Configuration.Dto.ChangeUiThemeInput) - Validation state: Valid
+INFO  2018-10-16 19:46:29,005 [41   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Dacnsoft.Admin.Configuration.ConfigurationAppService.ChangeUiTheme (Dacnsoft.Admin.Application), returned result Microsoft.AspNetCore.Mvc.EmptyResult in 34.0379ms.
+INFO  2018-10-16 19:46:29,057 [35   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2018-10-16 19:46:29,060 [35   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Dacnsoft.Admin.Configuration.ConfigurationAppService.ChangeUiTheme (Dacnsoft.Admin.Application) in 113.2959ms
+INFO  2018-10-16 19:46:29,063 [35   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 125.0042ms 200 application/json; charset=utf-8
+INFO  2018-10-16 19:46:30,709 [39   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:62114/api/services/app/Configuration/ChangeUiTheme application/json 15
+INFO  2018-10-16 19:46:30,720 [39   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "ChangeUiTheme", controller = "Configuration"}. Executing action Dacnsoft.Admin.Configuration.ConfigurationAppService.ChangeUiTheme (Dacnsoft.Admin.Application)
+INFO  2018-10-16 19:46:30,746 [39   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Dacnsoft.Admin.Configuration.ConfigurationAppService.ChangeUiTheme (Dacnsoft.Admin.Application) with arguments (Dacnsoft.Admin.Configuration.Dto.ChangeUiThemeInput) - Validation state: Valid
+INFO  2018-10-16 19:46:30,880 [42   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Dacnsoft.Admin.Configuration.ConfigurationAppService.ChangeUiTheme (Dacnsoft.Admin.Application), returned result Microsoft.AspNetCore.Mvc.EmptyResult in 131.1794ms.
+INFO  2018-10-16 19:46:30,931 [34   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2018-10-16 19:46:30,934 [34   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Dacnsoft.Admin.Configuration.ConfigurationAppService.ChangeUiTheme (Dacnsoft.Admin.Application) in 210.9371ms
+INFO  2018-10-16 19:46:30,937 [34   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 228.8689ms 200 application/json; charset=utf-8
+INFO  2018-10-16 19:46:31,446 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:62114/api/services/app/Configuration/ChangeUiTheme application/json 16
+INFO  2018-10-16 19:46:31,455 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "ChangeUiTheme", controller = "Configuration"}. Executing action Dacnsoft.Admin.Configuration.ConfigurationAppService.ChangeUiTheme (Dacnsoft.Admin.Application)
+INFO  2018-10-16 19:46:31,480 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Dacnsoft.Admin.Configuration.ConfigurationAppService.ChangeUiTheme (Dacnsoft.Admin.Application) with arguments (Dacnsoft.Admin.Configuration.Dto.ChangeUiThemeInput) - Validation state: Valid
+INFO  2018-10-16 19:46:31,555 [41   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Dacnsoft.Admin.Configuration.ConfigurationAppService.ChangeUiTheme (Dacnsoft.Admin.Application), returned result Microsoft.AspNetCore.Mvc.EmptyResult in 72.6683ms.
+INFO  2018-10-16 19:46:31,605 [7    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2018-10-16 19:46:31,609 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Dacnsoft.Admin.Configuration.ConfigurationAppService.ChangeUiTheme (Dacnsoft.Admin.Application) in 150.7209ms
+INFO  2018-10-16 19:46:31,612 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 165.6444ms 200 application/json; charset=utf-8
+INFO  2018-10-16 19:46:32,776 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:62114/api/services/app/Configuration/ChangeUiTheme application/json 18
+INFO  2018-10-16 19:46:32,785 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "ChangeUiTheme", controller = "Configuration"}. Executing action Dacnsoft.Admin.Configuration.ConfigurationAppService.ChangeUiTheme (Dacnsoft.Admin.Application)
+INFO  2018-10-16 19:46:32,810 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Dacnsoft.Admin.Configuration.ConfigurationAppService.ChangeUiTheme (Dacnsoft.Admin.Application) with arguments (Dacnsoft.Admin.Configuration.Dto.ChangeUiThemeInput) - Validation state: Valid
+INFO  2018-10-16 19:46:32,917 [40   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Dacnsoft.Admin.Configuration.ConfigurationAppService.ChangeUiTheme (Dacnsoft.Admin.Application), returned result Microsoft.AspNetCore.Mvc.EmptyResult in 104.2714ms.
+INFO  2018-10-16 19:46:32,967 [14   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2018-10-16 19:46:32,970 [14   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Dacnsoft.Admin.Configuration.ConfigurationAppService.ChangeUiTheme (Dacnsoft.Admin.Application) in 181.8798ms
+INFO  2018-10-16 19:46:32,973 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 196.5601ms 200 application/json; charset=utf-8
+INFO  2018-10-16 19:46:34,200 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:62114/api/services/app/Configuration/ChangeUiTheme application/json 17
+INFO  2018-10-16 19:46:34,207 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "ChangeUiTheme", controller = "Configuration"}. Executing action Dacnsoft.Admin.Configuration.ConfigurationAppService.ChangeUiTheme (Dacnsoft.Admin.Application)
+INFO  2018-10-16 19:46:34,233 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Dacnsoft.Admin.Configuration.ConfigurationAppService.ChangeUiTheme (Dacnsoft.Admin.Application) with arguments (Dacnsoft.Admin.Configuration.Dto.ChangeUiThemeInput) - Validation state: Valid
+INFO  2018-10-16 19:46:34,346 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Dacnsoft.Admin.Configuration.ConfigurationAppService.ChangeUiTheme (Dacnsoft.Admin.Application), returned result Microsoft.AspNetCore.Mvc.EmptyResult in 101.9989ms.
+INFO  2018-10-16 19:46:34,394 [27   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2018-10-16 19:46:34,397 [27   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Dacnsoft.Admin.Configuration.ConfigurationAppService.ChangeUiTheme (Dacnsoft.Admin.Application) in 186.7882ms
+INFO  2018-10-16 19:46:34,400 [27   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 200.3764ms 200 application/json; charset=utf-8
+INFO  2018-10-16 19:46:36,345 [39   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:62114/api/services/app/Configuration/ChangeUiTheme application/json 23
+INFO  2018-10-16 19:46:36,353 [39   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "ChangeUiTheme", controller = "Configuration"}. Executing action Dacnsoft.Admin.Configuration.ConfigurationAppService.ChangeUiTheme (Dacnsoft.Admin.Application)
+INFO  2018-10-16 19:46:36,378 [39   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Dacnsoft.Admin.Configuration.ConfigurationAppService.ChangeUiTheme (Dacnsoft.Admin.Application) with arguments (Dacnsoft.Admin.Configuration.Dto.ChangeUiThemeInput) - Validation state: Valid
+INFO  2018-10-16 19:46:36,487 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Dacnsoft.Admin.Configuration.ConfigurationAppService.ChangeUiTheme (Dacnsoft.Admin.Application), returned result Microsoft.AspNetCore.Mvc.EmptyResult in 106.2427ms.
+INFO  2018-10-16 19:46:36,536 [10   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2018-10-16 19:46:36,538 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Dacnsoft.Admin.Configuration.ConfigurationAppService.ChangeUiTheme (Dacnsoft.Admin.Application) in 182.4107ms
+INFO  2018-10-16 19:46:36,542 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 196.3955ms 200 application/json; charset=utf-8
+INFO  2018-10-16 19:46:37,752 [28   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:62114/api/services/app/Configuration/ChangeUiTheme application/json 17
+INFO  2018-10-16 19:46:37,764 [28   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "ChangeUiTheme", controller = "Configuration"}. Executing action Dacnsoft.Admin.Configuration.ConfigurationAppService.ChangeUiTheme (Dacnsoft.Admin.Application)
+INFO  2018-10-16 19:46:37,793 [28   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Dacnsoft.Admin.Configuration.ConfigurationAppService.ChangeUiTheme (Dacnsoft.Admin.Application) with arguments (Dacnsoft.Admin.Configuration.Dto.ChangeUiThemeInput) - Validation state: Valid
+INFO  2018-10-16 19:46:37,895 [38   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Dacnsoft.Admin.Configuration.ConfigurationAppService.ChangeUiTheme (Dacnsoft.Admin.Application), returned result Microsoft.AspNetCore.Mvc.EmptyResult in 99.8735ms.
+INFO  2018-10-16 19:46:37,942 [10   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2018-10-16 19:46:37,944 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Dacnsoft.Admin.Configuration.ConfigurationAppService.ChangeUiTheme (Dacnsoft.Admin.Application) in 177.6862ms
+INFO  2018-10-16 19:46:37,948 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 197.2416ms 200 application/json; charset=utf-8
+INFO  2018-10-16 19:46:39,734 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:62114/api/services/app/Configuration/ChangeUiTheme application/json 16
+INFO  2018-10-16 19:46:39,743 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "ChangeUiTheme", controller = "Configuration"}. Executing action Dacnsoft.Admin.Configuration.ConfigurationAppService.ChangeUiTheme (Dacnsoft.Admin.Application)
+INFO  2018-10-16 19:46:39,771 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Dacnsoft.Admin.Configuration.ConfigurationAppService.ChangeUiTheme (Dacnsoft.Admin.Application) with arguments (Dacnsoft.Admin.Configuration.Dto.ChangeUiThemeInput) - Validation state: Valid
+INFO  2018-10-16 19:46:39,882 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Dacnsoft.Admin.Configuration.ConfigurationAppService.ChangeUiTheme (Dacnsoft.Admin.Application), returned result Microsoft.AspNetCore.Mvc.EmptyResult in 108.563ms.
+INFO  2018-10-16 19:46:39,938 [6    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2018-10-16 19:46:39,941 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Dacnsoft.Admin.Configuration.ConfigurationAppService.ChangeUiTheme (Dacnsoft.Admin.Application) in 195.2539ms
+INFO  2018-10-16 19:46:39,945 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 210.7687ms 200 application/json; charset=utf-8
+INFO  2018-10-16 19:46:40,879 [33   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:62114/api/services/app/Configuration/ChangeUiTheme application/json 15
+INFO  2018-10-16 19:46:40,888 [33   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "ChangeUiTheme", controller = "Configuration"}. Executing action Dacnsoft.Admin.Configuration.ConfigurationAppService.ChangeUiTheme (Dacnsoft.Admin.Application)
+INFO  2018-10-16 19:46:40,913 [33   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Dacnsoft.Admin.Configuration.ConfigurationAppService.ChangeUiTheme (Dacnsoft.Admin.Application) with arguments (Dacnsoft.Admin.Configuration.Dto.ChangeUiThemeInput) - Validation state: Valid
+INFO  2018-10-16 19:46:41,013 [35   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Dacnsoft.Admin.Configuration.ConfigurationAppService.ChangeUiTheme (Dacnsoft.Admin.Application), returned result Microsoft.AspNetCore.Mvc.EmptyResult in 97.7112ms.
+INFO  2018-10-16 19:46:41,059 [27   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2018-10-16 19:46:41,062 [27   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Dacnsoft.Admin.Configuration.ConfigurationAppService.ChangeUiTheme (Dacnsoft.Admin.Application) in 171.1085ms
+INFO  2018-10-16 19:46:41,066 [27   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 185.8808ms 200 application/json; charset=utf-8
+INFO  2018-10-16 19:46:42,595 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/Users  
+INFO  2018-10-16 19:46:42,600 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Index", controller = "Users", area = ""}. Executing action Dacnsoft.Admin.Web.Controllers.UsersController.Index (Dacnsoft.Admin.Web.Mvc)
+INFO  2018-10-16 19:46:42,606 [6    ] uthorization.DefaultAuthorizationService - Authorization was successful.
+INFO  2018-10-16 19:46:42,632 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Dacnsoft.Admin.Web.Controllers.UsersController.Index (Dacnsoft.Admin.Web.Mvc) - Validation state: Valid
+INFO  2018-10-16 19:46:42,845 [33   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Dacnsoft.Admin.Web.Controllers.UsersController.Index (Dacnsoft.Admin.Web.Mvc), returned result Microsoft.AspNetCore.Mvc.ViewResult in 209.7501ms.
+INFO  2018-10-16 19:46:42,893 [38   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+INFO  2018-10-16 19:46:43,018 [6    ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 124.7214ms.
+INFO  2018-10-16 19:46:43,021 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Dacnsoft.Admin.Web.Controllers.UsersController.Index (Dacnsoft.Admin.Web.Mvc) in 417.5293ms
+INFO  2018-10-16 19:46:43,025 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 430.3187ms 200 text/html; charset=utf-8
+DEBUG 2018-10-16 19:46:43,026 [41   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is disconnected: 3WK6hap3lFxzBFmttvaYhQ
+INFO  2018-10-16 19:46:43,029 [41   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 22605.7861ms 101 
+INFO  2018-10-16 19:46:43,079 [41   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/fonts/roboto/roboto.css?v=DWPiEyLnt8XZ68WQeudmZPGSejowhmQNUUhaX8dYF1Q  
+INFO  2018-10-16 19:46:43,092 [29   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/bootstrap/dist/css/bootstrap.css?v=fmMNkMcjSw3xcp9iuPnku_ryk9kaWgrEbfJfKmdZ45o  
+INFO  2018-10-16 19:46:43,118 [33   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/fonts/material-icons/materialicons.css?v=2SsVsQpWRHM3EJ4D4MT4RRpiEXbEuK0vEjPxVr5P7Ek  
+INFO  2018-10-16 19:46:43,121 [29   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/bootstrap/dist/css/bootstrap.css was not modified
+INFO  2018-10-16 19:46:43,129 [41   ] NetCore.StaticFiles.StaticFileMiddleware - The file /fonts/roboto/roboto.css was not modified
+INFO  2018-10-16 19:46:43,139 [29   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 45.8563ms 304 text/css
+INFO  2018-10-16 19:46:43,143 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/famfamfam-flags/dist/sprite/famfamfam-flags.css?v=l7wu43l7XpKWzFn29hiH8AFe4I_CNzbCPmaAQivPYMg  
+INFO  2018-10-16 19:46:43,146 [33   ] NetCore.StaticFiles.StaticFileMiddleware - The file /fonts/material-icons/materialicons.css was not modified
+INFO  2018-10-16 19:46:43,150 [40   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/Waves/dist/waves.css?v=0zP86LzXedNkkBjePtKrMTAPuIy6EzHfGlyYvsmGLBw  
+INFO  2018-10-16 19:46:43,156 [33   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 60.1084ms 304 text/css
+INFO  2018-10-16 19:46:43,160 [40   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/Waves/dist/waves.css was not modified
+INFO  2018-10-16 19:46:43,164 [33   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/css/materialize.css?v=OdWlipUYj8b9Oa4RyT45njteIcxH-4pGocqe0r0V8js  
+INFO  2018-10-16 19:46:43,169 [6    ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/famfamfam-flags/dist/sprite/famfamfam-flags.css was not modified
+INFO  2018-10-16 19:46:43,174 [33   ] NetCore.StaticFiles.StaticFileMiddleware - The file /css/materialize.css was not modified
+INFO  2018-10-16 19:46:43,178 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 41.2054ms 304 text/css
+INFO  2018-10-16 19:46:43,187 [29   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/font-awesome/css/font-awesome.css?v=NuCn4IvuZXdBaFKJOAcsU2Q3ZpwbdFisd5dux4jkQ5w  
+INFO  2018-10-16 19:46:43,191 [33   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 18.3908ms 304 text/css
+INFO  2018-10-16 19:46:43,207 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/json2/json2.js?v=EZJ68U7eUi8uSP0MRRUalYten2eOlhREE9kJOIbIeYg  
+INFO  2018-10-16 19:46:43,211 [29   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/font-awesome/css/font-awesome.css was not modified
+INFO  2018-10-16 19:46:43,217 [33   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/jquery/dist/jquery.js?v=DZAnKJ_6XZ9si04Hgrsxu_8s717jcIzLy3oi35EouyE  
+INFO  2018-10-16 19:46:43,223 [29   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 41.6019ms 304 text/css
+INFO  2018-10-16 19:46:43,227 [6    ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/json2/json2.js was not modified
+INFO  2018-10-16 19:46:43,235 [29   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/toastr/toastr.css?v=W8a9WvLyUO7CXtOC4f9LoUMwkywM7JSq-Xm5kNsYW08  
+INFO  2018-10-16 19:46:43,237 [33   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/jquery/dist/jquery.js was not modified
+INFO  2018-10-16 19:46:43,241 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 52.3357ms 304 application/javascript
+INFO  2018-10-16 19:46:43,248 [29   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/toastr/toastr.css was not modified
+INFO  2018-10-16 19:46:43,252 [33   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 30.7091ms 304 application/javascript
+INFO  2018-10-16 19:46:43,257 [29   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 24.8303ms 304 text/css
+INFO  2018-10-16 19:46:43,262 [35   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/bootstrap/dist/js/bootstrap.js?v=Cr6N6zNN4bp0OwTQOZ6Z66M2r-2dpy_EwKMCyZ-SOMg  
+INFO  2018-10-16 19:46:43,267 [40   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 19.4519ms 304 text/css
+INFO  2018-10-16 19:46:43,271 [38   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/moment/min/moment-with-locales.js?v=7CN4bWPV0U57HDA4YjdCBKCAynhqdWErjNn-5rrsW_I  
+INFO  2018-10-16 19:46:43,275 [35   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/bootstrap/dist/js/bootstrap.js was not modified
+INFO  2018-10-16 19:46:43,281 [40   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/css/style.css?v=151KUrNx-cFGpjXC7QZ8WbWSo-mQTLO0htvGyBUR_i8  
+INFO  2018-10-16 19:46:43,286 [35   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 38.3796ms 304 application/javascript
+INFO  2018-10-16 19:46:43,289 [40   ] NetCore.StaticFiles.StaticFileMiddleware - The file /css/style.css was not modified
+INFO  2018-10-16 19:46:43,293 [35   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/jquery-validation/dist/jquery.validate.js?v=KuzD50lDGNI5jq_ipt4hwDpSJk3fhseTR1jdvaBoZLs  
+INFO  2018-10-16 19:46:43,297 [40   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 22.2508ms 304 text/css
+INFO  2018-10-16 19:46:43,300 [35   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/jquery-validation/dist/jquery.validate.js was not modified
+INFO  2018-10-16 19:46:43,304 [38   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/moment/min/moment-with-locales.js was not modified
+INFO  2018-10-16 19:46:43,310 [35   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 14.6021ms 304 application/javascript
+INFO  2018-10-16 19:46:43,316 [38   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 56.3812ms 304 application/javascript
+INFO  2018-10-16 19:46:43,320 [41   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 77.7693ms 304 text/css
+INFO  2018-10-16 19:46:43,323 [33   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/toastr/toastr.js?v=C7DJ6LzTt1Hvj9fd-yRnySs3I4T2B8XmQ3TqXQjc00g  
+INFO  2018-10-16 19:46:43,326 [38   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/blockUI/jquery.blockUI.js?v=oQaw-JJuUcJQ9QVYMcFnPxICDT-hv8-kuxT2FNzTGhc  
+INFO  2018-10-16 19:46:43,329 [33   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/toastr/toastr.js was not modified
+INFO  2018-10-16 19:46:43,332 [38   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/blockUI/jquery.blockUI.js was not modified
+INFO  2018-10-16 19:46:43,337 [33   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 12.9224ms 304 application/javascript
+INFO  2018-10-16 19:46:43,342 [38   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 16.5486ms 304 application/javascript
+INFO  2018-10-16 19:46:43,345 [27   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/spin.js/spin.js?v=GySbz3oZXNlwoawo5PpYy0iM38B-q3jyi_HLw00uxy0  
+INFO  2018-10-16 19:46:43,349 [29   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/spin.js/jquery.spin.js?v=EG38bUU5b2M64hy9cNAzu_cQBEsiBYsDifOcoHqNd2k  
+INFO  2018-10-16 19:46:43,351 [41   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/animate.css/animate.css?v=00w68NO3TLuHjKRHJmjrrgJBDtG_6OhbJEu1gtHcsuo  
+INFO  2018-10-16 19:46:43,354 [27   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/spin.js/spin.js was not modified
+INFO  2018-10-16 19:46:43,356 [29   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/spin.js/jquery.spin.js was not modified
+INFO  2018-10-16 19:46:43,360 [27   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 14.7396ms 304 application/javascript
+INFO  2018-10-16 19:46:43,365 [29   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 14.6478ms 304 application/javascript
+INFO  2018-10-16 19:46:43,369 [27   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/Waves/dist/waves.js?v=Lar7zQhqgdoUsaqhuwkgnWgsC-eRWIxHhJPV-QtrDog  
+INFO  2018-10-16 19:46:43,372 [41   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/animate.css/animate.css was not modified
+INFO  2018-10-16 19:46:43,375 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/abp-web-resources/Abp/Framework/scripts/abp.js?v=FGfi3RfHf06ftjVdq2JaO16cF9CPZNPvujmuYBacXxg  
+INFO  2018-10-16 19:46:43,379 [27   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/Waves/dist/waves.js was not modified
+INFO  2018-10-16 19:46:43,385 [41   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 52.3166ms 304 text/css
+INFO  2018-10-16 19:46:43,387 [27   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 18.8729ms 304 application/javascript
+INFO  2018-10-16 19:46:43,392 [6    ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/abp-web-resources/Abp/Framework/scripts/abp.js was not modified
+INFO  2018-10-16 19:46:43,397 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.spin.js?v=RJuGDX616JN_UziXsmKnth0alpECKCx0gtxKZVrZWxY  
+INFO  2018-10-16 19:46:43,402 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 24.2091ms 304 application/javascript
+INFO  2018-10-16 19:46:43,407 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.sweet-alert.js?v=guLvtVJMvLobKpGAlQigrGWMQ1sGQo4yTL46zjGQUUY  
+INFO  2018-10-16 19:46:43,409 [10   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/abp-web-resources/Abp/Framework/scripts/libs/abp.spin.js was not modified
+INFO  2018-10-16 19:46:43,413 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/js/admin.js?v=_sUixSUZcmP81slFpHh9ygZ5nNihdHlHLkpoSCncHCw  
+INFO  2018-10-16 19:46:43,418 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 18.1261ms 304 application/javascript
+INFO  2018-10-16 19:46:43,422 [6    ] NetCore.StaticFiles.StaticFileMiddleware - The file /js/admin.js was not modified
+INFO  2018-10-16 19:46:43,426 [7    ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/abp-web-resources/Abp/Framework/scripts/libs/abp.sweet-alert.js was not modified
+INFO  2018-10-16 19:46:43,430 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 19.1663ms 304 application/javascript
+INFO  2018-10-16 19:46:43,434 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 35.7818ms 304 application/javascript
+INFO  2018-10-16 19:46:43,438 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/js/main.js?v=7V8NhAIUFtnCuxcmS7PSGC2PVIuAy-30Hkp4muUkf_E  
+INFO  2018-10-16 19:46:43,441 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=636753158684009927  
+INFO  2018-10-16 19:46:43,448 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=636753158684009927  
+INFO  2018-10-16 19:46:43,451 [10   ] NetCore.StaticFiles.StaticFileMiddleware - The file /js/main.js was not modified
+INFO  2018-10-16 19:46:43,455 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.toastr.js?v=ImopdkB8alCil1HigOwW3CDqWKsLZXyplf7TXBbjRnE  
+INFO  2018-10-16 19:46:43,459 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 32.8012ms 304 application/javascript
+INFO  2018-10-16 19:46:43,462 [22   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.blockUI.js?v=Y3zoG-hSFKmbS3BHKo_wFWRPbyzJXKoNrnF73uFdtqU  
+INFO  2018-10-16 19:46:43,469 [14   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/abp-web-resources/Abp/Framework/scripts/libs/abp.toastr.js was not modified
+INFO  2018-10-16 19:46:43,473 [28   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.jquery.js?v=lMgLZMlGsipWDxpvEPxfKVREzRedV_ygRnTj2kvADpw  
+INFO  2018-10-16 19:46:43,482 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 78.1952ms 304 application/javascript
+INFO  2018-10-16 19:46:43,485 [22   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/abp-web-resources/Abp/Framework/scripts/libs/abp.blockUI.js was not modified
+INFO  2018-10-16 19:46:43,489 [28   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/abp-web-resources/Abp/Framework/scripts/libs/abp.jquery.js was not modified
+INFO  2018-10-16 19:46:43,497 [22   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 94.4379ms 304 application/javascript
+INFO  2018-10-16 19:46:43,501 [28   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 98.5423ms 304 application/javascript
+INFO  2018-10-16 19:46:43,507 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)
+INFO  2018-10-16 19:46:43,538 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)
+INFO  2018-10-16 19:46:43,540 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) with arguments () - Validation state: Valid
+INFO  2018-10-16 19:46:43,578 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) with arguments (Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) - Validation state: Valid
+INFO  2018-10-16 19:46:43,591 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.ContentResult in 7.4793ms.
+INFO  2018-10-16 19:46:43,598 [6    ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2018-10-16 19:46:43,601 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 59.4582ms
+INFO  2018-10-16 19:46:43,604 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 167.303ms 200 application/x-javascript
+INFO  2018-10-16 19:46:43,635 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.ContentResult in 89.1173ms.
+INFO  2018-10-16 19:46:43,639 [7    ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2018-10-16 19:46:43,651 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 132.2048ms
+INFO  2018-10-16 19:46:43,655 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 212.7702ms 200 application/x-javascript; charset=utf-8
+INFO  2018-10-16 19:46:43,731 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/signalr-client/signalr.min.js.map  
+INFO  2018-10-16 19:46:43,738 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:62114/signalr/negotiate text/plain;charset=UTF-8 0
+INFO  2018-10-16 19:46:43,745 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 13.5674ms 404 
+INFO  2018-10-16 19:46:43,753 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 13.7352ms 200 application/json
+INFO  2018-10-16 19:46:43,767 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=2Vv56iN37DdDkLOcyY6Ffg  
+INFO  2018-10-16 19:46:43,811 [22   ] .AspNetCore.SignalR.HubConnectionContext - Completed connection handshake. Using HubProtocol 'json'.
+DEBUG 2018-10-16 19:46:43,820 [22   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"2Vv56iN37DdDkLOcyY6Ffg","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2018-10-16T19:46:43.8127864+08:00","Properties":{}}
+DEBUG 2018-10-16 19:46:43,820 [22   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: 2Vv56iN37DdDkLOcyY6Ffg
+INFO  2018-10-16 19:47:01,648 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:62114/api/services/app/Configuration/ChangeUiTheme application/json 18
+INFO  2018-10-16 19:47:01,659 [14   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "ChangeUiTheme", controller = "Configuration"}. Executing action Dacnsoft.Admin.Configuration.ConfigurationAppService.ChangeUiTheme (Dacnsoft.Admin.Application)
+INFO  2018-10-16 19:47:01,684 [14   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Dacnsoft.Admin.Configuration.ConfigurationAppService.ChangeUiTheme (Dacnsoft.Admin.Application) with arguments (Dacnsoft.Admin.Configuration.Dto.ChangeUiThemeInput) - Validation state: Valid
+INFO  2018-10-16 19:47:01,767 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Dacnsoft.Admin.Configuration.ConfigurationAppService.ChangeUiTheme (Dacnsoft.Admin.Application), returned result Microsoft.AspNetCore.Mvc.EmptyResult in 79.8428ms.
+INFO  2018-10-16 19:47:01,817 [6    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2018-10-16 19:47:01,820 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Dacnsoft.Admin.Configuration.ConfigurationAppService.ChangeUiTheme (Dacnsoft.Admin.Application) in 158.6123ms
+INFO  2018-10-16 19:47:01,824 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 175.6522ms 200 application/json; charset=utf-8
+INFO  2018-10-16 19:47:03,838 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:62114/api/services/app/Configuration/ChangeUiTheme application/json 16
+INFO  2018-10-16 19:47:03,845 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "ChangeUiTheme", controller = "Configuration"}. Executing action Dacnsoft.Admin.Configuration.ConfigurationAppService.ChangeUiTheme (Dacnsoft.Admin.Application)
+INFO  2018-10-16 19:47:03,869 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Dacnsoft.Admin.Configuration.ConfigurationAppService.ChangeUiTheme (Dacnsoft.Admin.Application) with arguments (Dacnsoft.Admin.Configuration.Dto.ChangeUiThemeInput) - Validation state: Valid
+INFO  2018-10-16 19:47:03,976 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Dacnsoft.Admin.Configuration.ConfigurationAppService.ChangeUiTheme (Dacnsoft.Admin.Application), returned result Microsoft.AspNetCore.Mvc.EmptyResult in 103.3594ms.
+INFO  2018-10-16 19:47:04,024 [10   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2018-10-16 19:47:04,026 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Dacnsoft.Admin.Configuration.ConfigurationAppService.ChangeUiTheme (Dacnsoft.Admin.Application) in 179.1453ms
+INFO  2018-10-16 19:47:04,029 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 190.4438ms 200 application/json; charset=utf-8
+INFO  2018-10-16 19:47:04,702 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:62114/api/services/app/Configuration/ChangeUiTheme application/json 17
+INFO  2018-10-16 19:47:04,714 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "ChangeUiTheme", controller = "Configuration"}. Executing action Dacnsoft.Admin.Configuration.ConfigurationAppService.ChangeUiTheme (Dacnsoft.Admin.Application)
+INFO  2018-10-16 19:47:04,742 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Dacnsoft.Admin.Configuration.ConfigurationAppService.ChangeUiTheme (Dacnsoft.Admin.Application) with arguments (Dacnsoft.Admin.Configuration.Dto.ChangeUiThemeInput) - Validation state: Valid
+INFO  2018-10-16 19:47:04,848 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Dacnsoft.Admin.Configuration.ConfigurationAppService.ChangeUiTheme (Dacnsoft.Admin.Application), returned result Microsoft.AspNetCore.Mvc.EmptyResult in 103.2766ms.
+INFO  2018-10-16 19:47:04,894 [6    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2018-10-16 19:47:04,896 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Dacnsoft.Admin.Configuration.ConfigurationAppService.ChangeUiTheme (Dacnsoft.Admin.Application) in 180.1105ms
+INFO  2018-10-16 19:47:04,900 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 197.8968ms 200 application/json; charset=utf-8
+INFO  2018-10-16 19:47:06,076 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:62114/api/services/app/Configuration/ChangeUiTheme application/json 23
+INFO  2018-10-16 19:47:06,085 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "ChangeUiTheme", controller = "Configuration"}. Executing action Dacnsoft.Admin.Configuration.ConfigurationAppService.ChangeUiTheme (Dacnsoft.Admin.Application)
+INFO  2018-10-16 19:47:06,109 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Dacnsoft.Admin.Configuration.ConfigurationAppService.ChangeUiTheme (Dacnsoft.Admin.Application) with arguments (Dacnsoft.Admin.Configuration.Dto.ChangeUiThemeInput) - Validation state: Valid
+INFO  2018-10-16 19:47:06,209 [35   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Dacnsoft.Admin.Configuration.ConfigurationAppService.ChangeUiTheme (Dacnsoft.Admin.Application), returned result Microsoft.AspNetCore.Mvc.EmptyResult in 97.3209ms.
+INFO  2018-10-16 19:47:06,255 [29   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2018-10-16 19:47:06,258 [29   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Dacnsoft.Admin.Configuration.ConfigurationAppService.ChangeUiTheme (Dacnsoft.Admin.Application) in 170.6785ms
+INFO  2018-10-16 19:47:06,261 [29   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 183.9929ms 200 application/json; charset=utf-8
+INFO  2018-10-16 19:47:08,646 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:62114/api/services/app/Configuration/ChangeUiTheme application/json 16
+INFO  2018-10-16 19:47:08,655 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "ChangeUiTheme", controller = "Configuration"}. Executing action Dacnsoft.Admin.Configuration.ConfigurationAppService.ChangeUiTheme (Dacnsoft.Admin.Application)
+INFO  2018-10-16 19:47:08,682 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Dacnsoft.Admin.Configuration.ConfigurationAppService.ChangeUiTheme (Dacnsoft.Admin.Application) with arguments (Dacnsoft.Admin.Configuration.Dto.ChangeUiThemeInput) - Validation state: Valid
+INFO  2018-10-16 19:47:08,784 [22   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Dacnsoft.Admin.Configuration.ConfigurationAppService.ChangeUiTheme (Dacnsoft.Admin.Application), returned result Microsoft.AspNetCore.Mvc.EmptyResult in 99.6141ms.
+INFO  2018-10-16 19:47:08,829 [7    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2018-10-16 19:47:08,832 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Dacnsoft.Admin.Configuration.ConfigurationAppService.ChangeUiTheme (Dacnsoft.Admin.Application) in 174.3081ms
+INFO  2018-10-16 19:47:08,835 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 189.7886ms 200 application/json; charset=utf-8
+INFO  2018-10-16 19:47:10,946 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:62114/api/services/app/Configuration/ChangeUiTheme application/json 18
+INFO  2018-10-16 19:47:10,951 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "ChangeUiTheme", controller = "Configuration"}. Executing action Dacnsoft.Admin.Configuration.ConfigurationAppService.ChangeUiTheme (Dacnsoft.Admin.Application)
+INFO  2018-10-16 19:47:10,979 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Dacnsoft.Admin.Configuration.ConfigurationAppService.ChangeUiTheme (Dacnsoft.Admin.Application) with arguments (Dacnsoft.Admin.Configuration.Dto.ChangeUiThemeInput) - Validation state: Valid
+INFO  2018-10-16 19:47:11,088 [38   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Dacnsoft.Admin.Configuration.ConfigurationAppService.ChangeUiTheme (Dacnsoft.Admin.Application), returned result Microsoft.AspNetCore.Mvc.EmptyResult in 106.6933ms.
+INFO  2018-10-16 19:47:11,138 [10   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2018-10-16 19:47:11,141 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Dacnsoft.Admin.Configuration.ConfigurationAppService.ChangeUiTheme (Dacnsoft.Admin.Application) in 186.3833ms
+INFO  2018-10-16 19:47:11,144 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 198.1579ms 200 application/json; charset=utf-8
+INFO  2018-10-16 19:47:11,903 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:62114/api/services/app/Configuration/ChangeUiTheme application/json 18
+INFO  2018-10-16 19:47:11,910 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "ChangeUiTheme", controller = "Configuration"}. Executing action Dacnsoft.Admin.Configuration.ConfigurationAppService.ChangeUiTheme (Dacnsoft.Admin.Application)
+INFO  2018-10-16 19:47:11,934 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Dacnsoft.Admin.Configuration.ConfigurationAppService.ChangeUiTheme (Dacnsoft.Admin.Application) with arguments (Dacnsoft.Admin.Configuration.Dto.ChangeUiThemeInput) - Validation state: Valid
+INFO  2018-10-16 19:47:11,969 [27   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Dacnsoft.Admin.Configuration.ConfigurationAppService.ChangeUiTheme (Dacnsoft.Admin.Application), returned result Microsoft.AspNetCore.Mvc.EmptyResult in 33.4255ms.
+INFO  2018-10-16 19:47:12,015 [22   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2018-10-16 19:47:12,017 [22   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Dacnsoft.Admin.Configuration.ConfigurationAppService.ChangeUiTheme (Dacnsoft.Admin.Application) in 105.7251ms
+INFO  2018-10-16 19:47:12,020 [22   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 116.9267ms 200 application/json; charset=utf-8
+INFO  2018-10-16 19:47:12,680 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:62114/api/services/app/Configuration/ChangeUiTheme application/json 23
+INFO  2018-10-16 19:47:12,692 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "ChangeUiTheme", controller = "Configuration"}. Executing action Dacnsoft.Admin.Configuration.ConfigurationAppService.ChangeUiTheme (Dacnsoft.Admin.Application)
+INFO  2018-10-16 19:47:12,717 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Dacnsoft.Admin.Configuration.ConfigurationAppService.ChangeUiTheme (Dacnsoft.Admin.Application) with arguments (Dacnsoft.Admin.Configuration.Dto.ChangeUiThemeInput) - Validation state: Valid
+INFO  2018-10-16 19:47:12,820 [27   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Dacnsoft.Admin.Configuration.ConfigurationAppService.ChangeUiTheme (Dacnsoft.Admin.Application), returned result Microsoft.AspNetCore.Mvc.EmptyResult in 100.7738ms.
+INFO  2018-10-16 19:47:12,868 [7    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2018-10-16 19:47:12,871 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Dacnsoft.Admin.Configuration.ConfigurationAppService.ChangeUiTheme (Dacnsoft.Admin.Application) in 176.6484ms
+INFO  2018-10-16 19:47:12,874 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 196.0923ms 200 application/json; charset=utf-8
+INFO  2018-10-16 19:47:17,892 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:62114/api/services/app/Configuration/ChangeUiTheme application/json 16
+INFO  2018-10-16 19:47:17,900 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "ChangeUiTheme", controller = "Configuration"}. Executing action Dacnsoft.Admin.Configuration.ConfigurationAppService.ChangeUiTheme (Dacnsoft.Admin.Application)
+INFO  2018-10-16 19:47:17,926 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Dacnsoft.Admin.Configuration.ConfigurationAppService.ChangeUiTheme (Dacnsoft.Admin.Application) with arguments (Dacnsoft.Admin.Configuration.Dto.ChangeUiThemeInput) - Validation state: Valid
+INFO  2018-10-16 19:47:18,022 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Dacnsoft.Admin.Configuration.ConfigurationAppService.ChangeUiTheme (Dacnsoft.Admin.Application), returned result Microsoft.AspNetCore.Mvc.EmptyResult in 93.9432ms.
+INFO  2018-10-16 19:47:18,067 [10   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2018-10-16 19:47:18,070 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Dacnsoft.Admin.Configuration.ConfigurationAppService.ChangeUiTheme (Dacnsoft.Admin.Application) in 166.9685ms
+INFO  2018-10-16 19:47:18,073 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 180.9777ms 200 application/json; charset=utf-8
+INFO  2018-10-16 19:47:18,709 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:62114/api/services/app/Configuration/ChangeUiTheme application/json 21
+INFO  2018-10-16 19:47:18,718 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "ChangeUiTheme", controller = "Configuration"}. Executing action Dacnsoft.Admin.Configuration.ConfigurationAppService.ChangeUiTheme (Dacnsoft.Admin.Application)
+INFO  2018-10-16 19:47:18,749 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Dacnsoft.Admin.Configuration.ConfigurationAppService.ChangeUiTheme (Dacnsoft.Admin.Application) with arguments (Dacnsoft.Admin.Configuration.Dto.ChangeUiThemeInput) - Validation state: Valid
+INFO  2018-10-16 19:47:18,853 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Dacnsoft.Admin.Configuration.ConfigurationAppService.ChangeUiTheme (Dacnsoft.Admin.Application), returned result Microsoft.AspNetCore.Mvc.EmptyResult in 100.908ms.
+INFO  2018-10-16 19:47:18,902 [6    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2018-10-16 19:47:18,906 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Dacnsoft.Admin.Configuration.ConfigurationAppService.ChangeUiTheme (Dacnsoft.Admin.Application) in 184.6409ms
+INFO  2018-10-16 19:47:18,909 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 200.6036ms 200 application/json; charset=utf-8
+INFO  2018-10-16 19:47:19,606 [22   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:62114/api/services/app/Configuration/ChangeUiTheme application/json 21
+INFO  2018-10-16 19:47:19,613 [22   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "ChangeUiTheme", controller = "Configuration"}. Executing action Dacnsoft.Admin.Configuration.ConfigurationAppService.ChangeUiTheme (Dacnsoft.Admin.Application)
+INFO  2018-10-16 19:47:19,641 [22   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Dacnsoft.Admin.Configuration.ConfigurationAppService.ChangeUiTheme (Dacnsoft.Admin.Application) with arguments (Dacnsoft.Admin.Configuration.Dto.ChangeUiThemeInput) - Validation state: Valid
+INFO  2018-10-16 19:47:19,683 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Dacnsoft.Admin.Configuration.ConfigurationAppService.ChangeUiTheme (Dacnsoft.Admin.Application), returned result Microsoft.AspNetCore.Mvc.EmptyResult in 38.492ms.
+INFO  2018-10-16 19:47:19,734 [27   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2018-10-16 19:47:19,737 [27   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Dacnsoft.Admin.Configuration.ConfigurationAppService.ChangeUiTheme (Dacnsoft.Admin.Application) in 120.9118ms
+INFO  2018-10-16 19:47:19,740 [27   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 134.0821ms 200 application/json; charset=utf-8
+INFO  2018-10-16 19:47:20,188 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:62114/api/services/app/Configuration/ChangeUiTheme application/json 17
+INFO  2018-10-16 19:47:20,196 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "ChangeUiTheme", controller = "Configuration"}. Executing action Dacnsoft.Admin.Configuration.ConfigurationAppService.ChangeUiTheme (Dacnsoft.Admin.Application)
+INFO  2018-10-16 19:47:20,227 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Dacnsoft.Admin.Configuration.ConfigurationAppService.ChangeUiTheme (Dacnsoft.Admin.Application) with arguments (Dacnsoft.Admin.Configuration.Dto.ChangeUiThemeInput) - Validation state: Valid
+INFO  2018-10-16 19:47:20,328 [27   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Dacnsoft.Admin.Configuration.ConfigurationAppService.ChangeUiTheme (Dacnsoft.Admin.Application), returned result Microsoft.AspNetCore.Mvc.EmptyResult in 98.5878ms.
+INFO  2018-10-16 19:47:20,373 [7    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2018-10-16 19:47:20,376 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Dacnsoft.Admin.Configuration.ConfigurationAppService.ChangeUiTheme (Dacnsoft.Admin.Application) in 177.4029ms
+INFO  2018-10-16 19:47:20,379 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 192.0386ms 200 application/json; charset=utf-8
