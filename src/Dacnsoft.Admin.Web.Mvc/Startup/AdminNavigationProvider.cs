@@ -17,7 +17,7 @@ namespace Dacnsoft.Admin.Web.Startup
                         PageNames.Home,
                         L("HomePage"),
                         url: "",
-                        icon: "home",
+                        icon: "fa fa-home",
                         requiresAuthentication: true
                     )
                 ).AddItem(
@@ -25,7 +25,7 @@ namespace Dacnsoft.Admin.Web.Startup
                         PageNames.Tenants,
                         L("Tenants"),
                         url: "Tenants",
-                        icon: "business",
+                        icon: "fa fa-sitemap",
                         requiredPermissionName: PermissionNames.Pages_Tenants
                     )
                 ).AddItem(
@@ -33,7 +33,7 @@ namespace Dacnsoft.Admin.Web.Startup
                         PageNames.Users,
                         L("Users"),
                         url: "Users",
-                        icon: "people",
+                        icon: "fa fa-users",
                         requiredPermissionName: PermissionNames.Pages_Users
                     )
                 ).AddItem(
@@ -41,7 +41,7 @@ namespace Dacnsoft.Admin.Web.Startup
                         PageNames.Roles,
                         L("Roles"),
                         url: "Roles",
-                        icon: "local_offer",
+                        icon: "fa  fa-legal",
                         requiredPermissionName: PermissionNames.Pages_Roles
                     )
                 )
@@ -50,40 +50,40 @@ namespace Dacnsoft.Admin.Web.Startup
                         PageNames.About,
                         L("About"),
                         url: "About",
-                        icon: "info"
+                        icon: "fa fa-info"
                     )
                 ).AddItem( // Menu items below is just for demonstration!
                     new MenuItemDefinition(
                         "MultiLevelMenu",
                         L("MultiLevelMenu"),
-                        icon: "menu"
+                        icon: "fa fa-navicon"
                     ).AddItem(
                         new MenuItemDefinition(
                             "AspNetBoilerplate",
                             new FixedLocalizableString("ASP.NET Boilerplate")
                         ).AddItem(
                             new MenuItemDefinition(
-                                "AspNetBoilerplateHome",
+                                PageNames.Home,
                                 new FixedLocalizableString("Home"),
-                                url: "https://aspnetboilerplate.com?ref=abptmpl"
+                                url: ""
                             )
                         ).AddItem(
                             new MenuItemDefinition(
-                                "AspNetBoilerplateTemplates",
+                                PageNames.Tenants,
                                 new FixedLocalizableString("Templates"),
-                                url: "https://aspnetboilerplate.com/Templates?ref=abptmpl"
+                                url: "Tenants"
                             )
                         ).AddItem(
                             new MenuItemDefinition(
-                                "AspNetBoilerplateSamples",
+                                PageNames.Users,
                                 new FixedLocalizableString("Samples"),
-                                url: "https://aspnetboilerplate.com/Samples?ref=abptmpl"
+                                url: "Users"
                             )
                         ).AddItem(
                             new MenuItemDefinition(
-                                "AspNetBoilerplateDocuments",
+                                PageNames.Roles,
                                 new FixedLocalizableString("Documents"),
-                                url: "https://aspnetboilerplate.com/Pages/Documents?ref=abptmpl"
+                                url: "Roles"
                             )
                         )
                     ).AddItem(

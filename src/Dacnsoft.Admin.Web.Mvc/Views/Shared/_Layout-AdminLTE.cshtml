@@ -32,6 +32,8 @@
     <link rel="shortcut icon" href="~/favicon.ico">
     <title>Admin</title>
     <environment names="Development">
+        @*<link href="~/fonts/roboto/roboto.css" rel="stylesheet" asp-append-version="true" />*@
+        @*<link href="~/fonts/material-icons/materialicons.css" rel="stylesheet" asp-append-version="true" />*@
         <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css">
         <!-- Font Awesome -->
         <link rel="stylesheet" href="~/lib/font-awesome/css/font-awesome.css">
@@ -40,8 +42,8 @@
         <!-- Theme style -->
         <link rel="stylesheet" href="~/lib/admin-lte/dist/css/AdminLTE.css">
         <!-- AdminLTE Skins. We have chosen the skin-blue for this starter
-          page. However, you can choose any other skin. Make sure you
-          apply the skin class to the body tag so the changes take effect. -->
+    page. However, you can choose any other skin. Make sure you
+    apply the skin class to the body tag so the changes take effect. -->
         <link rel="stylesheet" href="~/lib/admin-lte/dist/css/skins/_all-skins.css">
 
     </environment>
@@ -66,12 +68,12 @@
         abp.appPath = '@ApplicationPath';
     </script>
 </head>
-<body class="hold-transition skin-green-light sidebar-mini">
+<body class="hold-transition skin-black sidebar-mini">
     <div class="wrapper">
         <!-- Main Header -->
         @await Component.InvokeAsync("Header")
         <!-- Left side column. contains the logo and sidebar -->
-        @await Component.InvokeAsync("SideBarNav")
+        @await Component.InvokeAsync(typeof(SideBarNavViewComponent), new { activeMenu = ViewBag.CurrentPageName })
         <!-- Content Wrapper. Contains page content -->
         <div class="content-wrapper">
             <!-- Content Header (Page header) -->
@@ -95,7 +97,7 @@
         @await Component.InvokeAsync("ControlSidebar")
         <!-- /.control-sidebar -->
         <!-- Add the sidebar's background. This div must be placed
-         immediately after the control sidebar -->
+     immediately after the control sidebar -->
         <div class="control-sidebar-bg"></div>
     </div>
 

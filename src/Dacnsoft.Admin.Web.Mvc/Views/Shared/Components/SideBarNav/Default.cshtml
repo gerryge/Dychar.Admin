@@ -20,71 +20,81 @@
 }
 <aside class="main-sidebar">
     <section class="sidebar">
-        <div class="menu">
-            <ul class="sidebar-menu" data-widget="tree">
-                @foreach (var menuItem in Model.MainMenu.Items)
+        <ul class="sidebar-menu" data-widget="tree">
+            @*<li class="header">Main Menu</li>*@
+            @foreach (var menuItem in Model.MainMenu.Items)
+            {
+                @if (menuItem.Items.IsNullOrEmpty())
                 {
                     <li class="@(Model.ActiveMenuItemName == menuItem.Name ? "active" : "")">
-                        @if (menuItem.Items.IsNullOrEmpty())
-                        {
-                            <a href="@calculateMenuUrl(menuItem.Url)">
-                                @if (!string.IsNullOrWhiteSpace(menuItem.Icon))
-                                {
-                                    <i class="material-icons">@menuItem.Icon</i>
-                                }
-                                <span>@menuItem.DisplayName</span>
-                            </a>
-                        }
-                        else
-                        {
-                            <a href="javascript:void(0);" class="menu-toggle">
-                                @if (!string.IsNullOrWhiteSpace(menuItem.Icon))
-                                {
-                                    <i class="material-icons">@menuItem.Icon</i>
-                                }
-                                <span>@menuItem.DisplayName</span>
-                            </a>
-                            <ul class="ml-menu">
-                                @foreach (var subMenuItem in menuItem.Items)
-                                {
-                                    <li class="@(Model.ActiveMenuItemName == subMenuItem.Name ? "active" : "")">
-                                        @if (subMenuItem.Items.IsNullOrEmpty())
-                                        {
-                                            <a href="@calculateMenuUrl(subMenuItem.Url)">
-                                                @if (!string.IsNullOrWhiteSpace(subMenuItem.Icon))
-                                                {
-                                                    <i class="material-icons">@subMenuItem.Icon</i>
-                                                }
-                                                <span>@subMenuItem.DisplayName</span>
-                                            </a>
-                                        }
-                                        else
-                                        {
-                                            <a href="javascript:void(0);" class="menu-toggle">
-                                                @if (!string.IsNullOrWhiteSpace(subMenuItem.Icon))
-                                                {
-                                                    <i class="material-icons">@subMenuItem.Icon</i>
-                                                }
-                                                <span>@subMenuItem.DisplayName</span>
-                                            </a>
-                                            <ul class="ml-menu">
-                                                @foreach (var subSubMenuItem in subMenuItem.Items)
-                                                {
-                                                    <li class="@(Model.ActiveMenuItemName == subSubMenuItem.Name ? "active" : "")">
-                                                        <a href="@calculateMenuUrl(subSubMenuItem.Url)">
-                                                            @subSubMenuItem.DisplayName
-                                                        </a>
-                                                    </li>
-                                                }
-                                            </ul>
-                                        }
-                                    </li>
-                                }
-                            </ul>
-                        }
+                        <a href="@calculateMenuUrl(menuItem.Url)">
+                            @if (!string.IsNullOrWhiteSpace(menuItem.Icon))
+                            {
+                                <i class="@menuItem.Icon"></i>
+                            }
+                            <span>@menuItem.DisplayName</span>
+                        </a>
                     </li>
                 }
-            </ul>
-        </div>
+                else
+                {
+                    <li class="treeview">
+                        <a href="javascript:void(0);">
+                            @if (!string.IsNullOrWhiteSpace(menuItem.Icon))
+                            {
+                                <i class="@menuItem.Icon"></i>
+                            }
+                            <span>@menuItem.DisplayName</span>
+                            <span class="pull-right-container">
+                                <i class="fa fa-angle-left pull-right"></i>
+                            </span>
+                        </a>
+                        <ul class="treeview-menu">
+                            @foreach (var subMenuItem in menuItem.Items)
+                            {
+                                @if (subMenuItem.Items.IsNullOrEmpty())
+                                {
+                                    <li class="@(Model.ActiveMenuItemName == subMenuItem.Name ? "active" : "")">
+                                        <a href="@calculateMenuUrl(subMenuItem.Url)">
+                                            @if (!string.IsNullOrWhiteSpace(subMenuItem.Icon))
+                                            {
+                                                <i class="@subMenuItem.Icon"></i>
+                                            }
+                                            <span>@subMenuItem.DisplayName</span>
+                                        </a>
+                                    </li>
+                                }
+                                else
+                                {
+                                    <li class="treeview">
+                                        <a href="javascript:void(0);" class="">
+                                            @if (!string.IsNullOrWhiteSpace(subMenuItem.Icon))
+                                            {
+                                                <i class="@subMenuItem.Icon"></i>
+                                            }
+                                            <span>@subMenuItem.DisplayName</span>
+                                            <span class="pull-right-container">
+                                                <i class="fa fa-angle-left pull-right"></i>
+                                            </span>
+                                        </a>
+                                        <ul class="treeview-menu">
+                                            @foreach (var subSubMenuItem in subMenuItem.Items)
+                                            {
+                                                <li class="@(Model.ActiveMenuItemName == subSubMenuItem.Name ? "active" : "")">
+                                                    <a href="@calculateMenuUrl(subSubMenuItem.Url)">
+                                                        @subSubMenuItem.DisplayName
+                                                    </a>
+                                                </li>
+                                            }
+                                        </ul>
+                                    </li>
+                                }
+                            }
+                        </ul>
+                    </li>
+                }
+
+            }
+        </ul>
     </section>
 </aside>
