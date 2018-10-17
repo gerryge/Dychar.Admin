@@ -1,17 +1,16 @@
 //! moment.js locale configuration
-//! locale : Montenegrin [me]
-//! author : Miodrag Nikač <miodrag@restartit.me> : https://github.com/miodragnikac
 
 ;(function (global, factory) {
    typeof exports === 'object' && typeof module !== 'undefined'
        && typeof require === 'function' ? factory(require('../moment')) :
    typeof define === 'function' && define.amd ? define(['../moment'], factory) :
    factory(global.moment)
-}(this, function (moment) { 'use strict';
+}(this, (function (moment) { 'use strict';
 
 
     var translator = {
         words: { //Different grammatical cases
+            ss: ['sekund', 'sekunda', 'sekundi'],
             m: ['jedan minut', 'jednog minuta'],
             mm: ['minut', 'minuta', 'minuta'],
             h: ['jedan sat', 'jednog sata'],
@@ -44,7 +43,7 @@
         longDateFormat: {
             LT: 'H:mm',
             LTS : 'H:mm:ss',
-            L: 'DD. MM. YYYY',
+            L: 'DD.MM.YYYY',
             LL: 'D. MMMM YYYY',
             LLL: 'D. MMMM YYYY H:mm',
             LLLL: 'dddd, D. MMMM YYYY H:mm'
@@ -87,6 +86,7 @@
             future : 'za %s',
             past   : 'prije %s',
             s      : 'nekoliko sekundi',
+            ss     : translator.translate,
             m      : translator.translate,
             mm     : translator.translate,
             h      : translator.translate,
@@ -98,7 +98,7 @@
             y      : 'godinu',
             yy     : translator.translate
         },
-        ordinalParse: /\d{1,2}\./,
+        dayOfMonthOrdinalParse: /\d{1,2}\./,
         ordinal : '%d.',
         week : {
             dow : 1, // Monday is the first day of the week.
@@ -108,4 +108,4 @@
 
     return me;
 
-}));
+})));

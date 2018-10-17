@@ -1,13 +1,11 @@
 //! moment.js locale configuration
-//! locale : Slovenian [sl]
-//! author : Robert Sedovšek : https://github.com/sedovsek
 
 ;(function (global, factory) {
    typeof exports === 'object' && typeof module !== 'undefined'
        && typeof require === 'function' ? factory(require('../moment')) :
    typeof define === 'function' && define.amd ? define(['../moment'], factory) :
    factory(global.moment)
-}(this, function (moment) { 'use strict';
+}(this, (function (moment) { 'use strict';
 
 
     function processRelativeTime(number, withoutSuffix, key, isFuture) {
@@ -15,6 +13,17 @@
         switch (key) {
             case 's':
                 return withoutSuffix || isFuture ? 'nekaj sekund' : 'nekaj sekundami';
+            case 'ss':
+                if (number === 1) {
+                    result += withoutSuffix ? 'sekundo' : 'sekundi';
+                } else if (number === 2) {
+                    result += withoutSuffix || isFuture ? 'sekundi' : 'sekundah';
+                } else if (number < 5) {
+                    result += withoutSuffix || isFuture ? 'sekunde' : 'sekundah';
+                } else {
+                    result += withoutSuffix || isFuture ? 'sekund' : 'sekund';
+                }
+                return result;
             case 'm':
                 return withoutSuffix ? 'ena minuta' : 'eno minuto';
             case 'mm':
@@ -92,7 +101,7 @@
         longDateFormat : {
             LT : 'H:mm',
             LTS : 'H:mm:ss',
-            L : 'DD. MM. YYYY',
+            L : 'DD.MM.YYYY',
             LL : 'D. MMMM YYYY',
             LLL : 'D. MMMM YYYY H:mm',
             LLLL : 'dddd, D. MMMM YYYY H:mm'
@@ -138,6 +147,7 @@
             future : 'čez %s',
             past   : 'pred %s',
             s      : processRelativeTime,
+            ss     : processRelativeTime,
             m      : processRelativeTime,
             mm     : processRelativeTime,
             h      : processRelativeTime,
@@ -149,7 +159,7 @@
             y      : processRelativeTime,
             yy     : processRelativeTime
         },
-        ordinalParse: /\d{1,2}\./,
+        dayOfMonthOrdinalParse: /\d{1,2}\./,
         ordinal : '%d.',
         week : {
             dow : 1, // Monday is the first day of the week.
@@ -159,4 +169,4 @@
 
     return sl;
 
-}));
+})));

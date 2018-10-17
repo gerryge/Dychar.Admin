@@ -25,9 +25,11 @@
     "chart.js": "chartjs#^2.6.0",
     "jquery-sparkline": "^2.1.3",
     "Flot": "jquery-flot#^0.8.3",
-    "abp-web-resources": "^3.5.0"
+    "abp-web-resources": "^3.5.0",
+    "admin-lte": "v2.4.8"
   },
   "resolutions": {
-    "jquery": ">=1.6.3"
+    "jquery": ">= 1.2.6",
+    "chart.js": "^2.6.0"
   }
 }
