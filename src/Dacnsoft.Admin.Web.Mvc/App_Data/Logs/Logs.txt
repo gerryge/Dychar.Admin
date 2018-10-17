@@ -757,3 +757,319 @@ INFO  2018-10-16 19:47:20,328 [27   ] ore.Mvc.Internal.ControllerActionInvoker -
 INFO  2018-10-16 19:47:20,373 [7    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
 INFO  2018-10-16 19:47:20,376 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Dacnsoft.Admin.Configuration.ConfigurationAppService.ChangeUiTheme (Dacnsoft.Admin.Application) in 177.4029ms
 INFO  2018-10-16 19:47:20,379 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 192.0386ms 200 application/json; charset=utf-8
+DEBUG 2018-10-17 11:12:30,756 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-10-17 11:12:30,995 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2018-10-17 11:12:31,025 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Dacnsoft.Admin.Web.Startup.AdminWebMvcModule, Dacnsoft.Admin.Web.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-10-17 11:12:31,030 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Dacnsoft.Admin.AdminWebCoreModule, Dacnsoft.Admin.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-10-17 11:12:31,048 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Dacnsoft.Admin.AdminApplicationModule, Dacnsoft.Admin.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-10-17 11:12:31,048 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Dacnsoft.Admin.AdminCoreModule, Dacnsoft.Admin.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-10-17 11:12:31,048 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=3.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-10-17 11:12:31,049 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-10-17 11:12:31,049 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-10-17 11:12:31,050 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-10-17 11:12:31,050 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Dacnsoft.Admin.EntityFrameworkCore.AdminEntityFrameworkModule, Dacnsoft.Admin.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-10-17 11:12:31,050 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=3.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-10-17 11:12:31,051 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=3.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-10-17 11:12:31,051 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-10-17 11:12:31,052 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=3.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-10-17 11:12:31,053 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-10-17 11:12:31,053 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=3.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-10-17 11:12:31,057 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2018-10-17 11:12:31,253 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-10-17 11:12:31,253 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-10-17 11:12:31,253 [1    ] o.Configuration.LanguageManagementConfig - Converted Admin (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-10-17 11:12:31,253 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-10-17 11:12:31,885 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: Dacnsoft.Admin.EntityFrameworkCore.AdminDbContext, Dacnsoft.Admin.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-10-17 11:12:33,398 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2018-10-17 11:12:33,494 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-10-17 11:12:33,506 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-10-17 11:12:33,511 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Admin
+DEBUG 2018-10-17 11:12:33,517 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-10-17 11:12:33,738 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-10-17 11:12:33,789 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 12 classes define auto mapping attributes
+DEBUG 2018-10-17 11:12:33,789 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Dacnsoft.Admin.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2018-10-17 11:12:33,797 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Dacnsoft.Admin.Users.Dto.CreateUserDto
+DEBUG 2018-10-17 11:12:33,798 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Dacnsoft.Admin.Users.Dto.UserDto
+DEBUG 2018-10-17 11:12:33,799 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Dacnsoft.Admin.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2018-10-17 11:12:33,799 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Dacnsoft.Admin.Sessions.Dto.UserLoginInfoDto
+DEBUG 2018-10-17 11:12:33,799 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Dacnsoft.Admin.Roles.Dto.CreateRoleDto
+DEBUG 2018-10-17 11:12:33,799 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Dacnsoft.Admin.Roles.Dto.PermissionDto
+DEBUG 2018-10-17 11:12:33,799 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Dacnsoft.Admin.Roles.Dto.RoleDto
+DEBUG 2018-10-17 11:12:33,800 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Dacnsoft.Admin.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2018-10-17 11:12:33,800 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Dacnsoft.Admin.MultiTenancy.Dto.TenantDto
+DEBUG 2018-10-17 11:12:33,801 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Dacnsoft.Admin.Web.Views.Shared.Components.TenantChange.TenantChangeViewModel
+DEBUG 2018-10-17 11:12:33,801 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Dacnsoft.Admin.Web.Models.Roles.EditRoleModalViewModel
+INFO  2018-10-17 11:12:41,262 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/  
+INFO  2018-10-17 11:12:41,262 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 DEBUG http://localhost:62114/  0
+INFO  2018-10-17 11:12:41,370 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 116.5225ms 200 
+INFO  2018-10-17 11:12:50,217 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing action Dacnsoft.Admin.Web.Controllers.HomeController.Index (Dacnsoft.Admin.Web.Mvc)
+WARN  2018-10-17 11:12:51,079 [7    ] Mvc.Authorization.AbpAuthorizationFilter - Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.AuthorizeAsync(IEnumerable`1 authorizeAttributes) in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 43
+   at Abp.Authorization.AuthorizationHelper.CheckPermissions(MethodInfo methodInfo, Type type) in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 103
+   at Abp.Authorization.AuthorizationHelper.AuthorizeAsync(MethodInfo methodInfo, Type type) in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 57
+   at Abp.AspNetCore.Mvc.Authorization.AbpAuthorizationFilter.OnAuthorizationAsync(AuthorizationFilterContext context) in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\Mvc\Authorization\AbpAuthorizationFilter.cs:line 53
+Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.AuthorizeAsync(IEnumerable`1 authorizeAttributes) in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 43
+   at Abp.Authorization.AuthorizationHelper.CheckPermissions(MethodInfo methodInfo, Type type) in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 103
+   at Abp.Authorization.AuthorizationHelper.AuthorizeAsync(MethodInfo methodInfo, Type type) in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 57
+   at Abp.AspNetCore.Mvc.Authorization.AbpAuthorizationFilter.OnAuthorizationAsync(AuthorizationFilterContext context) in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\Mvc\Authorization\AbpAuthorizationFilter.cs:line 53
+INFO  2018-10-17 11:12:51,085 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Authorization failed for the request at filter 'Abp.AspNetCore.Mvc.Authorization.AbpAuthorizationFilter'.
+INFO  2018-10-17 11:12:51,099 [7    ] Microsoft.AspNetCore.Mvc.ChallengeResult - Executing ChallengeResult with authentication schemes ().
+INFO  2018-10-17 11:12:51,127 [7    ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was challenged.
+INFO  2018-10-17 11:12:51,131 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Dacnsoft.Admin.Web.Controllers.HomeController.Index (Dacnsoft.Admin.Web.Mvc) in 909.1765ms
+INFO  2018-10-17 11:12:51,155 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/Account/Login?ReturnUrl=%2F  
+INFO  2018-10-17 11:12:51,157 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 9908.8936ms 302 
+INFO  2018-10-17 11:12:51,198 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Login", controller = "Account", area = ""}. Executing action Dacnsoft.Admin.Web.Controllers.AccountController.Login (Dacnsoft.Admin.Web.Mvc)
+INFO  2018-10-17 11:12:53,907 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Dacnsoft.Admin.Web.Controllers.AccountController.Login (Dacnsoft.Admin.Web.Mvc) with arguments (, /, ) - Validation state: Valid
+INFO  2018-10-17 11:12:53,919 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Dacnsoft.Admin.Web.Controllers.AccountController.Login (Dacnsoft.Admin.Web.Mvc), returned result Microsoft.AspNetCore.Mvc.ViewResult in 7.7835ms.
+INFO  2018-10-17 11:12:54,103 [7    ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Login.
+INFO  2018-10-17 11:12:54,824 [7    ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Login executed in 805.7202ms.
+INFO  2018-10-17 11:12:54,880 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Dacnsoft.Admin.Web.Controllers.AccountController.Login (Dacnsoft.Admin.Web.Mvc) in 3632.9195ms
+INFO  2018-10-17 11:12:54,886 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/fonts/roboto/roboto.css?v=53F8z0aw8DRnG9ou9x1tuKMPbNjRZWM-VBHl3B0s9-o  
+INFO  2018-10-17 11:12:54,890 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/fonts/material-icons/materialicons.css?v=8pEJ8MWsFzHRDLY0NI5rssf6T6vankxrJDPnnZxOGrg  
+INFO  2018-10-17 11:12:54,891 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/bootstrap/dist/css/bootstrap.css?v=opI27tVP8lfzTdiKv9Wi8UuRkNhIAvZwMVLWtOpRHKk  
+INFO  2018-10-17 11:12:54,894 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/famfamfam-flags/dist/sprite/famfamfam-flags.css?v=JVJiF3s2_kk99xQHfYhfxo_-Dd52ZIruDMOILwPkqv0  
+INFO  2018-10-17 11:12:54,924 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 3769.0169ms 200 text/html; charset=utf-8
+INFO  2018-10-17 11:12:54,926 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/toastr/toastr.css?v=kKePN_CyxTiMEgsSDu_7z21ru07YOZtR-0UV0JOkt5o  
+INFO  2018-10-17 11:12:54,948 [14   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/famfamfam-flags/dist/sprite/famfamfam-flags.css'. Physical path: 'D:\Projects\Github\Dacnsoft.Admin\src\Dacnsoft.Admin.Web.Mvc\wwwroot\lib\famfamfam-flags\dist\sprite\famfamfam-flags.css'
+INFO  2018-10-17 11:12:54,952 [6    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/fonts/material-icons/materialicons.css'. Physical path: 'D:\Projects\Github\Dacnsoft.Admin\src\Dacnsoft.Admin.Web.Mvc\wwwroot\fonts\material-icons\materialicons.css'
+INFO  2018-10-17 11:12:54,954 [7    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/toastr/toastr.css'. Physical path: 'D:\Projects\Github\Dacnsoft.Admin\src\Dacnsoft.Admin.Web.Mvc\wwwroot\lib\toastr\toastr.css'
+INFO  2018-10-17 11:12:54,956 [11   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/fonts/roboto/roboto.css'. Physical path: 'D:\Projects\Github\Dacnsoft.Admin\src\Dacnsoft.Admin.Web.Mvc\wwwroot\fonts\roboto\roboto.css'
+INFO  2018-10-17 11:12:54,957 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 57.6834ms 200 text/css
+INFO  2018-10-17 11:12:54,958 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 77.9488ms 200 text/css
+INFO  2018-10-17 11:12:54,960 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 69.8846ms 200 text/css
+INFO  2018-10-17 11:12:54,961 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 32.4126ms 200 text/css
+INFO  2018-10-17 11:12:54,976 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/font-awesome/css/font-awesome.css?v=YIHlqxkiJtENTMuzIHC9EfZaB5RniGr7kF7juUQJUuc  
+INFO  2018-10-17 11:12:54,991 [11   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.css'. Physical path: 'D:\Projects\Github\Dacnsoft.Admin\src\Dacnsoft.Admin.Web.Mvc\wwwroot\lib\bootstrap\dist\css\bootstrap.css'
+INFO  2018-10-17 11:12:54,993 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/font-awesome/css/font-awesome.css'. Physical path: 'D:\Projects\Github\Dacnsoft.Admin\src\Dacnsoft.Admin.Web.Mvc\wwwroot\lib\font-awesome\css\font-awesome.css'
+INFO  2018-10-17 11:12:54,995 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 111.6388ms 200 text/css
+INFO  2018-10-17 11:12:55,002 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 21.8642ms 200 text/css
+INFO  2018-10-17 11:12:55,004 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/Waves/dist/waves.css?v=nd3hxjNg6DhkuFIz5IbxLK8Xw2ac0blsDQpF4pkJxUc  
+INFO  2018-10-17 11:12:55,009 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/css/style.css?v=Hmj_hRbtMwZt6Iov-5Sm2qe6D6y7PFUTQRDdUyYreE4  
+INFO  2018-10-17 11:12:55,010 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/animate.css/animate.css?v=IT6GQizZpVcaM1_L_mIiNAYVvZErMgfwewf1GGWXG_I  
+INFO  2018-10-17 11:12:55,019 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/css/materialize.css?v=ey-J3xahkqficOYUHVX3jexmzvRFrge9bmux4CQr1DQ  
+INFO  2018-10-17 11:12:55,024 [7    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/Waves/dist/waves.css'. Physical path: 'D:\Projects\Github\Dacnsoft.Admin\src\Dacnsoft.Admin.Web.Mvc\wwwroot\lib\Waves\dist\waves.css'
+INFO  2018-10-17 11:12:55,027 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 26.9532ms 200 text/css
+INFO  2018-10-17 11:12:55,037 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Account/_Layout.css?v=xwt8JYbj8Mkb1RNju6XwW_7TfGRHHIDWaSjBggiszMY  
+INFO  2018-10-17 11:12:55,040 [6    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/css/materialize.css'. Physical path: 'D:\Projects\Github\Dacnsoft.Admin\src\Dacnsoft.Admin.Web.Mvc\wwwroot\css\materialize.css'
+INFO  2018-10-17 11:12:55,042 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/animate.css/animate.css'. Physical path: 'D:\Projects\Github\Dacnsoft.Admin\src\Dacnsoft.Admin.Web.Mvc\wwwroot\lib\animate.css\animate.css'
+INFO  2018-10-17 11:12:55,045 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 30.4941ms 200 text/css
+INFO  2018-10-17 11:12:55,047 [11   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/view-resources/Views/Account/_Layout.css'. Physical path: 'D:\Projects\Github\Dacnsoft.Admin\src\Dacnsoft.Admin.Web.Mvc\wwwroot\view-resources\Views\Account\_Layout.css'
+INFO  2018-10-17 11:12:55,050 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Account/Login.css?v=poK-oXF5FUWfhU9hEaEbjLzGQhIVms6YtQoQ3OEZtec  
+INFO  2018-10-17 11:12:55,053 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 49.135ms 200 text/css
+INFO  2018-10-17 11:12:55,056 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 25.0489ms 200 text/css
+INFO  2018-10-17 11:12:55,066 [7    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/css/style.css'. Physical path: 'D:\Projects\Github\Dacnsoft.Admin\src\Dacnsoft.Admin.Web.Mvc\wwwroot\css\style.css'
+INFO  2018-10-17 11:12:55,071 [6    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/view-resources/Views/Account/Login.css'. Physical path: 'D:\Projects\Github\Dacnsoft.Admin\src\Dacnsoft.Admin.Web.Mvc\wwwroot\view-resources\Views\Account\Login.css'
+INFO  2018-10-17 11:12:55,073 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/jquery-validation/dist/jquery.validate.js?v=ZDzsHzuLAtqQVxXwbgRtfAPXQ7UAoJRXBAUDvc9G9CI  
+INFO  2018-10-17 11:12:55,077 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/blockUI/jquery.blockUI.js?v=KKcUNqwNyTLaXzvuMyFk6JisiQq6Hk7ZtrciXnEf3Z0  
+INFO  2018-10-17 11:12:55,085 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 70.9752ms 200 text/css
+INFO  2018-10-17 11:12:55,087 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 28.8715ms 200 text/css
+INFO  2018-10-17 11:12:55,088 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/json2/json2.js?v=w3DjWhUtDqy3bSJKv285C-2kagUtW9F64T9z3xRah8g  
+INFO  2018-10-17 11:12:55,090 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/jquery-validation/dist/jquery.validate.js'. Physical path: 'D:\Projects\Github\Dacnsoft.Admin\src\Dacnsoft.Admin.Web.Mvc\wwwroot\lib\jquery-validation\dist\jquery.validate.js'
+INFO  2018-10-17 11:12:55,094 [11   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/blockUI/jquery.blockUI.js'. Physical path: 'D:\Projects\Github\Dacnsoft.Admin\src\Dacnsoft.Admin.Web.Mvc\wwwroot\lib\blockUI\jquery.blockUI.js'
+INFO  2018-10-17 11:12:55,097 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/bootstrap/dist/js/bootstrap.js?v=1fo3W6qowq4PinpCsKshaVqewExoFmzrRBGKbSdAVEk  
+INFO  2018-10-17 11:12:55,102 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 25.4462ms 200 application/javascript
+INFO  2018-10-17 11:12:55,110 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 30.017ms 200 application/javascript
+INFO  2018-10-17 11:12:55,113 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/toastr/toastr.js?v=prO6YeBrp6FzpE6glX7_GlSoPssvH4_OmY6Z3YJ2c6c  
+INFO  2018-10-17 11:12:55,126 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/json2/json2.js'. Physical path: 'D:\Projects\Github\Dacnsoft.Admin\src\Dacnsoft.Admin.Web.Mvc\wwwroot\lib\json2\json2.js'
+INFO  2018-10-17 11:12:55,127 [11   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.js'. Physical path: 'D:\Projects\Github\Dacnsoft.Admin\src\Dacnsoft.Admin.Web.Mvc\wwwroot\lib\bootstrap\dist\js\bootstrap.js'
+INFO  2018-10-17 11:12:55,130 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 39.4762ms 200 application/javascript
+INFO  2018-10-17 11:12:55,132 [6    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/toastr/toastr.js'. Physical path: 'D:\Projects\Github\Dacnsoft.Admin\src\Dacnsoft.Admin.Web.Mvc\wwwroot\lib\toastr\toastr.js'
+INFO  2018-10-17 11:12:55,137 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 38.431ms 200 application/javascript
+INFO  2018-10-17 11:12:55,140 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 25.3864ms 200 application/javascript
+INFO  2018-10-17 11:12:55,143 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/sweetalert/dist/sweetalert.min.js?v=aPktydUv1rN3mouQeXoKi3ioFTIQlULuqYeoTAA2ihY  
+INFO  2018-10-17 11:12:55,147 [6    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/sweetalert/dist/sweetalert.min.js'. Physical path: 'D:\Projects\Github\Dacnsoft.Admin\src\Dacnsoft.Admin.Web.Mvc\wwwroot\lib\sweetalert\dist\sweetalert.min.js'
+INFO  2018-10-17 11:12:55,150 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 5.9877ms 200 application/javascript
+INFO  2018-10-17 11:12:55,247 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/jquery/dist/jquery.js?v=GcL_g4TBRVIQSi96WoMK71EGaYN9ZfsMIKm-50nlS4s  
+INFO  2018-10-17 11:12:55,253 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/spin.js/spin.js?v=b1plKpQIB-XuGyjWec42MhmhpPzEPzFI3OC8Ia0XIoc  
+INFO  2018-10-17 11:12:55,257 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/Waves/dist/waves.js?v=ZOMv1vwqpT_ezNZGhvr9jJTr_jqu3lYHB7vmpxD7HmA  
+INFO  2018-10-17 11:12:55,258 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/spin.js/jquery.spin.js?v=i7H7HL08ldqUANgfQInE7LlU2uWUdQMCJ-Q7-_zLutY  
+INFO  2018-10-17 11:12:55,261 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/moment/min/moment-with-locales.js?v=5f0RFtuChrGi6osDzegxXWf5yOkmx45i7J9fM1p6P5w  
+INFO  2018-10-17 11:12:55,263 [11   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/spin.js/jquery.spin.js'. Physical path: 'D:\Projects\Github\Dacnsoft.Admin\src\Dacnsoft.Admin.Web.Mvc\wwwroot\lib\spin.js\jquery.spin.js'
+INFO  2018-10-17 11:12:55,270 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 32.8978ms 200 application/javascript
+INFO  2018-10-17 11:12:55,277 [6    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/Waves/dist/waves.js'. Physical path: 'D:\Projects\Github\Dacnsoft.Admin\src\Dacnsoft.Admin.Web.Mvc\wwwroot\lib\Waves\dist\waves.js'
+INFO  2018-10-17 11:12:55,280 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/abp-web-resources/Abp/Framework/scripts/abp.js?v=EjNSmvtPSqCVK_xG_aTvOp8hmVM_7vwyd3hg45CAMGk  
+INFO  2018-10-17 11:12:55,293 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/spin.js/spin.js'. Physical path: 'D:\Projects\Github\Dacnsoft.Admin\src\Dacnsoft.Admin.Web.Mvc\wwwroot\lib\spin.js\spin.js'
+INFO  2018-10-17 11:12:55,298 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 61.8544ms 200 application/javascript
+INFO  2018-10-17 11:12:55,303 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.sweet-alert.js?v=fPp3O_ILaqD0UHiR721w1i4iBtxo3NH7yfldI5dg0_I  
+INFO  2018-10-17 11:12:55,306 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 69.1417ms 200 application/javascript
+INFO  2018-10-17 11:12:55,310 [7    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/abp-web-resources/Abp/Framework/scripts/abp.js'. Physical path: 'D:\Projects\Github\Dacnsoft.Admin\src\Dacnsoft.Admin.Web.Mvc\wwwroot\lib\abp-web-resources\Abp\Framework\scripts\abp.js'
+INFO  2018-10-17 11:12:55,325 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 46.1539ms 200 application/javascript
+INFO  2018-10-17 11:12:55,331 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.jquery.js?v=XEXcdRYb4eN3XoQCbnM-BSR6UifHRLsXYDIVFZ7Oc6Q  
+INFO  2018-10-17 11:12:55,340 [6    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/jquery/dist/jquery.js'. Physical path: 'D:\Projects\Github\Dacnsoft.Admin\src\Dacnsoft.Admin.Web.Mvc\wwwroot\lib\jquery\dist\jquery.js'
+INFO  2018-10-17 11:12:55,343 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.toastr.js?v=QiSp17ew3zyFmdlcKq4HCIOw7UaqE8MC46Ekv50GzPs  
+INFO  2018-10-17 11:12:55,353 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 112.8832ms 200 application/javascript
+INFO  2018-10-17 11:12:55,356 [7    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.jquery.js'. Physical path: 'D:\Projects\Github\Dacnsoft.Admin\src\Dacnsoft.Admin.Web.Mvc\wwwroot\lib\abp-web-resources\Abp\Framework\scripts\libs\abp.jquery.js'
+INFO  2018-10-17 11:12:55,363 [11   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.sweet-alert.js'. Physical path: 'D:\Projects\Github\Dacnsoft.Admin\src\Dacnsoft.Admin.Web.Mvc\wwwroot\lib\abp-web-resources\Abp\Framework\scripts\libs\abp.sweet-alert.js'
+INFO  2018-10-17 11:12:55,365 [6    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.toastr.js'. Physical path: 'D:\Projects\Github\Dacnsoft.Admin\src\Dacnsoft.Admin.Web.Mvc\wwwroot\lib\abp-web-resources\Abp\Framework\scripts\libs\abp.toastr.js'
+INFO  2018-10-17 11:12:55,371 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 34.0339ms 200 application/javascript
+INFO  2018-10-17 11:12:55,373 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 44.1157ms 200 application/javascript
+INFO  2018-10-17 11:12:55,376 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/moment/min/moment-with-locales.js'. Physical path: 'D:\Projects\Github\Dacnsoft.Admin\src\Dacnsoft.Admin.Web.Mvc\wwwroot\lib\moment\min\moment-with-locales.js'
+INFO  2018-10-17 11:12:55,382 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.spin.js?v=djoKib6ssm5DDzbXLe5pD7ayfFg3siaoEk-BFYzQlvI  
+INFO  2018-10-17 11:12:55,412 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/js/main.js?v=KFEh7u8maWOdJfhsk0aMlVVArRMx7f_X1SU7ZXvusFw  
+INFO  2018-10-17 11:12:55,427 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 120.7624ms 200 application/javascript
+INFO  2018-10-17 11:12:55,428 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 69.2619ms 200 application/javascript
+INFO  2018-10-17 11:12:55,433 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Account/Login.js?v=fva4_U7JLc8QKq91dLZyvV5oMz9WxjutKXJ_MOl_Dj8  
+INFO  2018-10-17 11:12:55,439 [7    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.spin.js'. Physical path: 'D:\Projects\Github\Dacnsoft.Admin\src\Dacnsoft.Admin.Web.Mvc\wwwroot\lib\abp-web-resources\Abp\Framework\scripts\libs\abp.spin.js'
+INFO  2018-10-17 11:12:55,456 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/js/admin.js?v=Arfe4oER5FiUTDitsyC7vauFkVzED5S2QjygyKFEnZ8  
+INFO  2018-10-17 11:12:55,461 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.blockUI.js?v=vMuHbqHh635SKL2RG2qsGGCDyHg1yFeGqhPKpS34g4k  
+INFO  2018-10-17 11:12:55,471 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 85.4203ms 200 application/javascript
+INFO  2018-10-17 11:12:55,474 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/view-resources/Views/Account/Login.js'. Physical path: 'D:\Projects\Github\Dacnsoft.Admin\src\Dacnsoft.Admin.Web.Mvc\wwwroot\view-resources\Views\Account\Login.js'
+INFO  2018-10-17 11:12:55,488 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=636753715537409825  
+INFO  2018-10-17 11:12:55,500 [7    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.blockUI.js'. Physical path: 'D:\Projects\Github\Dacnsoft.Admin\src\Dacnsoft.Admin.Web.Mvc\wwwroot\lib\abp-web-resources\Abp\Framework\scripts\libs\abp.blockUI.js'
+INFO  2018-10-17 11:12:55,508 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 48.0492ms 200 application/javascript
+INFO  2018-10-17 11:12:55,509 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 172.5294ms 200 application/javascript
+INFO  2018-10-17 11:12:55,512 [11   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/js/admin.js'. Physical path: 'D:\Projects\Github\Dacnsoft.Admin\src\Dacnsoft.Admin.Web.Mvc\wwwroot\js\admin.js'
+INFO  2018-10-17 11:12:55,515 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/famfamfam-flags/dist/sprite/famfamfam-flags.png  
+INFO  2018-10-17 11:12:55,518 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Shared/Components/TenantChange/Default.js?v=636753715747990116  
+INFO  2018-10-17 11:12:55,522 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 83.7638ms 200 application/javascript
+INFO  2018-10-17 11:12:55,529 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=636753715537409825  
+INFO  2018-10-17 11:12:55,536 [7    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/famfamfam-flags/dist/sprite/famfamfam-flags.png'. Physical path: 'D:\Projects\Github\Dacnsoft.Admin\src\Dacnsoft.Admin.Web.Mvc\wwwroot\lib\famfamfam-flags\dist\sprite\famfamfam-flags.png'
+INFO  2018-10-17 11:12:55,540 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/view-resources/Views/Shared/Components/TenantChange/Default.js'. Physical path: 'D:\Projects\Github\Dacnsoft.Admin\src\Dacnsoft.Admin.Web.Mvc\wwwroot\view-resources\Views\Shared\Components\TenantChange\Default.js'
+INFO  2018-10-17 11:12:55,553 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 30.3712ms 200 image/png
+INFO  2018-10-17 11:12:55,556 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 30.7283ms 200 application/javascript
+INFO  2018-10-17 11:12:55,559 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/fonts/roboto/CWB0XYA8bzo0kSThX0UTuA.woff2  
+INFO  2018-10-17 11:12:55,560 [14   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)
+INFO  2018-10-17 11:12:55,564 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)
+INFO  2018-10-17 11:12:55,576 [11   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/fonts/roboto/CWB0XYA8bzo0kSThX0UTuA.woff2'. Physical path: 'D:\Projects\Github\Dacnsoft.Admin\src\Dacnsoft.Admin.Web.Mvc\wwwroot\fonts\roboto\CWB0XYA8bzo0kSThX0UTuA.woff2'
+INFO  2018-10-17 11:12:55,588 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 33.0963ms 200 font/woff2
+INFO  2018-10-17 11:12:55,590 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/js/main.js'. Physical path: 'D:\Projects\Github\Dacnsoft.Admin\src\Dacnsoft.Admin.Web.Mvc\wwwroot\js\main.js'
+INFO  2018-10-17 11:12:55,604 [14   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) with arguments () - Validation state: Valid
+INFO  2018-10-17 11:12:55,606 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 211.8348ms 200 application/javascript
+INFO  2018-10-17 11:12:55,612 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/fonts/roboto/d-6IYplOFocCacKzxwXSOFtXRa8TVwTICgirnJhmVJw.woff2  
+INFO  2018-10-17 11:12:55,613 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/fonts/material-icons/materialicons.woff2  
+INFO  2018-10-17 11:12:55,628 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/fonts/roboto/d-6IYplOFocCacKzxwXSOFtXRa8TVwTICgirnJhmVJw.woff2'. Physical path: 'D:\Projects\Github\Dacnsoft.Admin\src\Dacnsoft.Admin.Web.Mvc\wwwroot\fonts\roboto\d-6IYplOFocCacKzxwXSOFtXRa8TVwTICgirnJhmVJw.woff2'
+INFO  2018-10-17 11:12:55,640 [7    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/fonts/material-icons/materialicons.woff2'. Physical path: 'D:\Projects\Github\Dacnsoft.Admin\src\Dacnsoft.Admin.Web.Mvc\wwwroot\fonts\material-icons\materialicons.woff2'
+INFO  2018-10-17 11:12:55,641 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 22.4684ms 200 font/woff2
+INFO  2018-10-17 11:12:55,647 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 32.4325ms 200 font/woff2
+INFO  2018-10-17 11:12:55,835 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) with arguments (Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) - Validation state: Valid
+INFO  2018-10-17 11:12:55,903 [14   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.ContentResult in 296.4824ms.
+INFO  2018-10-17 11:12:55,910 [14   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2018-10-17 11:12:55,912 [14   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 349.7932ms
+INFO  2018-10-17 11:12:55,916 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 408.4474ms 200 application/x-javascript; charset=utf-8
+INFO  2018-10-17 11:12:55,997 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.ContentResult in 160.6609ms.
+INFO  2018-10-17 11:12:56,002 [6    ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2018-10-17 11:12:56,013 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 437.3816ms
+INFO  2018-10-17 11:12:56,021 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 542.222ms 200 application/x-javascript
+INFO  2018-10-17 11:12:57,155 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/favicon.ico  
+INFO  2018-10-17 11:12:57,160 [6    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/favicon.ico'. Physical path: 'D:\Projects\Github\Dacnsoft.Admin\src\Dacnsoft.Admin.Web.Mvc\wwwroot\favicon.ico'
+INFO  2018-10-17 11:12:57,166 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 8.1567ms 200 image/x-icon
+INFO  2018-10-17 11:13:01,622 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:62114/Account/Login application/x-www-form-urlencoded 256
+INFO  2018-10-17 11:13:01,636 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Login", controller = "Account", area = ""}. Executing action Dacnsoft.Admin.Web.Controllers.AccountController.Login (Dacnsoft.Admin.Web.Mvc)
+INFO  2018-10-17 11:13:01,795 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Dacnsoft.Admin.Web.Controllers.AccountController.Login (Dacnsoft.Admin.Web.Mvc) with arguments (Dacnsoft.Admin.Web.Models.Account.LoginViewModel, /, ) - Validation state: Valid
+INFO  2018-10-17 11:13:02,995 [11   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application signed in.
+INFO  2018-10-17 11:13:03,003 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Dacnsoft.Admin.Web.Controllers.AccountController.Login (Dacnsoft.Admin.Web.Mvc), returned result Microsoft.AspNetCore.Mvc.JsonResult in 1205.6578ms.
+INFO  2018-10-17 11:13:03,144 [14   ] matters.Json.Internal.JsonResultExecutor - Executing JsonResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2018-10-17 11:13:03,155 [14   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Dacnsoft.Admin.Web.Controllers.AccountController.Login (Dacnsoft.Admin.Web.Mvc) in 1516.5819ms
+INFO  2018-10-17 11:13:03,157 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1535.4067ms 200 application/json; charset=utf-8
+INFO  2018-10-17 11:13:03,166 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/  
+INFO  2018-10-17 11:13:03,225 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing action Dacnsoft.Admin.Web.Controllers.HomeController.Index (Dacnsoft.Admin.Web.Mvc)
+INFO  2018-10-17 11:13:03,265 [6    ] uthorization.DefaultAuthorizationService - Authorization was successful.
+INFO  2018-10-17 11:13:03,271 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Dacnsoft.Admin.Web.Controllers.HomeController.Index (Dacnsoft.Admin.Web.Mvc) - Validation state: Valid
+INFO  2018-10-17 11:13:03,273 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Dacnsoft.Admin.Web.Controllers.HomeController.Index (Dacnsoft.Admin.Web.Mvc), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.5037ms.
+INFO  2018-10-17 11:13:03,288 [11   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+INFO  2018-10-17 11:13:04,353 [6    ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 1063.0577ms.
+INFO  2018-10-17 11:13:04,360 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Shared/_Layout.css?v=BLxBuNISlF2O5EBHWdsX039NvnIHy-GtcqeI_MbyIc0  
+INFO  2018-10-17 11:13:04,374 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/morris.js/morris.css?v=YM2mAT6Z3Bl89X14nBvhOgTo5bZeRXMimN62teEck84  
+INFO  2018-10-17 11:13:04,378 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/images/user.png  
+INFO  2018-10-17 11:13:04,381 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/bootstrap-select/dist/css/bootstrap-select.css?v=DeY2lH0e0tmNnO9XZ-gGVOGk6_YoWlZ49y7CnD3ST00  
+INFO  2018-10-17 11:13:04,383 [16   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/css/themes/all-themes.css?v=eGSl5zNTWrXYfUx_EJW9ksC3CUTUUxvxmPiA3aQDtQo  
+INFO  2018-10-17 11:13:04,391 [18   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/view-resources/Views/Shared/_Layout.css'. Physical path: 'D:\Projects\Github\Dacnsoft.Admin\src\Dacnsoft.Admin.Web.Mvc\wwwroot\view-resources\Views\Shared\_Layout.css'
+INFO  2018-10-17 11:13:04,397 [14   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/bootstrap-select/dist/css/bootstrap-select.css'. Physical path: 'D:\Projects\Github\Dacnsoft.Admin\src\Dacnsoft.Admin.Web.Mvc\wwwroot\lib\bootstrap-select\dist\css\bootstrap-select.css'
+INFO  2018-10-17 11:13:04,402 [11   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/morris.js/morris.css'. Physical path: 'D:\Projects\Github\Dacnsoft.Admin\src\Dacnsoft.Admin.Web.Mvc\wwwroot\lib\morris.js\morris.css'
+INFO  2018-10-17 11:13:04,404 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 44.5472ms 200 text/css
+INFO  2018-10-17 11:13:04,405 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 48.6847ms 200 text/css
+INFO  2018-10-17 11:13:04,412 [16   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/css/themes/all-themes.css'. Physical path: 'D:\Projects\Github\Dacnsoft.Admin\src\Dacnsoft.Admin.Web.Mvc\wwwroot\css\themes\all-themes.css'
+INFO  2018-10-17 11:13:04,414 [14   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/images/user.png'. Physical path: 'D:\Projects\Github\Dacnsoft.Admin\src\Dacnsoft.Admin.Web.Mvc\wwwroot\images\user.png'
+INFO  2018-10-17 11:13:04,415 [16   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 59.1883ms 200 text/css
+INFO  2018-10-17 11:13:04,417 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 58.3933ms 200 image/png
+INFO  2018-10-17 11:13:04,420 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 38.1623ms 200 text/css
+INFO  2018-10-17 11:13:04,423 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/bootstrap-select/dist/js/bootstrap-select.js?v=tXulJKckrq2j2wo8a9hvmXLDEQwhGviPTIYmEzy1dNI  
+INFO  2018-10-17 11:13:04,427 [7    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/bootstrap-select/dist/js/bootstrap-select.js'. Physical path: 'D:\Projects\Github\Dacnsoft.Admin\src\Dacnsoft.Admin.Web.Mvc\wwwroot\lib\bootstrap-select\dist\js\bootstrap-select.js'
+INFO  2018-10-17 11:13:04,433 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 7.3307ms 200 application/javascript
+INFO  2018-10-17 11:13:04,436 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Dacnsoft.Admin.Web.Controllers.HomeController.Index (Dacnsoft.Admin.Web.Mvc) in 1208.8892ms
+INFO  2018-10-17 11:13:04,439 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1272.7789ms 200 text/html; charset=utf-8
+INFO  2018-10-17 11:13:04,472 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/jquery-slimscroll/jquery.slimscroll.js?v=ESVSX4dkOxamaRoYfcqPM2FfErhgfxS60fp1Fa8ou1w  
+INFO  2018-10-17 11:13:04,473 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/signalr-client/signalr.min.js?v=1yGr-J4NjYMQVt6LP6vocjHIWhO-BFQLfdCs8x1Mv-U  
+INFO  2018-10-17 11:13:04,476 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=636753715537409825  
+INFO  2018-10-17 11:13:04,479 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Shared/_Layout.js?v=RQruqClWPSu7O6l9-bzesJOrIOxROTb3CPVyIIqP_cw  
+INFO  2018-10-17 11:13:04,486 [16   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/push.js/push.js?v=w347yqiscLjM_TxUKpqeUA1LDR3w5vshQpxpTsgkLhE  
+INFO  2018-10-17 11:13:04,513 [17   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=636753715537409825  
+INFO  2018-10-17 11:13:04,518 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)
+INFO  2018-10-17 11:13:04,527 [18   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/jquery-slimscroll/jquery.slimscroll.js'. Physical path: 'D:\Projects\Github\Dacnsoft.Admin\src\Dacnsoft.Admin.Web.Mvc\wwwroot\lib\jquery-slimscroll\jquery.slimscroll.js'
+INFO  2018-10-17 11:13:04,531 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) with arguments () - Validation state: Valid
+INFO  2018-10-17 11:13:04,536 [14   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/push.js/push.js'. Physical path: 'D:\Projects\Github\Dacnsoft.Admin\src\Dacnsoft.Admin.Web.Mvc\wwwroot\lib\push.js\push.js'
+INFO  2018-10-17 11:13:04,538 [17   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)
+INFO  2018-10-17 11:13:04,541 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 65.197ms 200 application/javascript
+INFO  2018-10-17 11:13:04,550 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 57.365ms 200 application/javascript
+INFO  2018-10-17 11:13:04,553 [17   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) with arguments (Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) - Validation state: Valid
+INFO  2018-10-17 11:13:04,556 [21   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/view-resources/Views/Shared/_Layout.js'. Physical path: 'D:\Projects\Github\Dacnsoft.Admin\src\Dacnsoft.Admin.Web.Mvc\wwwroot\view-resources\Views\Shared\_Layout.js'
+INFO  2018-10-17 11:13:04,557 [22   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/signalr-client/signalr.min.js'. Physical path: 'D:\Projects\Github\Dacnsoft.Admin\src\Dacnsoft.Admin.Web.Mvc\wwwroot\lib\signalr-client\signalr.min.js'
+INFO  2018-10-17 11:13:04,559 [21   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 84.9564ms 200 application/javascript
+INFO  2018-10-17 11:13:04,561 [22   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 86.8532ms 200 application/javascript
+INFO  2018-10-17 11:13:04,565 [21   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.signalr-client.js?v=jTdZBAadu6DXq0iDTFX6vsn4q6bFhKm3XfN8Jz6dSmg  
+INFO  2018-10-17 11:13:04,570 [22   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.signalr-client.js'. Physical path: 'D:\Projects\Github\Dacnsoft.Admin\src\Dacnsoft.Admin.Web.Mvc\wwwroot\lib\abp-web-resources\Abp\Framework\scripts\libs\abp.signalr-client.js'
+INFO  2018-10-17 11:13:04,573 [17   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.ContentResult in 15.018ms.
+INFO  2018-10-17 11:13:04,575 [22   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 11.4323ms 200 application/javascript
+INFO  2018-10-17 11:13:04,581 [17   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2018-10-17 11:13:04,588 [17   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 41.5583ms
+INFO  2018-10-17 11:13:04,591 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/images/user-img-background.jpg  
+INFO  2018-10-17 11:13:04,593 [17   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 115.8958ms 200 application/x-javascript
+INFO  2018-10-17 11:13:04,610 [6    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/images/user-img-background.jpg'. Physical path: 'D:\Projects\Github\Dacnsoft.Admin\src\Dacnsoft.Admin.Web.Mvc\wwwroot\images\user-img-background.jpg'
+INFO  2018-10-17 11:13:04,614 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.ContentResult in 78.2496ms.
+INFO  2018-10-17 11:13:04,619 [11   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2018-10-17 11:13:04,621 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 36.7461ms 200 image/jpeg
+INFO  2018-10-17 11:13:04,624 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 102.7906ms
+INFO  2018-10-17 11:13:04,630 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 152.8544ms 200 application/x-javascript; charset=utf-8
+INFO  2018-10-17 11:13:04,650 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/jquery-countTo/jquery.countTo.js?v=CkgjYx6n1TnvjY7LLp6BcdXQVatpxCq2zyfWEskUzfM  
+INFO  2018-10-17 11:13:04,653 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/raphael/raphael.js?v=29sBFLQqLjO75nJ0LYS7Pbb2F-CpSMccw55qO82J2YU  
+INFO  2018-10-17 11:13:04,655 [16   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/morris.js/morris.js?v=O7ZH97JawAgmG1Seh_Y5I3SYWYihlR9ImDKGQvqOngg  
+INFO  2018-10-17 11:13:04,729 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/jquery-countTo/jquery.countTo.js'. Physical path: 'D:\Projects\Github\Dacnsoft.Admin\src\Dacnsoft.Admin.Web.Mvc\wwwroot\lib\jquery-countTo\jquery.countTo.js'
+INFO  2018-10-17 11:13:04,762 [16   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/Flot/jquery.flot.js?v=wslWsV-vfGziuMBzzhupFof-18pfuz4OQgquvDcQbFs  
+INFO  2018-10-17 11:13:04,802 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 83.5453ms 200 application/javascript
+INFO  2018-10-17 11:13:04,806 [24   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/raphael/raphael.js'. Physical path: 'D:\Projects\Github\Dacnsoft.Admin\src\Dacnsoft.Admin.Web.Mvc\wwwroot\lib\raphael\raphael.js'
+INFO  2018-10-17 11:13:04,817 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/Flot/jquery.flot.resize.js?v=frd2m6PMZSVLif63yR1wZLQh51vHKpU2-VClBasvXE0  
+INFO  2018-10-17 11:13:04,824 [21   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/Flot/jquery.flot.js'. Physical path: 'D:\Projects\Github\Dacnsoft.Admin\src\Dacnsoft.Admin.Web.Mvc\wwwroot\lib\Flot\jquery.flot.js'
+INFO  2018-10-17 11:13:04,834 [23   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/morris.js/morris.js'. Physical path: 'D:\Projects\Github\Dacnsoft.Admin\src\Dacnsoft.Admin.Web.Mvc\wwwroot\lib\morris.js\morris.js'
+INFO  2018-10-17 11:13:04,846 [21   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 107.8348ms 200 application/javascript
+INFO  2018-10-17 11:13:04,851 [22   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/Flot/jquery.flot.resize.js'. Physical path: 'D:\Projects\Github\Dacnsoft.Admin\src\Dacnsoft.Admin.Web.Mvc\wwwroot\lib\Flot\jquery.flot.resize.js'
+INFO  2018-10-17 11:13:04,853 [21   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/jquery-sparkline/dist/jquery.sparkline.js?v=9IaxiwEOUe_4hqw9rGjxHR4fkZkw0aWMq5oZphlhlJ8  
+INFO  2018-10-17 11:13:04,865 [22   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 49.2661ms 200 application/javascript
+INFO  2018-10-17 11:13:04,868 [23   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 187.3308ms 200 application/javascript
+INFO  2018-10-17 11:13:04,873 [22   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/Flot/jquery.flot.time.js?v=hMx2p_NtbIUcWOmiEdzS204TaDthln32OZp_8bP4DgU  
+INFO  2018-10-17 11:13:04,875 [23   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/Flot/jquery.flot.categories.js?v=_4iveHXfwKkb3inuYFqzqLOwZNGzuOQ9UT8MRGQZygM  
+INFO  2018-10-17 11:13:04,877 [24   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 159.8622ms 200 application/javascript
+INFO  2018-10-17 11:13:04,880 [25   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/chart.js/dist/Chart.bundle.js?v=HWknRmQ2zusqaWuzrej93naq1OoycPq7LXRXB54NpN0  
+INFO  2018-10-17 11:13:04,891 [21   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/Flot/jquery.flot.time.js'. Physical path: 'D:\Projects\Github\Dacnsoft.Admin\src\Dacnsoft.Admin.Web.Mvc\wwwroot\lib\Flot\jquery.flot.time.js'
+INFO  2018-10-17 11:13:04,895 [20   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/Flot/jquery.flot.categories.js'. Physical path: 'D:\Projects\Github\Dacnsoft.Admin\src\Dacnsoft.Admin.Web.Mvc\wwwroot\lib\Flot\jquery.flot.categories.js'
+INFO  2018-10-17 11:13:04,898 [21   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 25.464ms 200 application/javascript
+INFO  2018-10-17 11:13:04,904 [20   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 26.0242ms 200 application/javascript
+INFO  2018-10-17 11:13:04,910 [24   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/Flot/jquery.flot.pie.js?v=bqatUhcViEOX7SnfTMWPfDOvlLd8aATcUx0PJ8W9Ig8  
+INFO  2018-10-17 11:13:04,912 [26   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:62114/signalr/negotiate text/plain;charset=UTF-8 0
+INFO  2018-10-17 11:13:04,938 [24   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/Flot/jquery.flot.pie.js'. Physical path: 'D:\Projects\Github\Dacnsoft.Admin\src\Dacnsoft.Admin.Web.Mvc\wwwroot\lib\Flot\jquery.flot.pie.js'
+INFO  2018-10-17 11:13:04,953 [22   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/chart.js/dist/Chart.bundle.js'. Physical path: 'D:\Projects\Github\Dacnsoft.Admin\src\Dacnsoft.Admin.Web.Mvc\wwwroot\lib\chart.js\dist\Chart.bundle.js'
+INFO  2018-10-17 11:13:04,956 [23   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/jquery-sparkline/dist/jquery.sparkline.js'. Physical path: 'D:\Projects\Github\Dacnsoft.Admin\src\Dacnsoft.Admin.Web.Mvc\wwwroot\lib\jquery-sparkline\dist\jquery.sparkline.js'
+INFO  2018-10-17 11:13:04,961 [21   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Home/Index.js?v=twS7CJxF-FbYFNy9f72Cew5eZT5iZ6GayXqk_w59fLw  
+INFO  2018-10-17 11:13:04,962 [22   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 240.9478ms 200 application/javascript
+INFO  2018-10-17 11:13:04,964 [23   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 112.1187ms 200 application/javascript
+INFO  2018-10-17 11:13:04,969 [24   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 62.6626ms 200 application/javascript
+INFO  2018-10-17 11:13:04,974 [21   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/view-resources/Views/Home/Index.js'. Physical path: 'D:\Projects\Github\Dacnsoft.Admin\src\Dacnsoft.Admin.Web.Mvc\wwwroot\view-resources\Views\Home\Index.js'
+INFO  2018-10-17 11:13:04,976 [21   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 19.6111ms 200 application/javascript
+INFO  2018-10-17 11:13:05,004 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0  
+INFO  2018-10-17 11:13:05,008 [7    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/font-awesome/fonts/fontawesome-webfont.woff2'. Physical path: 'D:\Projects\Github\Dacnsoft.Admin\src\Dacnsoft.Admin.Web.Mvc\wwwroot\lib\font-awesome\fonts\fontawesome-webfont.woff2'
+INFO  2018-10-17 11:13:05,011 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 6.2661ms 200 font/woff2
+INFO  2018-10-17 11:13:05,019 [26   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 300.5106ms 200 application/json
+INFO  2018-10-17 11:13:05,091 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=hld2Ca313oxC_iajfCGTsg  
+INFO  2018-10-17 11:13:05,417 [6    ] .AspNetCore.SignalR.HubConnectionContext - Completed connection handshake. Using HubProtocol 'json'.
+DEBUG 2018-10-17 11:13:05,461 [6    ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"hld2Ca313oxC_iajfCGTsg","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2018-10-17T11:13:05.4535285+08:00","Properties":{}}
+DEBUG 2018-10-17 11:13:05,523 [6    ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: hld2Ca313oxC_iajfCGTsg
+INFO  2018-10-17 11:13:16,296 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/signalr-client/signalr.min.js.map  
+INFO  2018-10-17 11:13:16,305 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 13.5681ms 404 
+INFO  2018-10-17 11:13:16,314 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/bootstrap-select/dist/css/bootstrap-select.css.map  
+INFO  2018-10-17 11:13:16,317 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/bootstrap/dist/css/bootstrap.css.map  
+INFO  2018-10-17 11:13:16,326 [26   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/bootstrap-select/dist/css/bootstrap-select.css.map'. Physical path: 'D:\Projects\Github\Dacnsoft.Admin\src\Dacnsoft.Admin.Web.Mvc\wwwroot\lib\bootstrap-select\dist\css\bootstrap-select.css.map'
+INFO  2018-10-17 11:13:16,330 [26   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 16.6824ms 200 text/plain
+INFO  2018-10-17 11:13:16,334 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.css.map'. Physical path: 'D:\Projects\Github\Dacnsoft.Admin\src\Dacnsoft.Admin.Web.Mvc\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map'
+INFO  2018-10-17 11:13:16,337 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 22.9464ms 200 text/plain
+DEBUG 2018-10-17 11:13:26,251 [16   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is disconnected: hld2Ca313oxC_iajfCGTsg
+INFO  2018-10-17 11:13:26,265 [16   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 21172.3775ms 101 
