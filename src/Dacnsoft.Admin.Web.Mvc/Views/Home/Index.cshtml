@@ -4,15 +4,15 @@
 }
 @section styles {
     <!-- Morris chart -->
-    <link rel="stylesheet" href="~/lib/morris.js/morris.css" asp-append-version="true">
+    <link href="~/lib/morris.js/morris.css" rel="stylesheet" asp-append-version="true">
     <!-- jvectormap -->
-    <link rel="stylesheet" href="~/lib/jvectormap/jquery-jvectormap.css">
+    <link href="~/lib/jvectormap/jquery-jvectormap.css" rel="stylesheet" asp-append-version="true">
     <!-- Date Picker -->
-    <link rel="stylesheet" href="~/lib/bootstrap-datepicker/dist/css/bootstrap-datepicker.css">
+    <link href="~/lib/bootstrap-datepicker/dist/css/bootstrap-datepicker.css" rel="stylesheet" asp-append-version="true">
     <!-- Daterange picker -->
-    <link rel="stylesheet" href="~/lib/bootstrap-daterangepicker/daterangepicker.css">
+    <link href="~/lib/bootstrap-daterangepicker/daterangepicker.css" rel="stylesheet" asp-append-version="true">
     <!-- bootstrap wysihtml5 - text editor -->
-    <link rel="stylesheet" href="~/lib/admin-lte/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.css">
+    <link href="~/lib/admin-lte/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.css" rel="stylesheet" asp-append-version="true">
 }
 @section scripts
     {
@@ -20,38 +20,39 @@
         <!-- jQuery UI 1.11.4 -->
         <script src="~/lib/jquery-ui/jquery-ui.js" asp-append-version="true"></script>
         <!-- Resolve conflict in jQuery UI tooltip with Bootstrap tooltip -->
-        <script>
-            $.widget.bridge('uibutton', $.ui.button);
-        </script>
         <!-- Morris.js charts -->
-        <script src="~/lib/raphael/raphael.js"></script>
-        <script src="~/lib/morris.js/morris.js"></script>
+        <script src="~/lib/raphael/raphael.js" asp-append-version="true"></script>
+        <script src="~/lib/morris.js/morris.js" asp-append-version="true"></script>
         <!-- Sparkline -->
-        <script src="~/lib/jquery-sparkline/dist/jquery.sparkline.js"></script>
+        <script src="~/lib/jquery-sparkline/dist/jquery.sparkline.js" asp-append-version="true"></script>
         <!-- jvectormap -->
-        <script src="~/lib/admin-lte/plugins/jvectormap/jquery-jvectormap-1.2.2.min.js"></script>
-        <script src="~/lib/admin-lte/plugins/jvectormap/jquery-jvectormap-world-mill-en.js"></script>
+        <script src="~/lib/admin-lte/plugins/jvectormap/jquery-jvectormap-1.2.2.min.js" asp-append-version="true"></script>
+        <script src="~/lib/admin-lte/plugins/jvectormap/jquery-jvectormap-world-mill-en.js" asp-append-version="true"></script>
         <!-- jQuery Knob Chart -->
-        <script src="~/lib/jquery-knob/dist/jquery.knob.min.js"></script>
+        <script src="~/lib/jquery-knob/dist/jquery.knob.min.js" asp-append-version="true"></script>
         <!-- daterangepicker -->
-        <script src="~/lib/bootstrap-daterangepicker/daterangepicker.js"></script>
+        <script src="~/lib/bootstrap-daterangepicker/daterangepicker.js" asp-append-version="true"></script>
         <!-- datepicker -->
-        <script src="~/lib/bootstrap-datepicker/dist/js/bootstrap-datepicker.js"></script>
+        <script src="~/lib/bootstrap-datepicker/dist/js/bootstrap-datepicker.js" asp-append-version="true"></script>
         <!-- Bootstrap WYSIHTML5 -->
-        <script src="~/lib/admin-lte/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.js"></script>
+        <script src="~/lib/admin-lte/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.js" asp-append-version="true"></script>
         <!-- Slimscroll -->
-        <script src="~/lib/jquery-slimscroll/jquery.slimscroll.js"></script>
+        <script src="~/lib/jquery-slimscroll/jquery.slimscroll.js" asp-append-version="true"></script>
         <!-- FastClick -->
-        <script src="~/lib/fastclick/lib/fastclick.js"></script>
+        <script src="~/lib/fastclick/lib/fastclick.js" asp-append-version="true"></script>
         <!-- AdminLTE dashboard demo (This is only for demo purposes) -->
-        <script src="~/lib/admin-lte/dist/js/pages/dashboard.js"></script>
+        <script src="~/lib/admin-lte/dist/js/pages/dashboard.js" asp-append-version="true"></script>
         <!-- AdminLTE for demo purposes -->
-        <script src="~/lib/admin-lte/dist/js/demo.js"></script>
+        <script src="~/lib/admin-lte/dist/js/demo.js" asp-append-version="true"></script>
     </environment>
 
     <environment names="Staging,Production">
         <script src="~/view-resources/Views/_Bundles/home-index.min.js" asp-append-version="true"></script>
     </environment>
+
+    <script>
+        $.widget.bridge('uibutton', $.ui.button);
+    </script>
 }
 
 <!-- Small boxes (Stat box) -->
