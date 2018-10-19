@@ -1,4 +1,5 @@
-﻿<header class="main-header">
+﻿@using Dacnsoft.Admin.Web.Views.Shared.Components.TopBarLanguageSwitch
+<header class="main-header">
     <!-- Logo -->
     <a href="/" class="logo">
         <!-- mini logo for sidebar mini 50x50 pixels -->
@@ -15,15 +16,16 @@
         <!-- Navbar Right Menu -->
         <div class="navbar-custom-menu">
             <ul class="nav navbar-nav">
-                <!-- Messages: style can be found in dropdown.less-->
-                @await Component.InvokeAsync("MenuMessage")
+                @await Component.InvokeAsync(typeof(TopBarLanguageSwitchViewComponent))
                 <!-- /.messages-menu -->
                 <!-- Notifications Menu -->
                 @await Component.InvokeAsync("MenuNotification")
                 <!-- Tasks Menu -->
-                @await Component.InvokeAsync("MenuTask")
+                @*@await Component.InvokeAsync("MenuTask")*@
                 <!-- User Account Menu -->
                 @await Component.InvokeAsync("MenuUser")
+                <!-- Messages: style can be found in dropdown.less-->
+                @await Component.InvokeAsync("MenuMessage")
                 <!-- Control Sidebar Toggle Button -->
                 <li>
                     <a href="#" data-toggle="control-sidebar"><i class="fa fa-gears"></i></a>

@@ -1,3 +1,4 @@
-﻿.famfamfam-flags {
-  display: inline-block;
+﻿/*因为i标签是行内元素，不加inline-block没有宽和高，图标就无法显示*/
+.famfamfam-flags {
+    display: inline-block;
 }

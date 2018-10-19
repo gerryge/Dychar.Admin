@@ -28,24 +28,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
     <meta name="description" content="">
-    <meta name="author" content="GerryGe">
+    <meta name="author" content="Gerry Ge">
     <link rel="shortcut icon" href="~/favicon.ico">
-    <title>Admin</title>
+    <title>Dacnsoft</title>
     <environment names="Development">
-        @*<link href="~/fonts/roboto/roboto.css" rel="stylesheet" asp-append-version="true" />*@
-        @*<link href="~/fonts/material-icons/materialicons.css" rel="stylesheet" asp-append-version="true" />*@
+        <link href="~/fonts/roboto/roboto.css" rel="stylesheet" asp-append-version="true" />
         <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css">
+
         <!-- Font Awesome -->
         <link rel="stylesheet" href="~/lib/font-awesome/css/font-awesome.css">
         <!-- Ionicons -->
         <link rel="stylesheet" href="~/lib/Ionicons/css/ionicons.css">
+        <link rel="stylesheet" href="~/lib/famfamfam-flags/dist/sprite/famfamfam-flags.css" asp-append-version="true">
         <!-- Theme style -->
         <link rel="stylesheet" href="~/lib/admin-lte/dist/css/AdminLTE.css">
         <!-- AdminLTE Skins. We have chosen the skin-blue for this starter
     page. However, you can choose any other skin. Make sure you
     apply the skin class to the body tag so the changes take effect. -->
         <link rel="stylesheet" href="~/lib/admin-lte/dist/css/skins/_all-skins.css">
-
+        <link href="~/view-resources/Views/Shared/_Layout.css" rel="stylesheet" asp-append-version="true" />
     </environment>
     <environment names="Staging,Production">
         <link href="~/view-resources/Views/_Bundles/shared-layout.min.css" rel="stylesheet" asp-append-version="true" />
@@ -58,7 +59,7 @@
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
     <!-- Google Font -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
+    @*<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">*@
 
     <!-- View specific styles -->
     @RenderSection("styles", required: false)
@@ -97,7 +98,7 @@
         @await Component.InvokeAsync("ControlSidebar")
         <!-- /.control-sidebar -->
         <!-- Add the sidebar's background. This div must be placed
-     immediately after the control sidebar -->
+        immediately after the control sidebar -->
         <div class="control-sidebar-bg"></div>
     </div>
 
