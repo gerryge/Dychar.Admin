@@ -50,14 +50,7 @@
       "wwwroot/lib/famfamfam-flags/dist/sprite/famfamfam-flags.css",
       "wwwroot/lib/admin-lte/dist/css/AdminLTE.css",
       "wwwroot/lib/admin-lte/dist/css/skins/_all-skins.css",
-      "wwwroot/view-resources/Views/Shared/_Layout.css",
-
-      //Home page
-      "wwwroot/lib/morris.js/morris.css",
-      "wwwroot/lib/jvectormap/jquery-jvectormap.css",
-      "wwwroot/lib/bootstrap-datepicker/dist/css/bootstrap-datepicker.css",
-      "wwwroot/lib/bootstrap-daterangepicker/daterangepicker.css",
-      "wwwroot/lib/admin-lte/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.css"
+      "wwwroot/view-resources/Views/Shared/_Layout.css"
     ]
   },
   {
@@ -88,14 +81,24 @@
     ]
   },
   {
+    "outputFileName": "wwwroot/view-resources/Views/_Bundles/home-index.min.css",
+    "inputFiles": [
+      "wwwroot/lib/morris.js/morris.css",
+      "wwwroot/lib/jvectormap/jquery-jvectormap.css",
+      "wwwroot/lib/bootstrap-datepicker/dist/css/bootstrap-datepicker.css",
+      "wwwroot/lib/bootstrap-daterangepicker/daterangepicker.css",
+      "wwwroot/lib/admin-lte/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.css"
+    ]
+  },
+  {
     "outputFileName": "wwwroot/view-resources/Views/_Bundles/home-index.min.js",
     "inputFiles": [
-      "wwwroot/lib/jquery-ui/jquery-ui.js",
-      "wwwroot/lib/raphael/raphael.js",
-      "wwwroot/lib/morris.js/morris.js",
-      "wwwroot/lib/jquery-sparkline/dist/jquery.sparkline.js",
-      "wwwroot/lib/admin-lte/plugins/jvectormap/jquery-jvectormap-1.2.2.min.js",
-      "wwwroot/lib/admin-lte/plugins/jvectormap/jquery-jvectormap-world-mill-en.js",
+      //"wwwroot/lib/jquery-ui/jquery-ui.js",
+      //"wwwroot/lib/raphael/raphael.min.js",
+      //"wwwroot/lib/morris.js/morris.min.js",
+      //"wwwroot/lib/jquery-sparkline/dist/jquery.sparkline.js",
+      //"wwwroot/lib/admin-lte/plugins/jvectormap/jquery-jvectormap-1.2.2.min.js",
+      //"wwwroot/lib/admin-lte/plugins/jvectormap/jquery-jvectormap-world-mill-en.js",
       "wwwroot/lib/jquery-knob/dist/jquery.knob.min.js",
       "wwwroot/lib/bootstrap-daterangepicker/daterangepicker.js",
       "wwwroot/lib/bootstrap-datepicker/dist/js/bootstrap-datepicker.js",
@@ -103,8 +106,8 @@
       "wwwroot/lib/jquery-slimscroll/jquery.slimscroll.js",
 
       "wwwroot/lib/fastclick/lib/fastclick.js",
-      "wwwroot/lib/admin-lte/dist/js/pages/dashboard.js",
-      "wwwroot/lib/admin-lte/dist/js/demo.js"
+      //"wwwroot/lib/admin-lte/dist/js/pages/dashboard.js",
+      //"wwwroot/lib/admin-lte/dist/js/demo.js"
     ]
   },
   {
