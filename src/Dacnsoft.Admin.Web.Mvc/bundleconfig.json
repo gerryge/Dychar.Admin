@@ -77,7 +77,8 @@
       "wwwroot/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.toastr.js",
       "wwwroot/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.blockUI.js",
       "wwwroot/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.spin.js",
-      "wwwroot/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.sweet-alert.js"
+      "wwwroot/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.sweet-alert.js",
+      "wwwroot/view-resources/Views/Shared/_Layout.Skins.js"
     ]
   },
   {
@@ -99,13 +100,13 @@
       //"wwwroot/lib/jquery-sparkline/dist/jquery.sparkline.js",
       //"wwwroot/lib/admin-lte/plugins/jvectormap/jquery-jvectormap-1.2.2.min.js",
       //"wwwroot/lib/admin-lte/plugins/jvectormap/jquery-jvectormap-world-mill-en.js",
-      "wwwroot/lib/jquery-knob/dist/jquery.knob.min.js",
-      "wwwroot/lib/bootstrap-daterangepicker/daterangepicker.js",
-      "wwwroot/lib/bootstrap-datepicker/dist/js/bootstrap-datepicker.js",
-      "wwwroot/lib/admin-lte/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.js",
-      "wwwroot/lib/jquery-slimscroll/jquery.slimscroll.js",
+      //"wwwroot/lib/jquery-knob/dist/jquery.knob.min.js",
+      //"wwwroot/lib/bootstrap-daterangepicker/daterangepicker.js",
+      //"wwwroot/lib/bootstrap-datepicker/dist/js/bootstrap-datepicker.js",
+      //"wwwroot/lib/admin-lte/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.js",
+      //"wwwroot/lib/jquery-slimscroll/jquery.slimscroll.js",
 
-      "wwwroot/lib/fastclick/lib/fastclick.js",
+      //"wwwroot/lib/fastclick/lib/fastclick.js",
       //"wwwroot/lib/admin-lte/dist/js/pages/dashboard.js",
       //"wwwroot/lib/admin-lte/dist/js/demo.js"
     ]

@@ -61,7 +61,7 @@
         abp.appPath = '@ApplicationPath';
     </script>
 </head>
-<body class="hold-transition skin-black sidebar-mini">
+<body class="hold-transition @uiTheme sidebar-mini">
     <div class="wrapper">
         <!-- Main Header -->
         @await Component.InvokeAsync("Header")
@@ -114,6 +114,7 @@
         <script src="~/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.blockUI.js" asp-append-version="true"></script>
         <script src="~/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.spin.js" asp-append-version="true"></script>
         <script src="~/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.sweet-alert.js" asp-append-version="true"></script>
+        <script src="~/view-resources/Views/Shared/_Layout.Skins.js" asp-append-version="true"></script>
         @if (CultureInfo.CurrentUICulture.Name != "en")
         {
             <script src="~/lib/jquery-validation/src/localization/messages_@Html.Raw(CultureInfo.CurrentUICulture.Name.Replace("-", "_") + ".js")" asp-append-version="true"></script>
