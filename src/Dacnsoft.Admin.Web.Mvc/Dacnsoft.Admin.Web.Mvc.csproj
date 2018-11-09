@@ -57,6 +57,12 @@
     <Folder Include="wwwroot\view-resources\Views\_Bundles\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Update="Views\Account\Login - Copy.cshtml">
+      <Pack>$(IncludeRazorContentInPack)</Pack>
+    </Content>
+    <Content Update="Views\Account\_Layout-AdminLTE.cshtml">
+      <Pack>$(IncludeRazorContentInPack)</Pack>
+    </Content>
     <Content Update="Views\Home\Index-Abp.cshtml">
       <Pack>$(IncludeRazorContentInPack)</Pack>
     </Content>
