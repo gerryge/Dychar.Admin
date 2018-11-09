@@ -7867,3 +7867,137 @@ INFO  2018-10-19 12:12:03,325 [19   ] soft.AspNetCore.Hosting.Internal.WebHost -
 INFO  2018-10-19 12:12:03,362 [22   ] .AspNetCore.SignalR.HubConnectionContext - Completed connection handshake. Using HubProtocol 'json'.
 DEBUG 2018-10-19 12:12:03,372 [22   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"BIcUHM15D0OLN48grL0dqg","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2018-10-19T12:12:03.3649429+08:00","Properties":{}}
 DEBUG 2018-10-19 12:12:03,372 [22   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: BIcUHM15D0OLN48grL0dqg
+DEBUG 2018-11-09 17:38:25,524 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-11-09 17:38:27,022 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2018-11-09 17:38:27,059 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Dacnsoft.Admin.Web.Startup.AdminWebMvcModule, Dacnsoft.Admin.Web.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-11-09 17:38:27,063 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Dacnsoft.Admin.AdminWebCoreModule, Dacnsoft.Admin.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-11-09 17:38:27,064 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Dacnsoft.Admin.AdminApplicationModule, Dacnsoft.Admin.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-11-09 17:38:27,064 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Dacnsoft.Admin.AdminCoreModule, Dacnsoft.Admin.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-11-09 17:38:27,064 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-11-09 17:38:27,064 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-11-09 17:38:27,065 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-11-09 17:38:27,065 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-11-09 17:38:27,065 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Dacnsoft.Admin.EntityFrameworkCore.AdminEntityFrameworkModule, Dacnsoft.Admin.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-11-09 17:38:27,066 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-11-09 17:38:27,066 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-11-09 17:38:27,066 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-11-09 17:38:27,066 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-11-09 17:38:27,067 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-11-09 17:38:27,067 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-11-09 17:38:27,073 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2018-11-09 17:38:27,328 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-11-09 17:38:27,328 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-11-09 17:38:27,328 [1    ] o.Configuration.LanguageManagementConfig - Converted Admin (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-11-09 17:38:27,328 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-11-09 17:38:28,988 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: Dacnsoft.Admin.EntityFrameworkCore.AdminDbContext, Dacnsoft.Admin.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-11-09 17:38:30,430 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2018-11-09 17:38:30,475 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-11-09 17:38:30,485 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-11-09 17:38:30,489 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Admin
+DEBUG 2018-11-09 17:38:30,492 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-11-09 17:38:30,716 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-11-09 17:38:30,805 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 12 classes define auto mapping attributes
+DEBUG 2018-11-09 17:38:30,805 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Dacnsoft.Admin.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2018-11-09 17:38:30,817 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Dacnsoft.Admin.Users.Dto.CreateUserDto
+DEBUG 2018-11-09 17:38:30,817 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Dacnsoft.Admin.Users.Dto.UserDto
+DEBUG 2018-11-09 17:38:30,818 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Dacnsoft.Admin.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2018-11-09 17:38:30,818 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Dacnsoft.Admin.Sessions.Dto.UserLoginInfoDto
+DEBUG 2018-11-09 17:38:30,818 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Dacnsoft.Admin.Roles.Dto.CreateRoleDto
+DEBUG 2018-11-09 17:38:30,818 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Dacnsoft.Admin.Roles.Dto.PermissionDto
+DEBUG 2018-11-09 17:38:30,818 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Dacnsoft.Admin.Roles.Dto.RoleDto
+DEBUG 2018-11-09 17:38:30,822 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Dacnsoft.Admin.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2018-11-09 17:38:30,823 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Dacnsoft.Admin.MultiTenancy.Dto.TenantDto
+DEBUG 2018-11-09 17:38:30,823 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Dacnsoft.Admin.Web.Views.Shared.Components.TenantChange.TenantChangeViewModel
+DEBUG 2018-11-09 17:38:30,823 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Dacnsoft.Admin.Web.Models.Roles.EditRoleModalViewModel
+INFO  2018-11-09 17:38:38,436 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 DEBUG http://localhost:62114/  0
+INFO  2018-11-09 17:38:38,436 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/  
+INFO  2018-11-09 17:38:38,561 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 120.3582ms 200 
+INFO  2018-11-09 17:38:49,814 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing action Dacnsoft.Admin.Web.Controllers.HomeController.Index (Dacnsoft.Admin.Web.Mvc)
+WARN  2018-11-09 17:38:50,739 [6    ] Mvc.Authorization.AbpAuthorizationFilter - Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.AuthorizeAsync(IEnumerable`1 authorizeAttributes) in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 43
+   at Abp.Authorization.AuthorizationHelper.CheckPermissions(MethodInfo methodInfo, Type type) in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 103
+   at Abp.Authorization.AuthorizationHelper.AuthorizeAsync(MethodInfo methodInfo, Type type) in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 57
+   at Abp.AspNetCore.Mvc.Authorization.AbpAuthorizationFilter.OnAuthorizationAsync(AuthorizationFilterContext context) in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\Mvc\Authorization\AbpAuthorizationFilter.cs:line 53
+Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.AuthorizeAsync(IEnumerable`1 authorizeAttributes) in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 43
+   at Abp.Authorization.AuthorizationHelper.CheckPermissions(MethodInfo methodInfo, Type type) in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 103
+   at Abp.Authorization.AuthorizationHelper.AuthorizeAsync(MethodInfo methodInfo, Type type) in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 57
+   at Abp.AspNetCore.Mvc.Authorization.AbpAuthorizationFilter.OnAuthorizationAsync(AuthorizationFilterContext context) in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\Mvc\Authorization\AbpAuthorizationFilter.cs:line 53
+INFO  2018-11-09 17:38:50,750 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Authorization failed for the request at filter 'Abp.AspNetCore.Mvc.Authorization.AbpAuthorizationFilter'.
+INFO  2018-11-09 17:38:50,764 [6    ] Microsoft.AspNetCore.Mvc.ChallengeResult - Executing ChallengeResult with authentication schemes ().
+INFO  2018-11-09 17:38:50,794 [6    ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was challenged.
+INFO  2018-11-09 17:38:50,799 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Dacnsoft.Admin.Web.Controllers.HomeController.Index (Dacnsoft.Admin.Web.Mvc) in 978.494ms
+INFO  2018-11-09 17:38:50,824 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 12400.7777ms 302 
+INFO  2018-11-09 17:38:51,092 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/Account/Login?ReturnUrl=%2F  
+INFO  2018-11-09 17:38:51,138 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Login", controller = "Account", area = ""}. Executing action Dacnsoft.Admin.Web.Controllers.AccountController.Login (Dacnsoft.Admin.Web.Mvc)
+INFO  2018-11-09 17:38:55,180 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Dacnsoft.Admin.Web.Controllers.AccountController.Login (Dacnsoft.Admin.Web.Mvc) with arguments (, /, ) - Validation state: Valid
+INFO  2018-11-09 17:38:55,192 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Dacnsoft.Admin.Web.Controllers.AccountController.Login (Dacnsoft.Admin.Web.Mvc), returned result Microsoft.AspNetCore.Mvc.ViewResult in 9.0881ms.
+INFO  2018-11-09 17:38:55,570 [7    ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Login.
+INFO  2018-11-09 17:38:56,401 [7    ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Login executed in 894.8638ms.
+INFO  2018-11-09 17:38:56,418 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Dacnsoft.Admin.Web.Controllers.AccountController.Login (Dacnsoft.Admin.Web.Mvc) in 5268.916ms
+INFO  2018-11-09 17:38:56,463 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 5367.1853ms 200 text/html; charset=utf-8
+INFO  2018-11-09 17:38:56,505 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Shared/Components/TenantChange/Default.js?v=636773819363722639  
+INFO  2018-11-09 17:38:56,505 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=636773819107196061  
+INFO  2018-11-09 17:38:56,507 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=636773819107196061  
+INFO  2018-11-09 17:38:56,544 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)
+INFO  2018-11-09 17:38:56,551 [12   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)
+INFO  2018-11-09 17:38:56,575 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) with arguments () - Validation state: Valid
+INFO  2018-11-09 17:38:56,652 [7    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/view-resources/Views/Shared/Components/TenantChange/Default.js'. Physical path: 'D:\Projects\Github\Dacnsoft.Admin\src\Dacnsoft.Admin.Web.Mvc\wwwroot\view-resources\Views\Shared\Components\TenantChange\Default.js'
+INFO  2018-11-09 17:38:56,669 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 153.9154ms 200 application/javascript
+INFO  2018-11-09 17:38:56,672 [12   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) with arguments (Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) - Validation state: Valid
+INFO  2018-11-09 17:38:56,766 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.ContentResult in 185.3038ms.
+INFO  2018-11-09 17:38:56,783 [10   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2018-11-09 17:38:56,795 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 237.8778ms
+INFO  2018-11-09 17:38:56,805 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 293.9926ms 200 application/x-javascript; charset=utf-8
+INFO  2018-11-09 17:38:56,836 [12   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.ContentResult in 162.252ms.
+INFO  2018-11-09 17:38:56,840 [12   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2018-11-09 17:38:56,845 [12   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 289.7528ms
+INFO  2018-11-09 17:38:56,848 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 344.197ms 200 application/x-javascript
+INFO  2018-11-09 17:40:44,073 [21   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:62114/Account/Login application/x-www-form-urlencoded 256
+INFO  2018-11-09 17:40:44,088 [21   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Login", controller = "Account", area = ""}. Executing action Dacnsoft.Admin.Web.Controllers.AccountController.Login (Dacnsoft.Admin.Web.Mvc)
+INFO  2018-11-09 17:40:44,205 [21   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Dacnsoft.Admin.Web.Controllers.AccountController.Login (Dacnsoft.Admin.Web.Mvc) with arguments (Dacnsoft.Admin.Web.Models.Account.LoginViewModel, /, ) - Validation state: Valid
+INFO  2018-11-09 17:40:45,270 [16   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application signed in.
+INFO  2018-11-09 17:40:45,279 [16   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Dacnsoft.Admin.Web.Controllers.AccountController.Login (Dacnsoft.Admin.Web.Mvc), returned result Microsoft.AspNetCore.Mvc.JsonResult in 1071.5338ms.
+INFO  2018-11-09 17:40:45,613 [24   ] matters.Json.Internal.JsonResultExecutor - Executing JsonResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2018-11-09 17:40:45,628 [24   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Dacnsoft.Admin.Web.Controllers.AccountController.Login (Dacnsoft.Admin.Web.Mvc) in 1535.1387ms
+INFO  2018-11-09 17:40:45,633 [24   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1557.4409ms 200 application/json; charset=utf-8
+INFO  2018-11-09 17:40:45,640 [24   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/  
+INFO  2018-11-09 17:40:45,699 [24   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing action Dacnsoft.Admin.Web.Controllers.HomeController.Index (Dacnsoft.Admin.Web.Mvc)
+INFO  2018-11-09 17:40:45,746 [24   ] uthorization.DefaultAuthorizationService - Authorization was successful.
+INFO  2018-11-09 17:40:45,751 [24   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Dacnsoft.Admin.Web.Controllers.HomeController.Index (Dacnsoft.Admin.Web.Mvc) - Validation state: Valid
+INFO  2018-11-09 17:40:45,753 [24   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Dacnsoft.Admin.Web.Controllers.HomeController.Index (Dacnsoft.Admin.Web.Mvc), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.7115ms.
+INFO  2018-11-09 17:40:45,773 [25   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+INFO  2018-11-09 17:40:49,048 [16   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 3270.9046ms.
+INFO  2018-11-09 17:40:49,059 [16   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Dacnsoft.Admin.Web.Controllers.HomeController.Index (Dacnsoft.Admin.Web.Mvc) in 3356.328ms
+INFO  2018-11-09 17:40:49,063 [16   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 3421.2552ms 200 text/html; charset=utf-8
+INFO  2018-11-09 17:40:49,249 [16   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=636773819107196061  
+INFO  2018-11-09 17:40:49,257 [25   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=636773819107196061  
+INFO  2018-11-09 17:40:49,264 [16   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)
+INFO  2018-11-09 17:40:49,267 [25   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)
+INFO  2018-11-09 17:40:49,270 [16   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) with arguments () - Validation state: Valid
+INFO  2018-11-09 17:40:49,272 [25   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) with arguments (Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) - Validation state: Valid
+INFO  2018-11-09 17:40:49,341 [25   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.ContentResult in 11.7792ms.
+INFO  2018-11-09 17:40:49,344 [16   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.ContentResult in 39.948ms.
+INFO  2018-11-09 17:40:49,349 [25   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2018-11-09 17:40:49,373 [16   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2018-11-09 17:40:49,401 [25   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 85.1588ms
+INFO  2018-11-09 17:40:49,404 [16   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 109.4358ms
+INFO  2018-11-09 17:40:49,406 [25   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 154.9198ms 200 application/x-javascript
+INFO  2018-11-09 17:40:49,408 [16   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 176.0665ms 200 application/x-javascript; charset=utf-8
+INFO  2018-11-09 17:40:50,130 [16   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/signalr-client/signalr.min.js.map  
+INFO  2018-11-09 17:40:50,174 [25   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:62114/signalr/negotiate text/plain;charset=UTF-8 0
+INFO  2018-11-09 17:40:50,182 [16   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 17.2848ms 404 
+INFO  2018-11-09 17:40:50,232 [25   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 95.0457ms 200 application/json
+INFO  2018-11-09 17:40:50,323 [25   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=FNH08vtrac45Q0SZt_rrrw  
+INFO  2018-11-09 17:40:50,477 [22   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:62114/api/services/app/Configuration/ChangeUiTheme application/json 22
+INFO  2018-11-09 17:40:50,518 [22   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "ChangeUiTheme", controller = "Configuration"}. Executing action Dacnsoft.Admin.Configuration.ConfigurationAppService.ChangeUiTheme (Dacnsoft.Admin.Application)
+INFO  2018-11-09 17:40:50,832 [22   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Dacnsoft.Admin.Configuration.ConfigurationAppService.ChangeUiTheme (Dacnsoft.Admin.Application) with arguments (Dacnsoft.Admin.Configuration.Dto.ChangeUiThemeInput) - Validation state: Valid
+INFO  2018-11-09 17:40:50,920 [16   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Dacnsoft.Admin.Configuration.ConfigurationAppService.ChangeUiTheme (Dacnsoft.Admin.Application), returned result Microsoft.AspNetCore.Mvc.EmptyResult in 82.5022ms.
+INFO  2018-11-09 17:40:50,996 [21   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2018-11-09 17:40:51,021 [21   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Dacnsoft.Admin.Configuration.ConfigurationAppService.ChangeUiTheme (Dacnsoft.Admin.Application) in 490.2998ms
+INFO  2018-11-09 17:40:51,030 [21   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 549.6277ms 200 application/json; charset=utf-8
+INFO  2018-11-09 17:40:51,241 [25   ] .AspNetCore.SignalR.HubConnectionContext - Completed connection handshake. Using HubProtocol 'json'.
+DEBUG 2018-11-09 17:40:51,285 [25   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"FNH08vtrac45Q0SZt_rrrw","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2018-11-09T17:40:51.269957+08:00","Properties":{}}
+DEBUG 2018-11-09 17:40:51,381 [25   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: FNH08vtrac45Q0SZt_rrrw
+DEBUG 2018-11-09 17:40:57,168 [25   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is disconnected: FNH08vtrac45Q0SZt_rrrw
+INFO  2018-11-09 17:40:57,204 [25   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 6871.8545ms 101 
