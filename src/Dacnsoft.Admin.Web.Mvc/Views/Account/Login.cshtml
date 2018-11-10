@@ -33,7 +33,7 @@
         });
     </script>
 }
-<div class="login-box-body">
+<div class="login-box-body" id="LoginArea">
     <p class="login-box-msg">@L("LogIn")</p>
     <form id="LoginForm" asp-action="Login" method="post">
         <input type="hidden" name="returnUrl" value="@Model.ReturnUrl" />
@@ -50,7 +50,7 @@
             <div class="col-xs-8">
                 <div class="checkbox icheck">
                     <label for="rememberme">
-                        <input type="checkbox" name="RememberMe" id="rememberme" class="filled-in chk-col-pink" value="true">
+                        <input type="checkbox" name="RememberMe" id="rememberme" class="filled-in chk-col-pink" value="true"> @L("RememberMe")
                     </label>
                 </div>
             </div>
@@ -71,7 +71,11 @@
                 Google+
             </a>
         </div>
-        <a href="#">I forgot my password</a><br>
+        <div class="row m-t-15 m-b--20">
+            <div class="col-xs-12">
+                <a asp-action="#">I forgot my password</a>
+            </div>
+        </div>
         @if (Model.IsSelfRegistrationAllowed)
         {
             <div class="row m-t-15 m-b--20">
