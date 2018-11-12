@@ -3,6 +3,7 @@
 @using Abp.Web.Security.AntiForgery
 @using Dacnsoft.Admin
 @using Dacnsoft.Admin.Web.Resources
+@inject ScriptPaths ScriptPaths
 @inject Dacnsoft.Admin.Timing.AppTimes AppTimes
 @inject IAbpAntiForgeryManager AbpAntiForgeryManager
 @inject IMultiTenancyConfig MultiTenancyConfig
@@ -92,20 +93,14 @@
         <script src="~/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.blockUI.js" asp-append-version="true"></script>
         <script src="~/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.spin.js" asp-append-version="true"></script>
         <script src="~/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.sweet-alert.js" asp-append-version="true"></script>
-
-
-        <script src="~/lib/admin-lte/plugins/iCheck//icheck.js" asp-append-version="true"></script>
-
-        @if (CultureInfo.CurrentUICulture.Name != "en")
-        {
-            <script src="~/lib/jquery-validation/src/localization/messages_@Html.Raw(CultureInfo.CurrentUICulture.Name.Replace("-", "_") + ".js")" asp-append-version="true"></script>
-        }
+        <script src="~/lib/admin-lte/plugins/iCheck/icheck.js" asp-append-version="true"></script>
+        <script src="~@ScriptPaths.JQuery_Validation_Localization" asp-append-version="true"></script>
     </environment>
 
     <environment names="Staging,Production">
         <script src="~/view-resources/Views/_Bundles/account-layout.min.js" asp-append-version="true"></script>
     </environment>
-   
+
     <script>
     // Localizing momentjs
     moment.locale('@CultureInfo.CurrentUICulture.Name');

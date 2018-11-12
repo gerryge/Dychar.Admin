@@ -10,6 +10,7 @@
 @using Dacnsoft.Admin.Web.Views.Shared.Components.SideBarUserArea
 @using Dacnsoft.Admin.Web.Views.Shared.Components.TopBarLanguageSwitch
 @using Dacnsoft.Admin.Web.Views.Shared.Components.RightSideBar
+@inject ScriptPaths ScriptPaths
 @inject Dacnsoft.Admin.Timing.AppTimes AppTimes
 @inject IAbpAntiForgeryManager AbpAntiForgeryManager
 @inject IMultiTenancyConfig MultiTenancyConfig
@@ -52,7 +53,6 @@
     <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
-
     <!-- View specific styles -->
     @RenderSection("styles", required: false)
     <script type="text/javascript">
@@ -115,10 +115,7 @@
         <script src="~/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.spin.js" asp-append-version="true"></script>
         <script src="~/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.sweet-alert.js" asp-append-version="true"></script>
         <script src="~/view-resources/Views/Shared/_Layout.Skins.js" asp-append-version="true"></script>
-        @if (CultureInfo.CurrentUICulture.Name != "en")
-        {
-            <script src="~/lib/jquery-validation/src/localization/messages_@Html.Raw(CultureInfo.CurrentUICulture.Name.Replace("-", "_") + ".js")" asp-append-version="true"></script>
-        }
+        <script src="~@ScriptPaths.JQuery_Validation_Localization" asp-append-version="true"></script>
     </environment>
 
     <environment names="Staging,Production">
