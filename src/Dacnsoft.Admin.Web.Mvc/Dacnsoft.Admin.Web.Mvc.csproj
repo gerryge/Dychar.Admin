@@ -64,9 +64,6 @@
     <Content Update="Views\Account\_Layout.cshtml">
       <Pack>$(IncludeRazorContentInPack)</Pack>
     </Content>
-    <Content Update="Views\Home\Index-Abp.cshtml">
-      <Pack>$(IncludeRazorContentInPack)</Pack>
-    </Content>
     <Content Update="Views\Shared\Components\SideBarNav\_UserMenuItem.cshtml">
       <Pack>$(IncludeRazorContentInPack)</Pack>
     </Content>
