@@ -3,6 +3,7 @@
 @using Abp.Web.Security.AntiForgery
 @using Dacnsoft.Admin
 @using Dacnsoft.Admin.Web.Resources
+@inject ScriptPaths ScriptPaths
 @inject Dacnsoft.Admin.Timing.AppTimes AppTimes
 @inject IAbpAntiForgeryManager AbpAntiForgeryManager
 @inject IMultiTenancyConfig MultiTenancyConfig
@@ -12,7 +13,7 @@
     AbpAntiForgeryManager.SetCookie(Context);
 }
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -25,16 +26,13 @@
     <title>Dacnsoft</title>
 
     <environment names="Development">
-        <link href="~/fonts/roboto/roboto.css" rel="stylesheet" asp-append-version="true" />
-        <link href="~/fonts/material-icons/materialicons.css" rel="stylesheet" asp-append-version="true" />
         <link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" asp-append-version="true" />
-        <link href="~/lib/toastr/toastr.css" rel="stylesheet" asp-append-version="true" />
         <link href="~/lib/famfamfam-flags/dist/sprite/famfamfam-flags.css" rel="stylesheet" asp-append-version="true" />
         <link href="~/lib/font-awesome/css/font-awesome.css" rel="stylesheet" asp-append-version="true" />
-        <link href="~/lib/Waves/dist/waves.css" rel="stylesheet" asp-append-version="true" />
-        <link href="~/lib/animate.css/animate.css" rel="stylesheet" asp-append-version="true" />
-        <link href="~/css/materialize.css" rel="stylesheet" asp-append-version="true" />
-        <link href="~/css/style.css" rel="stylesheet" asp-append-version="true" />
+        <link href="~/lib/Ionicons/css/ionicons.css" rel="stylesheet" asp-append-version="true" />
+        <link href="~/lib/admin-lte/dist/css/AdminLTE.css" rel="stylesheet" asp-append-version="true" />
+        <link href="~/lib/admin-lte/plugins/iCheck//square/blue.css" rel="stylesheet" asp-append-version="true" />
+        <link href="~/fonts/roboto/roboto.css" rel="stylesheet" asp-append-version="true" />
         <link href="~/view-resources/Views/Account/_Layout.css" rel="stylesheet" asp-append-version="true" />
     </environment>
 
@@ -52,11 +50,11 @@
     </script>
 
 </head>
-<body class="login-page">
+<body class="hold-transition login-page">
 
     <div class="login-box">
-        <div class="logo">
-            <a href="javascript:void(0);">Dacnsoft</a>
+        <div class="login-logo">
+            <a href="javascript:void(0);"><b>Dacn</b>soft</a>
         </div>
 
         @if (MultiTenancyConfig.IsEnabled)
@@ -95,13 +93,8 @@
         <script src="~/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.blockUI.js" asp-append-version="true"></script>
         <script src="~/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.spin.js" asp-append-version="true"></script>
         <script src="~/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.sweet-alert.js" asp-append-version="true"></script>
-        <script src="~/js/admin.js" asp-append-version="true"></script>
-        <script src="~/js/main.js" asp-append-version="true"></script>
-
-        @if (CultureInfo.CurrentUICulture.Name != "en")
-    {
-        <script src="~/lib/jquery-validation/src/localization/messages_@Html.Raw(CultureInfo.CurrentUICulture.Name.Replace("-", "_") + ".js")" asp-append-version="true"></script>
-}
+        <script src="~/lib/admin-lte/plugins/iCheck/icheck.js" asp-append-version="true"></script>
+        <script src="~@ScriptPaths.JQuery_Validation_Localization" asp-append-version="true"></script>
     </environment>
 
     <environment names="Staging,Production">
@@ -114,8 +107,8 @@
     </script>
 
     <!-- Dynamic scripts of ABP system (They are created on runtime and can not be bundled) -->
-    <script src="~/AbpServiceProxies/GetAll?v=@(AppTimes.StartupTime.Ticks)" type="text/javascript"></script>
-    <script src="~/AbpScripts/GetScripts?v=@(AppTimes.StartupTime.Ticks)" type="text/javascript"></script>
+    <script src="@(ApplicationPath)AbpServiceProxies/GetAll?v=@(AppTimes.StartupTime.Ticks)" type="text/javascript"></script>
+    <script src="@(ApplicationPath)AbpScripts/GetScripts?v=@(AppTimes.StartupTime.Ticks)" type="text/javascript"></script>
 
     @WebResourceManager.RenderScripts()
 
