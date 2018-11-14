@@ -2,7 +2,7 @@
 @using Dacnsoft.Admin.Web.Models.Common.Modals;
 @{
     ViewBag.CurrentPageName = PageNames.Home; // The menu item will be active for this page.
-    ViewBag.PageAlerts = new List<ModalMessageViewModel> { new ModalMessageViewModel {ShortDesc=" This is just an demo.",Type="info"} };
+    ViewBag.PageAlerts = new List<ModalMessageViewModel> { new ModalMessageViewModel {ShortDesc=" This is just an demo!",Type= "warning" } };
 }
 @section styles {
     <environment names="Development">
