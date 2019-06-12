@@ -9,10 +9,10 @@ using Abp.Net.Mail;
 using Abp.TestBase;
 using Abp.Zero.Configuration;
 using Abp.Zero.EntityFrameworkCore;
-using Dacnsoft.Admin.EntityFrameworkCore;
-using Dacnsoft.Admin.Tests.DependencyInjection;
+using Dychar.Admin.EntityFrameworkCore;
+using Dychar.Admin.Tests.DependencyInjection;
 
-namespace Dacnsoft.Admin.Tests
+namespace Dychar.Admin.Tests
 {
     [DependsOn(
         typeof(AdminApplicationModule),

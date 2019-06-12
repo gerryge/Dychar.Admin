@@ -1,18 +1,18 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <VersionPrefix>1.0.0.0</VersionPrefix>
     <TargetFramework>netcoreapp2.1</TargetFramework>
     <AssetTargetFallback>$(AssetTargetFallback);portable-net45+win8+wp8+wpa81;</AssetTargetFallback>
-    <AssemblyName>Dacnsoft.Admin.Tests</AssemblyName>
-    <PackageId>Dacnsoft.Admin.Tests</PackageId>
+    <AssemblyName>Dychar.Admin.Tests</AssemblyName>
+    <PackageId>Dychar.Admin.Tests</PackageId>
     <GenerateRuntimeConfigurationFiles>true</GenerateRuntimeConfigurationFiles>
     <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
     <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
     <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
   </PropertyGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\src\Dacnsoft.Admin.Application\Dacnsoft.Admin.Application.csproj" />
-    <ProjectReference Include="..\..\src\Dacnsoft.Admin.EntityFrameworkCore\Dacnsoft.Admin.EntityFrameworkCore.csproj" />
+    <ProjectReference Include="..\..\src\Dychar.Admin.Application\Dychar.Admin.Application.csproj" />
+    <ProjectReference Include="..\..\src\Dychar.Admin.EntityFrameworkCore\Dychar.Admin.EntityFrameworkCore.csproj" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.9.0" />

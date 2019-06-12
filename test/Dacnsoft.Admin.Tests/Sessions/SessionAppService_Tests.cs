@@ -1,9 +1,9 @@
 ﻿using System.Threading.Tasks;
 using Shouldly;
 using Xunit;
-using Dacnsoft.Admin.Sessions;
+using Dychar.Admin.Sessions;
 
-namespace Dacnsoft.Admin.Tests.Sessions
+namespace Dychar.Admin.Tests.Sessions
 {
     public class SessionAppService_Tests : AdminTestBase
     {

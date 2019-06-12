@@ -9,13 +9,13 @@ using Abp.Events.Bus.Entities;
 using Abp.MultiTenancy;
 using Abp.Runtime.Session;
 using Abp.TestBase;
-using Dacnsoft.Admin.Authorization.Users;
-using Dacnsoft.Admin.EntityFrameworkCore;
-using Dacnsoft.Admin.EntityFrameworkCore.Seed.Host;
-using Dacnsoft.Admin.EntityFrameworkCore.Seed.Tenants;
-using Dacnsoft.Admin.MultiTenancy;
+using Dychar.Admin.Authorization.Users;
+using Dychar.Admin.EntityFrameworkCore;
+using Dychar.Admin.EntityFrameworkCore.Seed.Host;
+using Dychar.Admin.EntityFrameworkCore.Seed.Tenants;
+using Dychar.Admin.MultiTenancy;
 
-namespace Dacnsoft.Admin.Tests
+namespace Dychar.Admin.Tests
 {
     public abstract class AdminTestBase : AbpIntegratedTestBase<AdminTestModule>
     {

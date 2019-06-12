@@ -1,6 +1,6 @@
 ﻿using Xunit;
 
-namespace Dacnsoft.Admin.Tests
+namespace Dychar.Admin.Tests
 {
     public sealed class MultiTenantFactAttribute : FactAttribute
     {

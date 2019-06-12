@@ -3,10 +3,10 @@ using Microsoft.EntityFrameworkCore;
 using Shouldly;
 using Xunit;
 using Abp.Application.Services.Dto;
-using Dacnsoft.Admin.Users;
-using Dacnsoft.Admin.Users.Dto;
+using Dychar.Admin.Users;
+using Dychar.Admin.Users.Dto;
 
-namespace Dacnsoft.Admin.Tests.Users
+namespace Dychar.Admin.Tests.Users
 {
     public class UserAppService_Tests : AdminTestBase
     {

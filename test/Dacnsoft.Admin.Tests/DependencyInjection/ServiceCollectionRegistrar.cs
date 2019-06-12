@@ -4,10 +4,10 @@ using Microsoft.Extensions.DependencyInjection;
 using Castle.MicroKernel.Registration;
 using Castle.Windsor.MsDependencyInjection;
 using Abp.Dependency;
-using Dacnsoft.Admin.EntityFrameworkCore;
-using Dacnsoft.Admin.Identity;
+using Dychar.Admin.EntityFrameworkCore;
+using Dychar.Admin.Identity;
 
-namespace Dacnsoft.Admin.Tests.DependencyInjection
+namespace Dychar.Admin.Tests.DependencyInjection
 {
     public static class ServiceCollectionRegistrar
     {
